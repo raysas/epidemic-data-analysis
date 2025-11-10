@@ -1,0 +1,2142 @@
+[
+  {
+    "_id": "Kenya",
+    "geoId": "KE",
+    "totalCases": 91892,
+    "totalDeaths": 1587,
+    "popData2019": 52573967,
+    "avg14DayIncidence": 8.930622468707224,
+    "percTotalCases": 0.17478612561232063,
+    "percTotalDeaths": 0.0030186042457096686
+  },
+  {
+    "_id": "Germany",
+    "geoId": "DE",
+    "totalCases": 1337078,
+    "totalDeaths": 21975,
+    "popData2019": 83019213,
+    "avg14DayIncidence": 60.000400791157276,
+    "percTotalCases": 1.6105645328148315,
+    "percTotalDeaths": 0.026469776339604668
+  },
+  {
+    "_id": "Faroe_Islands",
+    "geoId": "FO",
+    "totalCases": 528,
+    "totalDeaths": 0,
+    "popData2019": 48677,
+    "avg14DayIncidence": 53.86057517269372,
+    "percTotalCases": 1.0847011935821846,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Montenegro",
+    "geoId": "ME",
+    "totalCases": 41426,
+    "totalDeaths": 582,
+    "popData2019": 622182,
+    "avg14DayIncidence": 333.78977900054053,
+    "percTotalCases": 6.658180403804674,
+    "percTotalDeaths": 0.09354176109241348
+  },
+  {
+    "_id": "Palestine",
+    "geoId": "PS",
+    "totalCases": 124657,
+    "totalDeaths": 1079,
+    "popData2019": 4981422,
+    "avg14DayIncidence": 117.97821058563433,
+    "percTotalCases": 2.5024380588514683,
+    "percTotalDeaths": 0.02166048168575158
+  },
+  {
+    "_id": "Cases_on_an_international_conveyance_Japan",
+    "geoId": "JPG11668",
+    "totalCases": 696,
+    "totalDeaths": 7,
+    "popData2019": null,
+    "avg14DayIncidence": null,
+    "percTotalCases": null,
+    "percTotalDeaths": null
+  },
+  {
+    "_id": "Guernsey",
+    "geoId": "GG",
+    "totalCases": 289,
+    "totalDeaths": 13,
+    "popData2019": 64468,
+    "avg14DayIncidence": 22.223193288210116,
+    "percTotalCases": 0.4482844201774524,
+    "percTotalDeaths": 0.020165043122169136
+  },
+  {
+    "_id": "Wallis_and_Futuna",
+    "geoId": "WF",
+    "totalCases": 3,
+    "totalDeaths": 0,
+    "popData2019": null,
+    "avg14DayIncidence": null,
+    "percTotalCases": null,
+    "percTotalDeaths": null
+  },
+  {
+    "_id": "Belgium",
+    "geoId": "BE",
+    "totalCases": 608001,
+    "totalDeaths": 17951,
+    "popData2019": 11455519,
+    "avg14DayIncidence": 215.29741430124628,
+    "percTotalCases": 5.307494143216034,
+    "percTotalDeaths": 0.15670176095906263
+  },
+  {
+    "_id": "Isle_of_Man",
+    "geoId": "IM",
+    "totalCases": 370,
+    "totalDeaths": 25,
+    "popData2019": 84589,
+    "avg14DayIncidence": 22.276832684960937,
+    "percTotalCases": 0.43740911938904586,
+    "percTotalDeaths": 0.029554670228989582
+  },
+  {
+    "_id": "Austria",
+    "geoId": "AT",
+    "totalCases": 320036,
+    "totalDeaths": 4400,
+    "popData2019": 8858775,
+    "avg14DayIncidence": 141.27272270626113,
+    "percTotalCases": 3.6126439603669804,
+    "percTotalDeaths": 0.04966826677503379
+  },
+  {
+    "_id": "Denmark",
+    "geoId": "DK",
+    "totalCases": 109758,
+    "totalDeaths": 941,
+    "popData2019": 5806081,
+    "avg14DayIncidence": 66.59553155462909,
+    "percTotalCases": 1.8903973265271359,
+    "percTotalDeaths": 0.016207145577197424
+  },
+  {
+    "_id": "Myanmar",
+    "geoId": "MM",
+    "totalCases": 108342,
+    "totalDeaths": 2268,
+    "popData2019": 54045422,
+    "avg14DayIncidence": 10.172006682007874,
+    "percTotalCases": 0.20046471281138298,
+    "percTotalDeaths": 0.0041964701469071695
+  },
+  {
+    "_id": "Qatar",
+    "geoId": "QA",
+    "totalCases": 140961,
+    "totalDeaths": 240,
+    "popData2019": 2832071,
+    "avg14DayIncidence": 207.7937971141141,
+    "percTotalCases": 4.977311656381496,
+    "percTotalDeaths": 0.008474363813619079
+  },
+  {
+    "_id": "Cameroon",
+    "geoId": "CM",
+    "totalCases": 25143,
+    "totalDeaths": 443,
+    "popData2019": 25876387,
+    "avg14DayIncidence": 5.077871562954545,
+    "percTotalCases": 0.09716580603003039,
+    "percTotalDeaths": 0.0017119855256454467
+  },
+  {
+    "_id": "Bangladesh",
+    "geoId": "BD",
+    "totalCases": 490533,
+    "totalDeaths": 7052,
+    "popData2019": 163046173,
+    "avg14DayIncidence": 15.683715847366413,
+    "percTotalCases": 0.3008552675443661,
+    "percTotalDeaths": 0.0043251551816551985
+  },
+  {
+    "_id": "Ireland",
+    "geoId": "IE",
+    "totalCases": 76185,
+    "totalDeaths": 2124,
+    "popData2019": 4904240,
+    "avg14DayIncidence": 63.3032495061791,
+    "percTotalCases": 1.5534517070942693,
+    "percTotalDeaths": 0.043309462832161555
+  },
+  {
+    "_id": "Georgia",
+    "geoId": "GE",
+    "totalCases": 191063,
+    "totalDeaths": 1839,
+    "popData2019": 3996762,
+    "avg14DayIncidence": 175.48209766823354,
+    "percTotalCases": 4.780444770041348,
+    "percTotalDeaths": 0.046012246913876786
+  },
+  {
+    "_id": "Gambia",
+    "geoId": "GM",
+    "totalCases": 3782,
+    "totalDeaths": 123,
+    "popData2019": 2347696,
+    "avg14DayIncidence": 8.672924417065637,
+    "percTotalCases": 0.16109411099222387,
+    "percTotalDeaths": 0.005239179178224097
+  },
+  {
+    "_id": "Bolivia",
+    "geoId": "BO",
+    "totalCases": 147150,
+    "totalDeaths": 9018,
+    "popData2019": 11513102,
+    "avg14DayIncidence": 67.14020647568182,
+    "percTotalCases": 1.278109062179767,
+    "percTotalDeaths": 0.0783281517005582
+  },
+  {
+    "_id": "Vietnam",
+    "geoId": "VN",
+    "totalCases": 1397,
+    "totalDeaths": 35,
+    "popData2019": 96462108,
+    "avg14DayIncidence": 0.05977545129129129,
+    "percTotalCases": 0.0014482370631999873,
+    "percTotalDeaths": 0.00003628367731710777
+  },
+  {
+    "_id": "Djibouti",
+    "geoId": "DJ",
+    "totalCases": 5728,
+    "totalDeaths": 61,
+    "popData2019": 973557,
+    "avg14DayIncidence": 31.744457447829458,
+    "percTotalCases": 0.5883579492520725,
+    "percTotalDeaths": 0.006265683467942811
+  },
+  {
+    "_id": "Moldova",
+    "geoId": "MD",
+    "totalCases": 126518,
+    "totalDeaths": 2572,
+    "popData2019": 4043258,
+    "avg14DayIncidence": 152.06698840771534,
+    "percTotalCases": 3.129110237338305,
+    "percTotalDeaths": 0.06361206729820358
+  },
+  {
+    "_id": "India",
+    "geoId": "IN",
+    "totalCases": 9884100,
+    "totalDeaths": 143355,
+    "popData2019": 1366417756,
+    "avg14DayIncidence": 29.52847143669643,
+    "percTotalCases": 0.7233585743890172,
+    "percTotalDeaths": 0.010491301021998722
+  },
+  {
+    "_id": "Azerbaijan",
+    "geoId": "AZ",
+    "totalCases": 175874,
+    "totalDeaths": 1922,
+    "popData2019": 10047719,
+    "avg14DayIncidence": 62.633090850636364,
+    "percTotalCases": 1.7503873267156456,
+    "percTotalDeaths": 0.01912871966264184
+  },
+  {
+    "_id": "Croatia",
+    "geoId": "HR",
+    "totalCases": 175886,
+    "totalDeaths": 2640,
+    "popData2019": 4076246,
+    "avg14DayIncidence": 155.8987697326048,
+    "percTotalCases": 4.314901504963145,
+    "percTotalDeaths": 0.06476547293759993
+  },
+  {
+    "_id": "Lithuania",
+    "geoId": "LT",
+    "totalCases": 95021,
+    "totalDeaths": 825,
+    "popData2019": 2794184,
+    "avg14DayIncidence": 119.37764648146343,
+    "percTotalCases": 3.400670821964481,
+    "percTotalDeaths": 0.029525614633825116
+  },
+  {
+    "_id": "Gibraltar",
+    "geoId": "GI",
+    "totalCases": 1075,
+    "totalDeaths": 5,
+    "popData2019": 33706,
+    "avg14DayIncidence": 164.84958860326847,
+    "percTotalCases": 3.189343143653949,
+    "percTotalDeaths": 0.014834154156529996
+  },
+  {
+    "_id": "Angola",
+    "geoId": "AO",
+    "totalCases": 16188,
+    "totalDeaths": 371,
+    "popData2019": 31825299,
+    "avg14DayIncidence": 2.6997020050588234,
+    "percTotalCases": 0.05086519375670281,
+    "percTotalDeaths": 0.0011657392441151927
+  },
+  {
+    "_id": "North_Macedonia",
+    "geoId": "MK",
+    "totalCases": 73638,
+    "totalDeaths": 2121,
+    "popData2019": 2077132,
+    "avg14DayIncidence": 139.8623197754573,
+    "percTotalCases": 3.5451767148163915,
+    "percTotalDeaths": 0.10211195051638508
+  },
+  {
+    "_id": "Chad",
+    "geoId": "TD",
+    "totalCases": 1770,
+    "totalDeaths": 102,
+    "popData2019": 15946882,
+    "avg14DayIncidence": 0.5883589194941634,
+    "percTotalCases": 0.011099348449433563,
+    "percTotalDeaths": 0.0006396234699673579
+  },
+  {
+    "_id": "Norway",
+    "geoId": "NO",
+    "totalCases": 40022,
+    "totalDeaths": 387,
+    "popData2019": 5328212,
+    "avg14DayIncidence": 29.70721700795252,
+    "percTotalCases": 0.7511337762086043,
+    "percTotalDeaths": 0.007263224511337011
+  },
+  {
+    "_id": "Paraguay",
+    "geoId": "PY",
+    "totalCases": 93582,
+    "totalDeaths": 1953,
+    "popData2019": 7044639,
+    "avg14DayIncidence": 66.11038175064152,
+    "percTotalCases": 1.328414415557703,
+    "percTotalDeaths": 0.027723209095597376
+  },
+  {
+    "_id": "Somalia",
+    "geoId": "SO",
+    "totalCases": 4579,
+    "totalDeaths": 121,
+    "popData2019": 15442906,
+    "avg14DayIncidence": 1.5847455734615385,
+    "percTotalCases": 0.029651155035198686,
+    "percTotalDeaths": 0.0007835312861452372
+  },
+  {
+    "_id": "Poland",
+    "geoId": "PL",
+    "totalCases": 1135676,
+    "totalDeaths": 22864,
+    "popData2019": 37972812,
+    "avg14DayIncidence": 144.82953937800738,
+    "percTotalCases": 2.990760863325055,
+    "percTotalDeaths": 0.060211500796938607
+  },
+  {
+    "_id": "Peru",
+    "geoId": "PE",
+    "totalCases": 984973,
+    "totalDeaths": 36677,
+    "popData2019": 32510462,
+    "avg14DayIncidence": 155.95247427866173,
+    "percTotalCases": 3.029710866612723,
+    "percTotalDeaths": 0.11281599135687459
+  },
+  {
+    "_id": "Tajikistan",
+    "geoId": "TJ",
+    "totalCases": 12704,
+    "totalDeaths": 88,
+    "popData2019": 9321023,
+    "avg14DayIncidence": 8.46553450827907,
+    "percTotalCases": 0.1362940527021551,
+    "percTotalDeaths": 0.0009441023801786564
+  },
+  {
+    "_id": "Trinidad_and_Tobago",
+    "geoId": "TT",
+    "totalCases": 6879,
+    "totalDeaths": 122,
+    "popData2019": 1394969,
+    "avg14DayIncidence": 25.680488131931817,
+    "percTotalCases": 0.4931292379974035,
+    "percTotalDeaths": 0.008745714062463036
+  },
+  {
+    "_id": "Turks_and_Caicos_islands",
+    "geoId": "TC",
+    "totalCases": 769,
+    "totalDeaths": 6,
+    "popData2019": 38194,
+    "avg14DayIncidence": 109.88179810468253,
+    "percTotalCases": 2.0134052468974186,
+    "percTotalDeaths": 0.01570927370791224
+  },
+  {
+    "_id": "Jamaica",
+    "geoId": "JM",
+    "totalCases": 11710,
+    "totalDeaths": 273,
+    "popData2019": 2948277,
+    "avg14DayIncidence": 20.09841063723485,
+    "percTotalCases": 0.3971811332517263,
+    "percTotalDeaths": 0.009259645548908737
+  },
+  {
+    "_id": "Western_Sahara",
+    "geoId": "EH",
+    "totalCases": 766,
+    "totalDeaths": 1,
+    "popData2019": 582458,
+    "avg14DayIncidence": 8.308051239636363,
+    "percTotalCases": 0.131511628306247,
+    "percTotalDeaths": 0.00017168619883322058
+  },
+  {
+    "_id": "Kuwait",
+    "geoId": "KW",
+    "totalCases": 146218,
+    "totalDeaths": 911,
+    "popData2019": 4207077,
+    "avg14DayIncidence": 143.98037567338324,
+    "percTotalCases": 3.4755246932727877,
+    "percTotalDeaths": 0.02165398921864278
+  },
+  {
+    "_id": "Mexico",
+    "geoId": "MX",
+    "totalCases": 1250044,
+    "totalDeaths": 113953,
+    "popData2019": 127575529,
+    "avg14DayIncidence": 38.43395892130564,
+    "percTotalCases": 0.9798462211354029,
+    "percTotalDeaths": 0.0893219890156207
+  },
+  {
+    "_id": "United_Arab_Emirates",
+    "geoId": "AE",
+    "totalCases": 184949,
+    "totalDeaths": 617,
+    "popData2019": 9770526,
+    "avg14DayIncidence": 76.629598075287,
+    "percTotalCases": 1.8929277707259569,
+    "percTotalDeaths": 0.006314910783718298
+  },
+  {
+    "_id": "Anguilla",
+    "geoId": "AI",
+    "totalCases": 10,
+    "totalDeaths": 0,
+    "popData2019": 14872,
+    "avg14DayIncidence": 2.2592791826,
+    "percTotalCases": 0.06724045185583646,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Jordan",
+    "geoId": "JO",
+    "totalCases": 259614,
+    "totalDeaths": 3365,
+    "popData2019": 10101697,
+    "avg14DayIncidence": 126.7288945553788,
+    "percTotalCases": 2.5700038320294105,
+    "percTotalDeaths": 0.03331123473610424
+  },
+  {
+    "_id": "Belize",
+    "geoId": "BZ",
+    "totalCases": 9295,
+    "totalDeaths": 195,
+    "popData2019": 390351,
+    "avg14DayIncidence": 109.60238147071146,
+    "percTotalCases": 2.3811902620974457,
+    "percTotalDeaths": 0.049955040463582776
+  },
+  {
+    "_id": "Mozambique",
+    "geoId": "MZ",
+    "totalCases": 16954,
+    "totalDeaths": 142,
+    "popData2019": 30366043,
+    "avg14DayIncidence": 2.952064570472441,
+    "percTotalCases": 0.05583210166698375,
+    "percTotalDeaths": 0.0004676276062705964
+  },
+  {
+    "_id": "Timor_Leste",
+    "geoId": "TL",
+    "totalCases": 31,
+    "totalDeaths": 0,
+    "popData2019": 1293120,
+    "avg14DayIncidence": 0.12706765352941174,
+    "percTotalCases": 0.002397302647859441,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Sint_Maarten",
+    "geoId": "SX",
+    "totalCases": 1232,
+    "totalDeaths": 26,
+    "popData2019": 42389,
+    "avg14DayIncidence": 150.13667287051794,
+    "percTotalCases": 2.9064143999622547,
+    "percTotalDeaths": 0.061336667531670955
+  },
+  {
+    "_id": "Uganda",
+    "geoId": "UG",
+    "totalCases": 27532,
+    "totalDeaths": 221,
+    "popData2019": 44269587,
+    "avg14DayIncidence": 2.919988087372549,
+    "percTotalCases": 0.06219168026121409,
+    "percTotalDeaths": 0.0004992140541089755
+  },
+  {
+    "_id": "Brunei_Darussalam",
+    "geoId": "BN",
+    "totalCases": 152,
+    "totalDeaths": 3,
+    "popData2019": 433296,
+    "avg14DayIncidence": 1.2606638444360903,
+    "percTotalCases": 0.03507994534913777,
+    "percTotalDeaths": 0.0006923673424171928
+  },
+  {
+    "_id": "Costa_Rica",
+    "geoId": "CR",
+    "totalCases": 150947,
+    "totalDeaths": 1895,
+    "popData2019": 5047561,
+    "avg14DayIncidence": 150.2066688092565,
+    "percTotalCases": 2.9904938246412476,
+    "percTotalDeaths": 0.037542884573361274
+  },
+  {
+    "_id": "Holy_See",
+    "geoId": "VA",
+    "totalCases": 26,
+    "totalDeaths": 0,
+    "popData2019": 815,
+    "avg14DayIncidence": 162.50643937622138,
+    "percTotalCases": 3.190184049079755,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Honduras",
+    "geoId": "HN",
+    "totalCases": 114359,
+    "totalDeaths": 2975,
+    "popData2019": 9746115,
+    "avg14DayIncidence": 60.80426130752851,
+    "percTotalCases": 1.173380367459239,
+    "percTotalDeaths": 0.030524983544725257
+  },
+  {
+    "_id": "Kyrgyzstan",
+    "geoId": "KG",
+    "totalCases": 77674,
+    "totalDeaths": 1312,
+    "popData2019": 6415851,
+    "avg14DayIncidence": 63.82810758968992,
+    "percTotalCases": 1.210657791148828,
+    "percTotalDeaths": 0.02044935270473083
+  },
+  {
+    "_id": "Mongolia",
+    "geoId": "MN",
+    "totalCases": 912,
+    "totalDeaths": 0,
+    "popData2019": 3225166,
+    "avg14DayIncidence": 1.4322230511111111,
+    "percTotalCases": 0.028277614237530717,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "San_Marino",
+    "geoId": "SM",
+    "totalCases": 1947,
+    "totalDeaths": 51,
+    "popData2019": 34453,
+    "avg14DayIncidence": 216.7030861919048,
+    "percTotalCases": 5.651176965721418,
+    "percTotalDeaths": 0.1480277479464778
+  },
+  {
+    "_id": "Fiji",
+    "geoId": "FJ",
+    "totalCases": 46,
+    "totalDeaths": 2,
+    "popData2019": 889955,
+    "avg14DayIncidence": 0.2452797473151751,
+    "percTotalCases": 0.005168800669696783,
+    "percTotalDeaths": 0.00022473046389986012
+  },
+  {
+    "_id": "Japan",
+    "geoId": "JP",
+    "totalCases": 179653,
+    "totalDeaths": 2585,
+    "popData2019": 126860299,
+    "avg14DayIncidence": 5.352042573026706,
+    "percTotalCases": 0.14161483254899154,
+    "percTotalDeaths": 0.002037674528892605
+  },
+  {
+    "_id": "Vanuatu",
+    "geoId": "VU",
+    "totalCases": 1,
+    "totalDeaths": 0,
+    "popData2019": 299882,
+    "avg14DayIncidence": 0.015879261904761903,
+    "percTotalCases": 0.00033346449603510715,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Greece",
+    "geoId": "EL",
+    "totalCases": 124534,
+    "totalDeaths": 3625,
+    "popData2019": 10724599,
+    "avg14DayIncidence": 45.20003394110448,
+    "percTotalCases": 1.1611995935698856,
+    "percTotalDeaths": 0.033800797586930754
+  },
+  {
+    "_id": "Russia",
+    "geoId": "RU",
+    "totalCases": 2653928,
+    "totalDeaths": 46941,
+    "popData2019": 145872260,
+    "avg14DayIncidence": 70.44055834946587,
+    "percTotalCases": 1.8193507113689746,
+    "percTotalDeaths": 0.032179524743086864
+  },
+  {
+    "_id": "Malta",
+    "geoId": "MT",
+    "totalCases": 11101,
+    "totalDeaths": 166,
+    "popData2019": 493559,
+    "avg14DayIncidence": 110.58980302792592,
+    "percTotalCases": 2.249173857634042,
+    "percTotalDeaths": 0.03363326370302233
+  },
+  {
+    "_id": "Iceland",
+    "geoId": "IS",
+    "totalCases": 5557,
+    "totalDeaths": 28,
+    "popData2019": 356991,
+    "avg14DayIncidence": 63.833907756261134,
+    "percTotalCases": 1.5566218756215142,
+    "percTotalDeaths": 0.007843334986036062
+  },
+  {
+    "_id": "Puerto_Rico",
+    "geoId": "PR",
+    "totalCases": 107158,
+    "totalDeaths": 1272,
+    "popData2019": 2933404,
+    "avg14DayIncidence": 188.52598945333332,
+    "percTotalCases": 3.653025631655237,
+    "percTotalDeaths": 0.04336259171938131
+  },
+  {
+    "_id": "Singapore",
+    "geoId": "SG",
+    "totalCases": 58320,
+    "totalDeaths": 29,
+    "popData2019": 5804343,
+    "avg14DayIncidence": 41.703961146557866,
+    "percTotalCases": 1.004764880366305,
+    "percTotalDeaths": 0.000499625883584068
+  },
+  {
+    "_id": "South_Africa",
+    "geoId": "ZA",
+    "totalCases": 860964,
+    "totalDeaths": 23276,
+    "popData2019": 58558267,
+    "avg14DayIncidence": 72.84106389992566,
+    "percTotalCases": 1.470268920355857,
+    "percTotalDeaths": 0.039748444058291546
+  },
+  {
+    "_id": "United_States_Virgin_Islands",
+    "geoId": "VI",
+    "totalCases": 1807,
+    "totalDeaths": 23,
+    "popData2019": 104579,
+    "avg14DayIncidence": 87.48987057293651,
+    "percTotalCases": 1.7278803583893516,
+    "percTotalDeaths": 0.021992943133898775
+  },
+  {
+    "_id": "Burkina_Faso",
+    "geoId": "BF",
+    "totalCases": 4030,
+    "totalDeaths": 71,
+    "popData2019": 20321383,
+    "avg14DayIncidence": 0.8617583363636364,
+    "percTotalCases": 0.01983132742491001,
+    "percTotalDeaths": 0.00034938566927260805
+  },
+  {
+    "_id": "Seychelles",
+    "geoId": "SC",
+    "totalCases": 187,
+    "totalDeaths": 0,
+    "popData2019": 97741,
+    "avg14DayIncidence": 9.801570140496183,
+    "percTotalCases": 0.19132196314750208,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Eritrea",
+    "geoId": "ER",
+    "totalCases": 711,
+    "totalDeaths": 0,
+    "popData2019": 3497117,
+    "avg14DayIncidence": 0.9864708333333333,
+    "percTotalCases": 0.020331032676344542,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Uruguay",
+    "geoId": "UY",
+    "totalCases": 9708,
+    "totalDeaths": 92,
+    "popData2019": 3461731,
+    "avg14DayIncidence": 11.43627652667939,
+    "percTotalCases": 0.28043773476333084,
+    "percTotalDeaths": 0.0026576299544938645
+  },
+  {
+    "_id": "Barbados",
+    "geoId": "BB",
+    "totalCases": 292,
+    "totalDeaths": 7,
+    "popData2019": 287021,
+    "avg14DayIncidence": 5.118482512393823,
+    "percTotalCases": 0.10173471627511577,
+    "percTotalDeaths": 0.00243884593810209
+  },
+  {
+    "_id": "Congo",
+    "geoId": "CG",
+    "totalCases": 6049,
+    "totalDeaths": 99,
+    "popData2019": 5380504,
+    "avg14DayIncidence": 5.851336930842912,
+    "percTotalCases": 0.11242441228554055,
+    "percTotalDeaths": 0.0018399763293550197
+  },
+  {
+    "_id": "Philippines",
+    "geoId": "PH",
+    "totalCases": 449400,
+    "totalDeaths": 8733,
+    "popData2019": 108116622,
+    "avg14DayIncidence": 17.129848186576577,
+    "percTotalCases": 0.41566226514180216,
+    "percTotalDeaths": 0.008077388877355048
+  },
+  {
+    "_id": "Indonesia",
+    "geoId": "ID",
+    "totalCases": 617820,
+    "totalDeaths": 18819,
+    "popData2019": 270625567,
+    "avg14DayIncidence": 9.063562786818181,
+    "percTotalCases": 0.22829328612547534,
+    "percTotalDeaths": 0.006953888432869316
+  },
+  {
+    "_id": "Mali",
+    "geoId": "ML",
+    "totalCases": 5814,
+    "totalDeaths": 194,
+    "popData2019": 19658023,
+    "avg14DayIncidence": 1.4753665129880478,
+    "percTotalCases": 0.02957571063987462,
+    "percTotalDeaths": 0.0009868744176359952
+  },
+  {
+    "_id": "Oman",
+    "geoId": "OM",
+    "totalCases": 126240,
+    "totalDeaths": 1471,
+    "popData2019": 4974992,
+    "avg14DayIncidence": 106.19895927667673,
+    "percTotalCases": 2.5374915175742996,
+    "percTotalDeaths": 0.02956788674233044
+  },
+  {
+    "_id": "Rwanda",
+    "geoId": "RW",
+    "totalCases": 6659,
+    "totalDeaths": 56,
+    "popData2019": 12626938,
+    "avg14DayIncidence": 2.6162713545419845,
+    "percTotalCases": 0.052736459147894765,
+    "percTotalDeaths": 0.0004434962775615117
+  },
+  {
+    "_id": "South_Korea",
+    "geoId": "KR",
+    "totalCases": 43484,
+    "totalDeaths": 587,
+    "popData2019": 51225321,
+    "avg14DayIncidence": 3.13694662694362,
+    "percTotalCases": 0.08488770621857109,
+    "percTotalDeaths": 0.001145917660525739
+  },
+  {
+    "_id": "Taiwan",
+    "geoId": "TW",
+    "totalCases": 740,
+    "totalDeaths": 7,
+    "popData2019": 23773881,
+    "avg14DayIncidence": 0.12432914703264096,
+    "percTotalCases": 0.0031126596452636405,
+    "percTotalDeaths": 0.000029444077725466872
+  },
+  {
+    "_id": "Turkey",
+    "geoId": "TR",
+    "totalCases": 995471,
+    "totalDeaths": 16199,
+    "popData2019": 82003882,
+    "avg14DayIncidence": 52.94669587429658,
+    "percTotalCases": 1.2139315550939405,
+    "percTotalDeaths": 0.019753942868216898
+  },
+  {
+    "_id": "Estonia",
+    "geoId": "EE",
+    "totalCases": 18055,
+    "totalDeaths": 149,
+    "popData2019": 1324820,
+    "avg14DayIncidence": 47.93149439900603,
+    "percTotalCases": 1.3628266481484277,
+    "percTotalDeaths": 0.011246810887516796
+  },
+  {
+    "_id": "Burundi",
+    "geoId": "BI",
+    "totalCases": 729,
+    "totalDeaths": 1,
+    "popData2019": 11530577,
+    "avg14DayIncidence": 0.348036462244898,
+    "percTotalCases": 0.0063223202099946954,
+    "percTotalDeaths": 0.000008672592880651158
+  },
+  {
+    "_id": "Liechtenstein",
+    "geoId": "LI",
+    "totalCases": 1514,
+    "totalDeaths": 18,
+    "popData2019": 38378,
+    "avg14DayIncidence": 193.03430811048872,
+    "percTotalCases": 3.944968471520142,
+    "percTotalDeaths": 0.046901870863515556
+  },
+  {
+    "_id": "Romania",
+    "geoId": "RO",
+    "totalCases": 556335,
+    "totalDeaths": 13385,
+    "popData2019": 19414458,
+    "avg14DayIncidence": 111.02375199683581,
+    "percTotalCases": 2.8655705969231797,
+    "percTotalDeaths": 0.06894346471068108
+  },
+  {
+    "_id": "Chile",
+    "geoId": "CL",
+    "totalCases": 571919,
+    "totalDeaths": 15886,
+    "popData2019": 18952035,
+    "avg14DayIncidence": 152.40137412492646,
+    "percTotalCases": 3.017718150056181,
+    "percTotalDeaths": 0.08382213308491673
+  },
+  {
+    "_id": "Nigeria",
+    "geoId": "NG",
+    "totalCases": 73175,
+    "totalDeaths": 1197,
+    "popData2019": 200963603,
+    "avg14DayIncidence": 1.4934899262576686,
+    "percTotalCases": 0.03641206611925643,
+    "percTotalDeaths": 0.0005956302445473173
+  },
+  {
+    "_id": "Pakistan",
+    "geoId": "PK",
+    "totalCases": 440787,
+    "totalDeaths": 8832,
+    "popData2019": 216565317,
+    "avg14DayIncidence": 8.200112392560241,
+    "percTotalCases": 0.20353536111232437,
+    "percTotalDeaths": 0.004078215349690551
+  },
+  {
+    "_id": "Ethiopia",
+    "geoId": "ET",
+    "totalCases": 116769,
+    "totalDeaths": 1806,
+    "popData2019": 112078727,
+    "avg14DayIncidence": 5.388214148403042,
+    "percTotalCases": 0.104184802170353,
+    "percTotalDeaths": 0.0016113673382460883
+  },
+  {
+    "_id": "Saint_Kitts_and_Nevis",
+    "geoId": "KN",
+    "totalCases": 27,
+    "totalDeaths": 0,
+    "popData2019": 52834,
+    "avg14DayIncidence": 1.9304241941434264,
+    "percTotalCases": 0.051103456107809364,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Falkland_Islands_(Malvinas)",
+    "geoId": "FK",
+    "totalCases": 19,
+    "totalDeaths": 0,
+    "popData2019": 3372,
+    "avg14DayIncidence": 22.42581100549587,
+    "percTotalCases": 0.5634638196915777,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Switzerland",
+    "geoId": "CH",
+    "totalCases": 372329,
+    "totalDeaths": 5378,
+    "popData2019": 8544527,
+    "avg14DayIncidence": 170.70204696626112,
+    "percTotalCases": 4.357514465107314,
+    "percTotalDeaths": 0.0629408743163899
+  },
+  {
+    "_id": "Bonaire, Saint Eustatius and Saba",
+    "geoId": "BQ",
+    "totalCases": 173,
+    "totalDeaths": 3,
+    "popData2019": 25983,
+    "avg14DayIncidence": 36.43618179045082,
+    "percTotalCases": 0.665819959204095,
+    "percTotalDeaths": 0.011546010853250202
+  },
+  {
+    "_id": "Mauritius",
+    "geoId": "MU",
+    "totalCases": 515,
+    "totalDeaths": 10,
+    "popData2019": 1269670,
+    "avg14DayIncidence": 1.9270303366536965,
+    "percTotalCases": 0.04056172076208779,
+    "percTotalDeaths": 0.0007876062283900541
+  },
+  {
+    "_id": "Laos",
+    "geoId": "LA",
+    "totalCases": 41,
+    "totalDeaths": 0,
+    "popData2019": 7169456,
+    "avg14DayIncidence": 0.025737491269841272,
+    "percTotalCases": 0.0005718704459585218,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Northern_Mariana_Islands",
+    "geoId": "MP",
+    "totalCases": 113,
+    "totalDeaths": 2,
+    "popData2019": 57213,
+    "avg14DayIncidence": 10.146082269471544,
+    "percTotalCases": 0.19750755947074966,
+    "percTotalDeaths": 0.00349570901718141
+  },
+  {
+    "_id": "Egypt",
+    "geoId": "EG",
+    "totalCases": 121575,
+    "totalDeaths": 6920,
+    "popData2019": 100388076,
+    "avg14DayIncidence": 4.969827406486487,
+    "percTotalCases": 0.12110502048071925,
+    "percTotalDeaths": 0.006893248955184677
+  },
+  {
+    "_id": "El_Salvador",
+    "geoId": "SV",
+    "totalCases": 41880,
+    "totalDeaths": 1205,
+    "popData2019": 6453550,
+    "avg14DayIncidence": 33.87192879031007,
+    "percTotalCases": 0.6489451542174461,
+    "percTotalDeaths": 0.018671893763897388
+  },
+  {
+    "_id": "Nicaragua",
+    "geoId": "NI",
+    "totalCases": 5887,
+    "totalDeaths": 162,
+    "popData2019": 6545503,
+    "avg14DayIncidence": 4.852257361124032,
+    "percTotalCases": 0.08993961197481691,
+    "percTotalDeaths": 0.002474981678260632
+  },
+  {
+    "_id": "Argentina",
+    "geoId": "AR",
+    "totalCases": 1498160,
+    "totalDeaths": 40766,
+    "popData2019": 44780675,
+    "avg14DayIncidence": 169.53161157133334,
+    "percTotalCases": 3.3455502848047733,
+    "percTotalDeaths": 0.09103480463391854
+  },
+  {
+    "_id": "Canada",
+    "geoId": "CA",
+    "totalCases": 460743,
+    "totalDeaths": 13431,
+    "popData2019": 37411038,
+    "avg14DayIncidence": 46.545617935281896,
+    "percTotalCases": 1.231569677377035,
+    "percTotalDeaths": 0.03590116906138771
+  },
+  {
+    "_id": "Greenland",
+    "geoId": "GL",
+    "totalCases": 19,
+    "totalDeaths": 0,
+    "popData2019": 56660,
+    "avg14DayIncidence": 1.2498609360700388,
+    "percTotalCases": 0.03353335686551359,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Central_African_Republic",
+    "geoId": "CF",
+    "totalCases": 4936,
+    "totalDeaths": 63,
+    "popData2019": 4745179,
+    "avg14DayIncidence": 5.564025898850575,
+    "percTotalCases": 0.1040213656850458,
+    "percTotalDeaths": 0.0013276632978439801
+  },
+  {
+    "_id": "Algeria",
+    "geoId": "DZ",
+    "totalCases": 92102,
+    "totalDeaths": 2596,
+    "popData2019": 43053054,
+    "avg14DayIncidence": 8.636940988343373,
+    "percTotalCases": 0.21392675186294566,
+    "percTotalDeaths": 0.006029769688347776
+  },
+  {
+    "_id": "Bosnia_and_Herzegovina",
+    "geoId": "BA",
+    "totalCases": 101117,
+    "totalDeaths": 3336,
+    "popData2019": 3300998,
+    "avg14DayIncidence": 152.28314698647728,
+    "percTotalCases": 3.063225121614736,
+    "percTotalDeaths": 0.10106034599233324
+  },
+  {
+    "_id": "Libya",
+    "geoId": "LY",
+    "totalCases": 90779,
+    "totalDeaths": 1299,
+    "popData2019": 6777453,
+    "avg14DayIncidence": 71.2415870588889,
+    "percTotalCases": 1.3394264777638443,
+    "percTotalDeaths": 0.019166492191093024
+  },
+  {
+    "_id": "Malaysia",
+    "geoId": "MY",
+    "totalCases": 83475,
+    "totalDeaths": 415,
+    "popData2019": 31949789,
+    "avg14DayIncidence": 9.63811417625,
+    "percTotalCases": 0.2612693310744556,
+    "percTotalDeaths": 0.0012989131164528192
+  },
+  {
+    "_id": "Nepal",
+    "geoId": "NP",
+    "totalCases": 248423,
+    "totalDeaths": 1698,
+    "popData2019": 28608715,
+    "avg14DayIncidence": 36.44998895194445,
+    "percTotalCases": 0.8683472850842829,
+    "percTotalDeaths": 0.0059352543446988095
+  },
+  {
+    "_id": "Brazil",
+    "geoId": "BR",
+    "totalCases": 6901952,
+    "totalDeaths": 181402,
+    "popData2019": 211049519,
+    "avg14DayIncidence": 130.46082639347182,
+    "percTotalCases": 3.2702998010623276,
+    "percTotalDeaths": 0.08595233993402278
+  },
+  {
+    "_id": "Benin",
+    "geoId": "BJ",
+    "totalCases": 3090,
+    "totalDeaths": 44,
+    "popData2019": 11801151,
+    "avg14DayIncidence": 1.3967672761923078,
+    "percTotalCases": 0.026183886639532025,
+    "percTotalDeaths": 0.0003728449877473816
+  },
+  {
+    "_id": "Iran",
+    "geoId": "IR",
+    "totalCases": 1108269,
+    "totalDeaths": 52196,
+    "popData2019": 82913893,
+    "avg14DayIncidence": 52.21022986388724,
+    "percTotalCases": 1.3366505417855608,
+    "percTotalDeaths": 0.06295205557408816
+  },
+  {
+    "_id": "Bhutan",
+    "geoId": "BT",
+    "totalCases": 438,
+    "totalDeaths": 0,
+    "popData2019": 763094,
+    "avg14DayIncidence": 2.9696992712547527,
+    "percTotalCases": 0.05739790903872917,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "France",
+    "geoId": "FR",
+    "totalCases": 2376852,
+    "totalDeaths": 57911,
+    "popData2019": 67012883,
+    "avg14DayIncidence": 142.40055174694362,
+    "percTotalCases": 3.546858295889165,
+    "percTotalDeaths": 0.0864177116510567
+  },
+  {
+    "_id": "Ecuador",
+    "geoId": "EC",
+    "totalCases": 202110,
+    "totalDeaths": 13875,
+    "popData2019": 17373657,
+    "avg14DayIncidence": 48.02297170668675,
+    "percTotalCases": 1.163312939814571,
+    "percTotalDeaths": 0.07986228806059657
+  },
+  {
+    "_id": "Maldives",
+    "geoId": "MV",
+    "totalCases": 13368,
+    "totalDeaths": 48,
+    "popData2019": 530957,
+    "avg14DayIncidence": 130.2799166556929,
+    "percTotalCases": 2.5177180072962595,
+    "percTotalDeaths": 0.009040280098011704
+  },
+  {
+    "_id": "Marshall_Islands",
+    "geoId": "MH",
+    "totalCases": 4,
+    "totalDeaths": 0,
+    "popData2019": 58791,
+    "avg14DayIncidence": 2.1511896076470585,
+    "percTotalCases": 0.006803762480651801,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Netherlands",
+    "geoId": "NL",
+    "totalCases": 612746,
+    "totalDeaths": 10034,
+    "popData2019": 17282163,
+    "avg14DayIncidence": 135.17206027014836,
+    "percTotalCases": 3.545539988252628,
+    "percTotalDeaths": 0.05805986206703408
+  },
+  {
+    "_id": "Bermuda",
+    "geoId": "BM",
+    "totalCases": 431,
+    "totalDeaths": 9,
+    "popData2019": 62508,
+    "avg14DayIncidence": 26.785676491322956,
+    "percTotalCases": 0.6895117424969603,
+    "percTotalDeaths": 0.014398157035899407
+  },
+  {
+    "_id": "Panama",
+    "geoId": "PA",
+    "totalCases": 193007,
+    "totalDeaths": 3356,
+    "popData2019": 4246440,
+    "avg14DayIncidence": 220.50274709940075,
+    "percTotalCases": 4.545148406665348,
+    "percTotalDeaths": 0.07903090588822638
+  },
+  {
+    "_id": "Portugal",
+    "geoId": "PT",
+    "totalCases": 348744,
+    "totalDeaths": 5559,
+    "popData2019": 10276617,
+    "avg14DayIncidence": 160.42123504649635,
+    "percTotalCases": 3.393568136284538,
+    "percTotalDeaths": 0.05409367693668063
+  },
+  {
+    "_id": "Andorra",
+    "geoId": "AD",
+    "totalCases": 7338,
+    "totalDeaths": 79,
+    "popData2019": 76177,
+    "avg14DayIncidence": 488.11176252528514,
+    "percTotalCases": 9.632828806595166,
+    "percTotalDeaths": 0.1037058429709755
+  },
+  {
+    "_id": "Albania",
+    "geoId": "AL",
+    "totalCases": 48530,
+    "totalDeaths": 1003,
+    "popData2019": 2862427,
+    "avg14DayIncidence": 78.9809622414179,
+    "percTotalCases": 1.6954144158086826,
+    "percTotalDeaths": 0.03504019491152088
+  },
+  {
+    "_id": "Lebanon",
+    "geoId": "LB",
+    "totalCases": 146520,
+    "totalDeaths": 1200,
+    "popData2019": 6855709,
+    "avg14DayIncidence": 84.21349903303303,
+    "percTotalCases": 2.137196896776103,
+    "percTotalDeaths": 0.01750366008825637
+  },
+  {
+    "_id": "Sierra_Leone",
+    "geoId": "SL",
+    "totalCases": 2440,
+    "totalDeaths": 75,
+    "popData2019": 7813207,
+    "avg14DayIncidence": 1.7707328173469388,
+    "percTotalCases": 0.03122917388468013,
+    "percTotalDeaths": 0.0009599131317012335
+  },
+  {
+    "_id": "Cayman_Islands",
+    "geoId": "KY",
+    "totalCases": 298,
+    "totalDeaths": 2,
+    "popData2019": 64948,
+    "avg14DayIncidence": 23.892205653501946,
+    "percTotalCases": 0.4588286013426125,
+    "percTotalDeaths": 0.0030793865861920306
+  },
+  {
+    "_id": "Guatemala",
+    "geoId": "GT",
+    "totalCases": 129282,
+    "totalDeaths": 4423,
+    "popData2019": 17581476,
+    "avg14DayIncidence": 38.24870575629771,
+    "percTotalCases": 0.7353307538001929,
+    "percTotalDeaths": 0.025157159728796372
+  },
+  {
+    "_id": "Kosovo",
+    "geoId": "XK",
+    "totalCases": 46580,
+    "totalDeaths": 1198,
+    "popData2019": 1798506,
+    "avg14DayIncidence": 127.51754213741445,
+    "percTotalCases": 2.5899274175343314,
+    "percTotalDeaths": 0.0666108425548761
+  },
+  {
+    "_id": "Australia",
+    "geoId": "AU",
+    "totalCases": 28031,
+    "totalDeaths": 908,
+    "popData2019": 25203200,
+    "avg14DayIncidence": 4.6102195304154305,
+    "percTotalCases": 0.11122000380904012,
+    "percTotalDeaths": 0.0036027171152869476
+  },
+  {
+    "_id": "Czechia",
+    "geoId": "CZ",
+    "totalCases": 581079,
+    "totalDeaths": 9609,
+    "popData2019": 10649800,
+    "avg14DayIncidence": 215.4373777127003,
+    "percTotalCases": 5.456243309733516,
+    "percTotalDeaths": 0.09022704651730548
+  },
+  {
+    "_id": "Montserrat",
+    "geoId": "MS",
+    "totalCases": 13,
+    "totalDeaths": 1,
+    "popData2019": 4991,
+    "avg14DayIncidence": 11.078765307058823,
+    "percTotalCases": 0.2604688439190543,
+    "percTotalDeaths": 0.02003606491685033
+  },
+  {
+    "_id": "Slovakia",
+    "geoId": "SK",
+    "totalCases": 132984,
+    "totalDeaths": 1175,
+    "popData2019": 5450421,
+    "avg14DayIncidence": 112.46551167646841,
+    "percTotalCases": 2.439884918981488,
+    "percTotalDeaths": 0.02155796772396114
+  },
+  {
+    "_id": "Ghana",
+    "geoId": "GH",
+    "totalCases": 53014,
+    "totalDeaths": 327,
+    "popData2019": 30417858,
+    "avg14DayIncidence": 9.147743172889733,
+    "percTotalCases": 0.17428577646723184,
+    "percTotalDeaths": 0.00107502638745963
+  },
+  {
+    "_id": "Sudan",
+    "geoId": "SD",
+    "totalCases": 21386,
+    "totalDeaths": 1347,
+    "popData2019": 42813237,
+    "avg14DayIncidence": 2.4249722711787074,
+    "percTotalCases": 0.04995184082904079,
+    "percTotalDeaths": 0.0031462232112932733
+  },
+  {
+    "_id": "Papua_New_Guinea",
+    "geoId": "PG",
+    "totalCases": 725,
+    "totalDeaths": 8,
+    "popData2019": 8776119,
+    "avg14DayIncidence": 0.425070438671875,
+    "percTotalCases": 0.008261054801102856,
+    "percTotalDeaths": 0.00009115646677079013
+  },
+  {
+    "_id": "Guam",
+    "geoId": "GU",
+    "totalCases": 7106,
+    "totalDeaths": 118,
+    "popData2019": 167295,
+    "avg14DayIncidence": 226.01304709127908,
+    "percTotalCases": 4.247586598523566,
+    "percTotalDeaths": 0.07053408649391793
+  },
+  {
+    "_id": "Jersey",
+    "geoId": "JE",
+    "totalCases": 1779,
+    "totalDeaths": 32,
+    "popData2019": 107796,
+    "avg14DayIncidence": 67.70246089533073,
+    "percTotalCases": 1.6503395302237558,
+    "percTotalDeaths": 0.029685702623473968
+  },
+  {
+    "_id": "Bahamas",
+    "geoId": "BS",
+    "totalCases": 7674,
+    "totalDeaths": 163,
+    "popData2019": 389486,
+    "avg14DayIncidence": 105.21935880027027,
+    "percTotalCases": 1.9702890476166024,
+    "percTotalDeaths": 0.041850027985601536
+  },
+  {
+    "_id": "Bahrain",
+    "geoId": "BH",
+    "totalCases": 89143,
+    "totalDeaths": 348,
+    "popData2019": 1641164,
+    "avg14DayIncidence": 223.5124190600595,
+    "percTotalCases": 5.4316936028331115,
+    "percTotalDeaths": 0.021204462198780867
+  },
+  {
+    "_id": "Saint_Lucia",
+    "geoId": "LC",
+    "totalCases": 275,
+    "totalDeaths": 4,
+    "popData2019": 182795,
+    "avg14DayIncidence": 7.750725640496183,
+    "percTotalCases": 0.15044175168905058,
+    "percTotalDeaths": 0.002188243660931645
+  },
+  {
+    "_id": "Sweden",
+    "geoId": "SE",
+    "totalCases": 320098,
+    "totalDeaths": 7514,
+    "popData2019": 10230185,
+    "avg14DayIncidence": 119.18549021738872,
+    "percTotalCases": 3.1289561234718626,
+    "percTotalDeaths": 0.07344930712396697
+  },
+  {
+    "_id": "Malawi",
+    "geoId": "MW",
+    "totalCases": 6066,
+    "totalDeaths": 187,
+    "popData2019": 18628749,
+    "avg14DayIncidence": 1.8681466247325105,
+    "percTotalCases": 0.03256257304234439,
+    "percTotalDeaths": 0.0010038247871609629
+  },
+  {
+    "_id": "Syria",
+    "geoId": "SY",
+    "totalCases": 9166,
+    "totalDeaths": 518,
+    "popData2019": 17070132,
+    "avg14DayIncidence": 2.7349423412204725,
+    "percTotalCases": 0.05369612841892494,
+    "percTotalDeaths": 0.0030345400961164213
+  },
+  {
+    "_id": "Monaco",
+    "geoId": "MC",
+    "totalCases": 668,
+    "totalDeaths": 2,
+    "popData2019": 33085,
+    "avg14DayIncidence": 83.49589053855385,
+    "percTotalCases": 2.0190418618709383,
+    "percTotalDeaths": 0.006045035514583648
+  },
+  {
+    "_id": "Sao_Tome_and_Principe",
+    "geoId": "ST",
+    "totalCases": 1009,
+    "totalDeaths": 17,
+    "popData2019": 215048,
+    "avg14DayIncidence": 27.418076576751055,
+    "percTotalCases": 0.4691975744949965,
+    "percTotalDeaths": 0.00790521185967784
+  },
+  {
+    "_id": "Saudi_Arabia",
+    "geoId": "SA",
+    "totalCases": 359888,
+    "totalDeaths": 6048,
+    "popData2019": 34268529,
+    "avg14DayIncidence": 54.074293485461254,
+    "percTotalCases": 1.0501997328219137,
+    "percTotalDeaths": 0.017648846263579043
+  },
+  {
+    "_id": "Slovenia",
+    "geoId": "SI",
+    "totalCases": 96314,
+    "totalDeaths": 1459,
+    "popData2019": 2080908,
+    "avg14DayIncidence": 214.21779707464944,
+    "percTotalCases": 4.628460268305951,
+    "percTotalDeaths": 0.07011362347590572
+  },
+  {
+    "_id": "United_States_of_America",
+    "geoId": "US",
+    "totalCases": 16256754,
+    "totalDeaths": 299177,
+    "popData2019": 329064917,
+    "avg14DayIncidence": 187.87938593905045,
+    "percTotalCases": 4.940287815610559,
+    "percTotalDeaths": 0.09091731890701676
+  },
+  {
+    "_id": "Venezuela",
+    "geoId": "VE",
+    "totalCases": 107177,
+    "totalDeaths": 949,
+    "popData2019": 28515829,
+    "avg14DayIncidence": 19.697589835172415,
+    "percTotalCases": 0.37585090021405304,
+    "percTotalDeaths": 0.0033279761917495015
+  },
+  {
+    "_id": "Solomon_Islands",
+    "geoId": "SB",
+    "totalCases": 17,
+    "totalDeaths": 0,
+    "popData2019": 669821,
+    "avg14DayIncidence": 0.60988031,
+    "percTotalCases": 0.002537991493249689,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Zambia",
+    "geoId": "ZM",
+    "totalCases": 18274,
+    "totalDeaths": 367,
+    "popData2019": 17861034,
+    "avg14DayIncidence": 5.44602879127907,
+    "percTotalCases": 0.1023121057829015,
+    "percTotalDeaths": 0.002054752261263262
+  },
+  {
+    "_id": "Curaçao",
+    "geoId": "CW",
+    "totalCases": 3624,
+    "totalDeaths": 11,
+    "popData2019": 163423,
+    "avg14DayIncidence": 103.27233681138341,
+    "percTotalCases": 2.217558116054656,
+    "percTotalDeaths": 0.006730998696633889
+  },
+  {
+    "_id": "New_Zealand",
+    "geoId": "NZ",
+    "totalCases": 1740,
+    "totalDeaths": 25,
+    "popData2019": 4783062,
+    "avg14DayIncidence": 1.5390309572865855,
+    "percTotalCases": 0.036378370173750625,
+    "percTotalDeaths": 0.0005226777323814744
+  },
+  {
+    "_id": "Senegal",
+    "geoId": "SN",
+    "totalCases": 17075,
+    "totalDeaths": 349,
+    "popData2019": 16296362,
+    "avg14DayIncidence": 5.307726301797753,
+    "percTotalCases": 0.10477798664511749,
+    "percTotalDeaths": 0.0021415822746205563
+  },
+  {
+    "_id": "Armenia",
+    "geoId": "AM",
+    "totalCases": 148682,
+    "totalDeaths": 2503,
+    "popData2019": 2957728,
+    "avg14DayIncidence": 206.10620637225608,
+    "percTotalCases": 5.02689902519772,
+    "percTotalDeaths": 0.0846257668047907
+  },
+  {
+    "_id": "Ukraine",
+    "geoId": "UA",
+    "totalCases": 900666,
+    "totalDeaths": 15247,
+    "popData2019": 43993643,
+    "avg14DayIncidence": 98.76923880045626,
+    "percTotalCases": 2.047263964932388,
+    "percTotalDeaths": 0.03465727991655522
+  },
+  {
+    "_id": "Uzbekistan",
+    "geoId": "UZ",
+    "totalCases": 75094,
+    "totalDeaths": 612,
+    "popData2019": 32981715,
+    "avg14DayIncidence": 12.040631897279694,
+    "percTotalCases": 0.22768373324431432,
+    "percTotalDeaths": 0.0018555736110144666
+  },
+  {
+    "_id": "Kazakhstan",
+    "geoId": "KZ",
+    "totalCases": 186277,
+    "totalDeaths": 2552,
+    "popData2019": 18551428,
+    "avg14DayIncidence": 51.97303656660305,
+    "percTotalCases": 1.0041113816143965,
+    "percTotalDeaths": 0.01375635341926239
+  },
+  {
+    "_id": "Latvia",
+    "geoId": "LV",
+    "totalCases": 25675,
+    "totalDeaths": 349,
+    "popData2019": 1919968,
+    "avg14DayIncidence": 57.77526847674074,
+    "percTotalCases": 1.3372618710311839,
+    "percTotalDeaths": 0.018177386289771495
+  },
+  {
+    "_id": "Tunisia",
+    "geoId": "TN",
+    "totalCases": 111361,
+    "totalDeaths": 3894,
+    "popData2019": 11694721,
+    "avg14DayIncidence": 46.49859194578358,
+    "percTotalCases": 0.9522330631059946,
+    "percTotalDeaths": 0.03329707480836867
+  },
+  {
+    "_id": "Belarus",
+    "geoId": "BY",
+    "totalCases": 160295,
+    "totalDeaths": 1263,
+    "popData2019": 9452409,
+    "avg14DayIncidence": 66.67829510091185,
+    "percTotalCases": 1.6958110890038718,
+    "percTotalDeaths": 0.013361673198863909
+  },
+  {
+    "_id": "Yemen",
+    "geoId": "YE",
+    "totalCases": 2083,
+    "totalDeaths": 606,
+    "popData2019": 29161922,
+    "avg14DayIncidence": 0.4226983020762712,
+    "percTotalCases": 0.007142876248005876,
+    "percTotalDeaths": 0.002078052331392972
+  },
+  {
+    "_id": "Colombia",
+    "geoId": "CO",
+    "totalCases": 1425774,
+    "totalDeaths": 39053,
+    "popData2019": 50339443,
+    "avg14DayIncidence": 143.4577694974436,
+    "percTotalCases": 2.8323197775549485,
+    "percTotalDeaths": 0.07757932482486944
+  },
+  {
+    "_id": "Dominican_Republic",
+    "geoId": "DO",
+    "totalCases": 154692,
+    "totalDeaths": 2361,
+    "popData2019": 10738957,
+    "avg14DayIncidence": 59.155010096158534,
+    "percTotalCases": 1.4404750852433807,
+    "percTotalDeaths": 0.021985375302275633
+  },
+  {
+    "_id": "Cuba",
+    "geoId": "CU",
+    "totalCases": 9423,
+    "totalDeaths": 137,
+    "popData2019": 11333484,
+    "avg14DayIncidence": 4.163808588358779,
+    "percTotalCases": 0.08314301233407133,
+    "percTotalDeaths": 0.0012088074593831872
+  },
+  {
+    "_id": "Grenada",
+    "geoId": "GD",
+    "totalCases": 69,
+    "totalDeaths": 0,
+    "popData2019": 112002,
+    "avg14DayIncidence": 1.8489546100787402,
+    "percTotalCases": 0.061606042749236624,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Guyana",
+    "geoId": "GY",
+    "totalCases": 5920,
+    "totalDeaths": 155,
+    "popData2019": 782775,
+    "avg14DayIncidence": 38.63188826412214,
+    "percTotalCases": 0.7562837341509374,
+    "percTotalDeaths": 0.01980134776915461
+  },
+  {
+    "_id": "Finland",
+    "geoId": "FI",
+    "totalCases": 30810,
+    "totalDeaths": 453,
+    "popData2019": 5517919,
+    "avg14DayIncidence": 21.228408143603602,
+    "percTotalCases": 0.5583626725945052,
+    "percTotalDeaths": 0.008209616705138296
+  },
+  {
+    "_id": "Dominica",
+    "geoId": "DM",
+    "totalCases": 87,
+    "totalDeaths": 0,
+    "popData2019": 71808,
+    "avg14DayIncidence": 5.926784636102362,
+    "percTotalCases": 0.12115641711229948,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "French_Polynesia",
+    "geoId": "PF",
+    "totalCases": 15618,
+    "totalDeaths": 91,
+    "popData2019": 279285,
+    "avg14DayIncidence": 292.441121451783,
+    "percTotalCases": 5.592137064289167,
+    "percTotalDeaths": 0.03258320353760495
+  },
+  {
+    "_id": "Madagascar",
+    "geoId": "MG",
+    "totalCases": 17638,
+    "totalDeaths": 258,
+    "popData2019": 26969306,
+    "avg14DayIncidence": 3.548174242109375,
+    "percTotalCases": 0.0654002739262182,
+    "percTotalDeaths": 0.0009566430815831895
+  },
+  {
+    "_id": "Hungary",
+    "geoId": "HU",
+    "totalCases": 283870,
+    "totalDeaths": 7130,
+    "popData2019": 9772756,
+    "avg14DayIncidence": 134.29147171734317,
+    "percTotalCases": 2.904707740580037,
+    "percTotalDeaths": 0.07295792507251793
+  },
+  {
+    "_id": "China",
+    "geoId": "CN",
+    "totalCases": 92021,
+    "totalDeaths": 4739,
+    "popData2019": 1433783692,
+    "avg14DayIncidence": 0.2662052264391691,
+    "percTotalCases": 0.0064180531912480425,
+    "percTotalDeaths": 0.00033052405508877833
+  },
+  {
+    "_id": "Cambodia",
+    "geoId": "KH",
+    "totalCases": 359,
+    "totalDeaths": 0,
+    "popData2019": 16486542,
+    "avg14DayIncidence": 0.08963334420731707,
+    "percTotalCases": 0.0021775336513866887,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Antigua_and_Barbuda",
+    "geoId": "AG",
+    "totalCases": 148,
+    "totalDeaths": 4,
+    "popData2019": 97115,
+    "avg14DayIncidence": 7.929144937743191,
+    "percTotalCases": 0.1523966431550224,
+    "percTotalDeaths": 0.0041188281933789836
+  },
+  {
+    "_id": "Iraq",
+    "geoId": "IQ",
+    "totalCases": 574634,
+    "totalDeaths": 12579,
+    "popData2019": 39309789,
+    "avg14DayIncidence": 60.03812358671642,
+    "percTotalCases": 1.4618089148227176,
+    "percTotalDeaths": 0.031999662984708466
+  },
+  {
+    "_id": "Equatorial_Guinea",
+    "geoId": "GQ",
+    "totalCases": 5185,
+    "totalDeaths": 85,
+    "popData2019": 1355982,
+    "avg14DayIncidence": 20.349748838244274,
+    "percTotalCases": 0.38237970710525654,
+    "percTotalDeaths": 0.006268519788610764
+  },
+  {
+    "_id": "Israel",
+    "geoId": "IL",
+    "totalCases": 357859,
+    "totalDeaths": 2999,
+    "popData2019": 8519373,
+    "avg14DayIncidence": 170.6614375394012,
+    "percTotalCases": 4.2005321283620285,
+    "percTotalDeaths": 0.03520212109506181
+  },
+  {
+    "_id": "Serbia",
+    "geoId": "RS",
+    "totalCases": 266432,
+    "totalDeaths": 2331,
+    "popData2019": 6963764,
+    "avg14DayIncidence": 168.01360817310862,
+    "percTotalCases": 3.8259768711288897,
+    "percTotalDeaths": 0.033473276808346754
+  },
+  {
+    "_id": "Sri_Lanka",
+    "geoId": "LK",
+    "totalCases": 32790,
+    "totalDeaths": 152,
+    "popData2019": 21323734,
+    "avg14DayIncidence": 5.670096145426829,
+    "percTotalCases": 0.153772317737597,
+    "percTotalDeaths": 0.0007128207470605289
+  },
+  {
+    "_id": "Togo",
+    "geoId": "TG",
+    "totalCases": 3251,
+    "totalDeaths": 66,
+    "popData2019": 8082359,
+    "avg14DayIncidence": 2.041718406920152,
+    "percTotalCases": 0.04022340507270217,
+    "percTotalDeaths": 0.0008165932743150855
+  },
+  {
+    "_id": "United_Kingdom",
+    "geoId": "UK",
+    "totalCases": 1849403,
+    "totalDeaths": 64170,
+    "popData2019": 66647112,
+    "avg14DayIncidence": 108.00673246379822,
+    "percTotalCases": 2.77491843907655,
+    "percTotalDeaths": 0.09628324180048492
+  },
+  {
+    "_id": "Suriname",
+    "geoId": "SR",
+    "totalCases": 5353,
+    "totalDeaths": 117,
+    "popData2019": 581363,
+    "avg14DayIncidence": 49.876751795875485,
+    "percTotalCases": 0.92076723148876,
+    "percTotalDeaths": 0.020125119761663538
+  },
+  {
+    "_id": "Bulgaria",
+    "geoId": "BG",
+    "totalCases": 179449,
+    "totalDeaths": 5688,
+    "popData2019": 7000039,
+    "avg14DayIncidence": 122.84260077011236,
+    "percTotalCases": 2.563542860261207,
+    "percTotalDeaths": 0.08125669014129779
+  },
+  {
+    "_id": "United_Republic_of_Tanzania",
+    "geoId": "TZ",
+    "totalCases": 509,
+    "totalDeaths": 21,
+    "popData2019": 58005461,
+    "avg14DayIncidence": 0.04656060273076923,
+    "percTotalCases": 0.0008775035853951752,
+    "percTotalDeaths": 0.00003620348780608778
+  },
+  {
+    "_id": "Eswatini",
+    "geoId": "SZ",
+    "totalCases": 6768,
+    "totalDeaths": 127,
+    "popData2019": 1148133,
+    "avg14DayIncidence": 30.49757055687023,
+    "percTotalCases": 0.5894787450582816,
+    "percTotalDeaths": 0.0110614362621752
+  },
+  {
+    "_id": "Thailand",
+    "geoId": "TH",
+    "totalCases": 4237,
+    "totalDeaths": 60,
+    "popData2019": 69625581,
+    "avg14DayIncidence": 0.25055663833333336,
+    "percTotalCases": 0.006085407028775818,
+    "percTotalDeaths": 0.00008617522344265967
+  },
+  {
+    "_id": "Democratic_Republic_of_the_Congo",
+    "geoId": "CD",
+    "totalCases": 14512,
+    "totalDeaths": 355,
+    "popData2019": 86790568,
+    "avg14DayIncidence": 0.8361647329166666,
+    "percTotalCases": 0.016720710941769617,
+    "percTotalDeaths": 0.00040903062185282624
+  },
+  {
+    "_id": "Afghanistan",
+    "geoId": "AF",
+    "totalCases": 49273,
+    "totalDeaths": 1971,
+    "popData2019": 38041757,
+    "avg14DayIncidence": 5.3526084499082565,
+    "percTotalCases": 0.1295234602334482,
+    "percTotalDeaths": 0.005181148704566932
+  },
+  {
+    "_id": "Comoros",
+    "geoId": "KM",
+    "totalCases": 628,
+    "totalDeaths": 7,
+    "popData2019": 850891,
+    "avg14DayIncidence": 4.6938153456542056,
+    "percTotalCases": 0.07380498794792753,
+    "percTotalDeaths": 0.0008226670631138419
+  },
+  {
+    "_id": "South_Sudan",
+    "geoId": "SS",
+    "totalCases": 3206,
+    "totalDeaths": 62,
+    "popData2019": 11062114,
+    "avg14DayIncidence": 1.6675534772083334,
+    "percTotalCases": 0.0289818022124885,
+    "percTotalDeaths": 0.0005604715337411999
+  },
+  {
+    "_id": "Cape_Verde",
+    "geoId": "CV",
+    "totalCases": 11357,
+    "totalDeaths": 110,
+    "popData2019": 549936,
+    "avg14DayIncidence": 109.87358074402344,
+    "percTotalCases": 2.0651493992028165,
+    "percTotalDeaths": 0.020002327543568704
+  },
+  {
+    "_id": "Botswana",
+    "geoId": "BW",
+    "totalCases": 12501,
+    "totalDeaths": 37,
+    "popData2019": 2303703,
+    "avg14DayIncidence": 28.024091505265307,
+    "percTotalCases": 0.5426480757285119,
+    "percTotalDeaths": 0.0016061098153711654
+  },
+  {
+    "_id": "Italy",
+    "geoId": "IT",
+    "totalCases": 1843712,
+    "totalDeaths": 64520,
+    "popData2019": 60359546,
+    "avg14DayIncidence": 118.91800012115726,
+    "percTotalCases": 3.0545491511814884,
+    "percTotalDeaths": 0.10689278544275334
+  },
+  {
+    "_id": "Luxembourg",
+    "geoId": "LU",
+    "totalCases": 41272,
+    "totalDeaths": 396,
+    "popData2019": 613894,
+    "avg14DayIncidence": 260.5128454215152,
+    "percTotalCases": 6.7229847498102275,
+    "percTotalDeaths": 0.06450625026470368
+  },
+  {
+    "_id": "Gabon",
+    "geoId": "GA",
+    "totalCases": 9330,
+    "totalDeaths": 63,
+    "popData2019": 2172578,
+    "avg14DayIncidence": 22.711886987756653,
+    "percTotalCases": 0.4294437299834575,
+    "percTotalDeaths": 0.002899780813393121
+  },
+  {
+    "_id": "Morocco",
+    "geoId": "MA",
+    "totalCases": 399609,
+    "totalDeaths": 6624,
+    "popData2019": 36471766,
+    "avg14DayIncidence": 54.57323884501873,
+    "percTotalCases": 1.095666713808155,
+    "percTotalDeaths": 0.018161994129925047
+  },
+  {
+    "_id": "New_Caledonia",
+    "geoId": "NC",
+    "totalCases": 36,
+    "totalDeaths": 0,
+    "popData2019": 282757,
+    "avg14DayIncidence": 0.4724684084765625,
+    "percTotalCases": 0.012731780291911427,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Niger",
+    "geoId": "NE",
+    "totalCases": 2258,
+    "totalDeaths": 80,
+    "popData2019": 23310719,
+    "avg14DayIncidence": 0.440951917734375,
+    "percTotalCases": 0.009686530904516502,
+    "percTotalDeaths": 0.0003431897574673694
+  },
+  {
+    "_id": "Aruba",
+    "geoId": "AW",
+    "totalCases": 5049,
+    "totalDeaths": 46,
+    "popData2019": 106310,
+    "avg14DayIncidence": 255.77774699881888,
+    "percTotalCases": 4.749318032170069,
+    "percTotalDeaths": 0.04326968300253974
+  },
+  {
+    "_id": "Mauritania",
+    "geoId": "MR",
+    "totalCases": 10780,
+    "totalDeaths": 222,
+    "popData2019": 4525698,
+    "avg14DayIncidence": 11.132861597442748,
+    "percTotalCases": 0.2381953015866282,
+    "percTotalDeaths": 0.0049053206820251815
+  },
+  {
+    "_id": "Cyprus",
+    "geoId": "CY",
+    "totalCases": 15101,
+    "totalDeaths": 78,
+    "popData2019": 875899,
+    "avg14DayIncidence": 76.76856513577358,
+    "percTotalCases": 1.7240572257760312,
+    "percTotalDeaths": 0.008905136322795208
+  },
+  {
+    "_id": "British_Virgin_Islands",
+    "geoId": "VG",
+    "totalCases": 76,
+    "totalDeaths": 1,
+    "popData2019": 30033,
+    "avg14DayIncidence": 13.292045417719999,
+    "percTotalCases": 0.25305497286318385,
+    "percTotalDeaths": 0.003329670695568209
+  },
+  {
+    "_id": "Haiti",
+    "geoId": "HT",
+    "totalCases": 9565,
+    "totalDeaths": 234,
+    "popData2019": 11263079,
+    "avg14DayIncidence": 4.5376731538132296,
+    "percTotalCases": 0.08492349205754483,
+    "percTotalDeaths": 0.0020775846462588073
+  },
+  {
+    "_id": "Lesotho",
+    "geoId": "LS",
+    "totalCases": 2250,
+    "totalDeaths": 44,
+    "popData2019": 2125267,
+    "avg14DayIncidence": 7.098200903631841,
+    "percTotalCases": 0.10586905080632221,
+    "percTotalDeaths": 0.0020703281046569677
+  },
+  {
+    "_id": "Liberia",
+    "geoId": "LR",
+    "totalCases": 1676,
+    "totalDeaths": 83,
+    "popData2019": 4937374,
+    "avg14DayIncidence": 1.8060051914230768,
+    "percTotalCases": 0.03394517004383302,
+    "percTotalDeaths": 0.0016810555570633298
+  },
+  {
+    "_id": "Namibia",
+    "geoId": "NA",
+    "totalCases": 16536,
+    "totalDeaths": 160,
+    "popData2019": 2494524,
+    "avg14DayIncidence": 32.64080940641222,
+    "percTotalCases": 0.6628919986338075,
+    "percTotalDeaths": 0.00641404933366045
+  },
+  {
+    "_id": "Spain",
+    "geoId": "ES",
+    "totalCases": 1730575,
+    "totalDeaths": 47624,
+    "popData2019": 46937060,
+    "avg14DayIncidence": 150.4597643755357,
+    "percTotalCases": 3.687011926183702,
+    "percTotalDeaths": 0.10146353435856444
+  },
+  {
+    "_id": "Zimbabwe",
+    "geoId": "ZW",
+    "totalCases": 11246,
+    "totalDeaths": 307,
+    "popData2019": 14645473,
+    "avg14DayIncidence": 4.004036989726562,
+    "percTotalCases": 0.07678823346982375,
+    "percTotalDeaths": 0.002096210890559834
+  },
+  {
+    "_id": "Cote_dIvoire",
+    "geoId": "CI",
+    "totalCases": 21680,
+    "totalDeaths": 133,
+    "popData2019": 25716554,
+    "avg14DayIncidence": 4.444164376159696,
+    "percTotalCases": 0.08430367459030474,
+    "percTotalDeaths": 0.0005171766014995633
+  },
+  {
+    "_id": "Saint_Vincent_and_the_Grenadines",
+    "geoId": "VC",
+    "totalCases": 98,
+    "totalDeaths": 0,
+    "popData2019": 110593,
+    "avg14DayIncidence": 4.353104851422924,
+    "percTotalCases": 0.08861320336730173,
+    "percTotalDeaths": 0
+  },
+  {
+    "_id": "Guinea",
+    "geoId": "GN",
+    "totalCases": 13420,
+    "totalDeaths": 79,
+    "popData2019": 12771246,
+    "avg14DayIncidence": 5.54833571480916,
+    "percTotalCases": 0.10507980192379038,
+    "percTotalDeaths": 0.000618577075408304
+  },
+  {
+    "_id": "Guinea_Bissau",
+    "geoId": "GW",
+    "totalCases": 2444,
+    "totalDeaths": 44,
+    "popData2019": 1920917,
+    "avg14DayIncidence": 7.08911421032,
+    "percTotalCases": 0.12723090065838347,
+    "percTotalDeaths": 0.002290572679610832
+  }
+]

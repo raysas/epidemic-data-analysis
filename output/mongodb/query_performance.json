@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "69119d6ab6cea8dd1dce5f47",
+    "query_name": "continent_stats",
+    "executionTimeMillis": 85,
+    "totalDocsExamined": 61900,
+    "nReturned": 6,
+    "timestamp": "2025-11-10T08:08:10.993Z"
+  },
+  {
+    "_id": "69119d6bb6cea8dd1dce5f48",
+    "query_name": "country_stats",
+    "executionTimeMillis": 61,
+    "totalDocsExamined": 61900,
+    "nReturned": 214,
+    "timestamp": "2025-11-10T08:08:11.093Z"
+  },
+  {
+    "_id": "69119d6bb6cea8dd1dce5f49",
+    "query_name": "country_daily_stats_USA",
+    "executionTimeMillis": 47,
+    "totalDocsExamined": 61900,
+    "nReturned": 350,
+    "timestamp": "2025-11-10T08:08:11.840Z"
+  },
+  {
+    "_id": "69119d6cb6cea8dd1dce5f4a",
+    "query_name": "worldwide_daily_stats",
+    "executionTimeMillis": 120,
+    "totalDocsExamined": 61900,
+    "nReturned": 61900,
+    "timestamp": "2025-11-10T08:08:12.172Z"
+  },
+  {
+    "_id": "69119d6cb6cea8dd1dce5f4b",
+    "query_name": "weekly_stats",
+    "executionTimeMillis": 109,
+    "totalDocsExamined": 61900,
+    "nReturned": 51,
+    "timestamp": "2025-11-10T08:08:12.443Z"
+  },
+  {
+    "_id": "6911a1e8b6cea8dd1dce5f4c",
+    "query_name": "start_end_date_incidence_stats",
+    "executionTimeMillis": null,
+    "totalDocsExamined": null,
+    "nReturned": null,
+    "timestamp": "2025-11-10T08:27:11.440Z"
+  }
+]

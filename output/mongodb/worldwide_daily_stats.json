@@ -1,0 +1,3502 @@
+[
+  {
+    "_id": "31/12/2019",
+    "year": 2019,
+    "month": 12,
+    "day": 31,
+    "totalCases": 27,
+    "totalDeaths": 0,
+    "cumulativeCases": 27,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "01/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 1,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 27,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "02/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 2,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 27,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "03/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 3,
+    "totalCases": 17,
+    "totalDeaths": 0,
+    "cumulativeCases": 44,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "04/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 4,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 44,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "05/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 5,
+    "totalCases": 15,
+    "totalDeaths": 0,
+    "cumulativeCases": 59,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "06/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 6,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 59,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "07/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 7,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 59,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "08/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 8,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 59,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "09/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 9,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 59,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "10/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 10,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 59,
+    "cumulativeDeaths": 0
+  },
+  {
+    "_id": "11/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 11,
+    "totalCases": 0,
+    "totalDeaths": 1,
+    "cumulativeCases": 59,
+    "cumulativeDeaths": 1
+  },
+  {
+    "_id": "12/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 12,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 59,
+    "cumulativeDeaths": 1
+  },
+  {
+    "_id": "13/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 13,
+    "totalCases": 1,
+    "totalDeaths": 0,
+    "cumulativeCases": 60,
+    "cumulativeDeaths": 1
+  },
+  {
+    "_id": "14/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 14,
+    "totalCases": 1,
+    "totalDeaths": 0,
+    "cumulativeCases": 61,
+    "cumulativeDeaths": 1
+  },
+  {
+    "_id": "15/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 15,
+    "totalCases": 1,
+    "totalDeaths": 1,
+    "cumulativeCases": 62,
+    "cumulativeDeaths": 2
+  },
+  {
+    "_id": "16/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 16,
+    "totalCases": 0,
+    "totalDeaths": 0,
+    "cumulativeCases": 62,
+    "cumulativeDeaths": 2
+  },
+  {
+    "_id": "17/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 17,
+    "totalCases": 5,
+    "totalDeaths": 0,
+    "cumulativeCases": 67,
+    "cumulativeDeaths": 2
+  },
+  {
+    "_id": "18/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 18,
+    "totalCases": 17,
+    "totalDeaths": 0,
+    "cumulativeCases": 84,
+    "cumulativeDeaths": 2
+  },
+  {
+    "_id": "19/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 19,
+    "totalCases": 136,
+    "totalDeaths": 1,
+    "cumulativeCases": 220,
+    "cumulativeDeaths": 3
+  },
+  {
+    "_id": "20/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 20,
+    "totalCases": 20,
+    "totalDeaths": 0,
+    "cumulativeCases": 240,
+    "cumulativeDeaths": 3
+  },
+  {
+    "_id": "21/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 21,
+    "totalCases": 153,
+    "totalDeaths": 3,
+    "cumulativeCases": 393,
+    "cumulativeDeaths": 6
+  },
+  {
+    "_id": "22/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 22,
+    "totalCases": 142,
+    "totalDeaths": 11,
+    "cumulativeCases": 535,
+    "cumulativeDeaths": 17
+  },
+  {
+    "_id": "23/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 23,
+    "totalCases": 97,
+    "totalDeaths": 0,
+    "cumulativeCases": 632,
+    "cumulativeDeaths": 17
+  },
+  {
+    "_id": "24/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 24,
+    "totalCases": 266,
+    "totalDeaths": 9,
+    "cumulativeCases": 898,
+    "cumulativeDeaths": 26
+  },
+  {
+    "_id": "25/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 25,
+    "totalCases": 453,
+    "totalDeaths": 15,
+    "cumulativeCases": 1351,
+    "cumulativeDeaths": 41
+  },
+  {
+    "_id": "26/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 26,
+    "totalCases": 673,
+    "totalDeaths": 15,
+    "cumulativeCases": 2024,
+    "cumulativeDeaths": 56
+  },
+  {
+    "_id": "27/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 27,
+    "totalCases": 797,
+    "totalDeaths": 25,
+    "cumulativeCases": 2821,
+    "cumulativeDeaths": 81
+  },
+  {
+    "_id": "28/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 28,
+    "totalCases": 1767,
+    "totalDeaths": 25,
+    "cumulativeCases": 4588,
+    "cumulativeDeaths": 106
+  },
+  {
+    "_id": "29/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 29,
+    "totalCases": 1480,
+    "totalDeaths": 26,
+    "cumulativeCases": 6068,
+    "cumulativeDeaths": 132
+  },
+  {
+    "_id": "30/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 30,
+    "totalCases": 1757,
+    "totalDeaths": 38,
+    "cumulativeCases": 7825,
+    "cumulativeDeaths": 170
+  },
+  {
+    "_id": "31/01/2020",
+    "year": 2020,
+    "month": 1,
+    "day": 31,
+    "totalCases": 2001,
+    "totalDeaths": 43,
+    "cumulativeCases": 9826,
+    "cumulativeDeaths": 213
+  },
+  {
+    "_id": "01/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 1,
+    "totalCases": 2121,
+    "totalDeaths": 46,
+    "cumulativeCases": 11947,
+    "cumulativeDeaths": 259
+  },
+  {
+    "_id": "02/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 2,
+    "totalCases": 2608,
+    "totalDeaths": 46,
+    "cumulativeCases": 14555,
+    "cumulativeDeaths": 305
+  },
+  {
+    "_id": "03/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 3,
+    "totalCases": 2818,
+    "totalDeaths": 57,
+    "cumulativeCases": 17373,
+    "cumulativeDeaths": 362
+  },
+  {
+    "_id": "04/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 4,
+    "totalCases": 3243,
+    "totalDeaths": 65,
+    "cumulativeCases": 20616,
+    "cumulativeDeaths": 427
+  },
+  {
+    "_id": "05/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 5,
+    "totalCases": 3909,
+    "totalDeaths": 66,
+    "cumulativeCases": 24525,
+    "cumulativeDeaths": 493
+  },
+  {
+    "_id": "06/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 6,
+    "totalCases": 3751,
+    "totalDeaths": 72,
+    "cumulativeCases": 28276,
+    "cumulativeDeaths": 565
+  },
+  {
+    "_id": "07/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 7,
+    "totalCases": 3218,
+    "totalDeaths": 73,
+    "cumulativeCases": 31494,
+    "cumulativeDeaths": 638
+  },
+  {
+    "_id": "08/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 8,
+    "totalCases": 3442,
+    "totalDeaths": 86,
+    "cumulativeCases": 34936,
+    "cumulativeDeaths": 724
+  },
+  {
+    "_id": "09/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 9,
+    "totalCases": 2618,
+    "totalDeaths": 89,
+    "cumulativeCases": 37554,
+    "cumulativeDeaths": 813
+  },
+  {
+    "_id": "10/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 10,
+    "totalCases": 2992,
+    "totalDeaths": 97,
+    "cumulativeCases": 40546,
+    "cumulativeDeaths": 910
+  },
+  {
+    "_id": "11/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 11,
+    "totalCases": 2563,
+    "totalDeaths": 108,
+    "cumulativeCases": 43109,
+    "cumulativeDeaths": 1018
+  },
+  {
+    "_id": "12/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 12,
+    "totalCases": 2072,
+    "totalDeaths": 97,
+    "cumulativeCases": 45181,
+    "cumulativeDeaths": 1115
+  },
+  {
+    "_id": "13/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 13,
+    "totalCases": 15151,
+    "totalDeaths": 255,
+    "cumulativeCases": 60332,
+    "cumulativeDeaths": 1370
+  },
+  {
+    "_id": "14/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 14,
+    "totalCases": 4215,
+    "totalDeaths": 13,
+    "cumulativeCases": 64547,
+    "cumulativeDeaths": 1383
+  },
+  {
+    "_id": "15/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 15,
+    "totalCases": 2560,
+    "totalDeaths": 144,
+    "cumulativeCases": 67107,
+    "cumulativeDeaths": 1527
+  },
+  {
+    "_id": "16/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 16,
+    "totalCases": 2162,
+    "totalDeaths": 142,
+    "cumulativeCases": 69269,
+    "cumulativeDeaths": 1669
+  },
+  {
+    "_id": "17/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 17,
+    "totalCases": 2067,
+    "totalDeaths": 106,
+    "cumulativeCases": 71336,
+    "cumulativeDeaths": 1775
+  },
+  {
+    "_id": "18/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 18,
+    "totalCases": 1995,
+    "totalDeaths": 98,
+    "cumulativeCases": 73331,
+    "cumulativeDeaths": 1873
+  },
+  {
+    "_id": "19/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 19,
+    "totalCases": 1864,
+    "totalDeaths": 139,
+    "cumulativeCases": 75195,
+    "cumulativeDeaths": 2012
+  },
+  {
+    "_id": "20/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 20,
+    "totalCases": 532,
+    "totalDeaths": 116,
+    "cumulativeCases": 75727,
+    "cumulativeDeaths": 2128
+  },
+  {
+    "_id": "21/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 21,
+    "totalCases": 996,
+    "totalDeaths": 119,
+    "cumulativeCases": 76723,
+    "cumulativeDeaths": 2247
+  },
+  {
+    "_id": "22/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 22,
+    "totalCases": 1085,
+    "totalDeaths": 112,
+    "cumulativeCases": 77808,
+    "cumulativeDeaths": 2359
+  },
+  {
+    "_id": "23/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 23,
+    "totalCases": 1010,
+    "totalDeaths": 104,
+    "cumulativeCases": 78818,
+    "cumulativeDeaths": 2463
+  },
+  {
+    "_id": "24/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 24,
+    "totalCases": 523,
+    "totalDeaths": 156,
+    "cumulativeCases": 79341,
+    "cumulativeDeaths": 2619
+  },
+  {
+    "_id": "25/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 25,
+    "totalCases": 795,
+    "totalDeaths": 79,
+    "cumulativeCases": 80136,
+    "cumulativeDeaths": 2698
+  },
+  {
+    "_id": "26/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 26,
+    "totalCases": 867,
+    "totalDeaths": 64,
+    "cumulativeCases": 81003,
+    "cumulativeDeaths": 2762
+  },
+  {
+    "_id": "27/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 27,
+    "totalCases": 1114,
+    "totalDeaths": 38,
+    "cumulativeCases": 82117,
+    "cumulativeDeaths": 2800
+  },
+  {
+    "_id": "28/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 28,
+    "totalCases": 1271,
+    "totalDeaths": 57,
+    "cumulativeCases": 83388,
+    "cumulativeDeaths": 2857
+  },
+  {
+    "_id": "29/02/2020",
+    "year": 2020,
+    "month": 2,
+    "day": 29,
+    "totalCases": 1860,
+    "totalDeaths": 64,
+    "cumulativeCases": 85248,
+    "cumulativeDeaths": 2921
+  },
+  {
+    "_id": "01/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 1,
+    "totalCases": 1843,
+    "totalDeaths": 58,
+    "cumulativeCases": 87091,
+    "cumulativeDeaths": 2979
+  },
+  {
+    "_id": "02/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 2,
+    "totalCases": 2068,
+    "totalDeaths": 67,
+    "cumulativeCases": 89159,
+    "cumulativeDeaths": 3046
+  },
+  {
+    "_id": "03/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 3,
+    "totalCases": 1858,
+    "totalDeaths": 72,
+    "cumulativeCases": 91017,
+    "cumulativeDeaths": 3118
+  },
+  {
+    "_id": "04/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 4,
+    "totalCases": 2315,
+    "totalDeaths": 84,
+    "cumulativeCases": 93332,
+    "cumulativeDeaths": 3202
+  },
+  {
+    "_id": "05/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 5,
+    "totalCases": 2357,
+    "totalDeaths": 80,
+    "cumulativeCases": 95689,
+    "cumulativeDeaths": 3282
+  },
+  {
+    "_id": "06/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 6,
+    "totalCases": 3060,
+    "totalDeaths": 102,
+    "cumulativeCases": 98749,
+    "cumulativeDeaths": 3384
+  },
+  {
+    "_id": "07/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 7,
+    "totalCases": 4120,
+    "totalDeaths": 104,
+    "cumulativeCases": 102869,
+    "cumulativeDeaths": 3488
+  },
+  {
+    "_id": "08/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 8,
+    "totalCases": 3980,
+    "totalDeaths": 97,
+    "cumulativeCases": 106849,
+    "cumulativeDeaths": 3585
+  },
+  {
+    "_id": "09/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 9,
+    "totalCases": 4177,
+    "totalDeaths": 228,
+    "cumulativeCases": 111026,
+    "cumulativeDeaths": 3813
+  },
+  {
+    "_id": "10/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 10,
+    "totalCases": 4820,
+    "totalDeaths": 209,
+    "cumulativeCases": 115846,
+    "cumulativeDeaths": 4022
+  },
+  {
+    "_id": "11/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 11,
+    "totalCases": 5117,
+    "totalDeaths": 272,
+    "cumulativeCases": 120963,
+    "cumulativeDeaths": 4294
+  },
+  {
+    "_id": "12/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 12,
+    "totalCases": 7922,
+    "totalDeaths": 345,
+    "cumulativeCases": 128885,
+    "cumulativeDeaths": 4639
+  },
+  {
+    "_id": "13/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 13,
+    "totalCases": 9475,
+    "totalDeaths": 350,
+    "cumulativeCases": 138360,
+    "cumulativeDeaths": 4989
+  },
+  {
+    "_id": "14/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 14,
+    "totalCases": 10464,
+    "totalDeaths": 443,
+    "cumulativeCases": 148824,
+    "cumulativeDeaths": 5432
+  },
+  {
+    "_id": "15/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 15,
+    "totalCases": 12191,
+    "totalDeaths": 367,
+    "cumulativeCases": 161015,
+    "cumulativeDeaths": 5799
+  },
+  {
+    "_id": "16/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 16,
+    "totalCases": 12489,
+    "totalDeaths": 751,
+    "cumulativeCases": 173504,
+    "cumulativeDeaths": 6550
+  },
+  {
+    "_id": "17/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 17,
+    "totalCases": 14238,
+    "totalDeaths": 607,
+    "cumulativeCases": 187742,
+    "cumulativeDeaths": 7157
+  },
+  {
+    "_id": "18/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 18,
+    "totalCases": 17094,
+    "totalDeaths": 811,
+    "cumulativeCases": 204836,
+    "cumulativeDeaths": 7968
+  },
+  {
+    "_id": "19/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 19,
+    "totalCases": 20289,
+    "totalDeaths": 963,
+    "cumulativeCases": 225125,
+    "cumulativeDeaths": 8931
+  },
+  {
+    "_id": "20/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 20,
+    "totalCases": 31204,
+    "totalDeaths": 1075,
+    "cumulativeCases": 256329,
+    "cumulativeDeaths": 10006
+  },
+  {
+    "_id": "21/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 21,
+    "totalCases": 31985,
+    "totalDeaths": 1387,
+    "cumulativeCases": 288314,
+    "cumulativeDeaths": 11393
+  },
+  {
+    "_id": "22/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 22,
+    "totalCases": 34234,
+    "totalDeaths": 1716,
+    "cumulativeCases": 322548,
+    "cumulativeDeaths": 13109
+  },
+  {
+    "_id": "23/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 23,
+    "totalCases": 34270,
+    "totalDeaths": 1691,
+    "cumulativeCases": 356818,
+    "cumulativeDeaths": 14800
+  },
+  {
+    "_id": "24/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 24,
+    "totalCases": 44560,
+    "totalDeaths": 1854,
+    "cumulativeCases": 401378,
+    "cumulativeDeaths": 16654
+  },
+  {
+    "_id": "25/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 25,
+    "totalCases": 42544,
+    "totalDeaths": 2316,
+    "cumulativeCases": 443922,
+    "cumulativeDeaths": 18970
+  },
+  {
+    "_id": "26/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 26,
+    "totalCases": 53825,
+    "totalDeaths": 2645,
+    "cumulativeCases": 497747,
+    "cumulativeDeaths": 21615
+  },
+  {
+    "_id": "27/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 27,
+    "totalCases": 61109,
+    "totalDeaths": 2814,
+    "cumulativeCases": 558856,
+    "cumulativeDeaths": 24429
+  },
+  {
+    "_id": "28/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 28,
+    "totalCases": 65192,
+    "totalDeaths": 3492,
+    "cumulativeCases": 624048,
+    "cumulativeDeaths": 27921
+  },
+  {
+    "_id": "29/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 29,
+    "totalCases": 62847,
+    "totalDeaths": 3590,
+    "cumulativeCases": 686895,
+    "cumulativeDeaths": 31511
+  },
+  {
+    "_id": "30/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 30,
+    "totalCases": 57369,
+    "totalDeaths": 3231,
+    "cumulativeCases": 744264,
+    "cumulativeDeaths": 34742
+  },
+  {
+    "_id": "31/03/2020",
+    "year": 2020,
+    "month": 3,
+    "day": 31,
+    "totalCases": 64722,
+    "totalDeaths": 3993,
+    "cumulativeCases": 808986,
+    "cumulativeDeaths": 38735
+  },
+  {
+    "_id": "01/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 1,
+    "totalCases": 74847,
+    "totalDeaths": 4677,
+    "cumulativeCases": 883833,
+    "cumulativeDeaths": 43412
+  },
+  {
+    "_id": "02/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 2,
+    "totalCases": 77636,
+    "totalDeaths": 5016,
+    "cumulativeCases": 961469,
+    "cumulativeDeaths": 48428
+  },
+  {
+    "_id": "03/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 3,
+    "totalCases": 77647,
+    "totalDeaths": 5026,
+    "cumulativeCases": 1039116,
+    "cumulativeDeaths": 53454
+  },
+  {
+    "_id": "04/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 4,
+    "totalCases": 82003,
+    "totalDeaths": 6786,
+    "cumulativeCases": 1121119,
+    "cumulativeDeaths": 60240
+  },
+  {
+    "_id": "05/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 5,
+    "totalCases": 85274,
+    "totalDeaths": 6299,
+    "cumulativeCases": 1206393,
+    "cumulativeDeaths": 66539
+  },
+  {
+    "_id": "06/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 6,
+    "totalCases": 66262,
+    "totalDeaths": 4772,
+    "cumulativeCases": 1272655,
+    "cumulativeDeaths": 71311
+  },
+  {
+    "_id": "07/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 7,
+    "totalCases": 73306,
+    "totalDeaths": 5345,
+    "cumulativeCases": 1345961,
+    "cumulativeDeaths": 76656
+  },
+  {
+    "_id": "08/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 8,
+    "totalCases": 77348,
+    "totalDeaths": 7576,
+    "cumulativeCases": 1423309,
+    "cumulativeDeaths": 84232
+  },
+  {
+    "_id": "09/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 9,
+    "totalCases": 85091,
+    "totalDeaths": 6572,
+    "cumulativeCases": 1508400,
+    "cumulativeDeaths": 90804
+  },
+  {
+    "_id": "10/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 10,
+    "totalCases": 87409,
+    "totalDeaths": 7425,
+    "cumulativeCases": 1595809,
+    "cumulativeDeaths": 98229
+  },
+  {
+    "_id": "11/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 11,
+    "totalCases": 89630,
+    "totalDeaths": 7015,
+    "cumulativeCases": 1685439,
+    "cumulativeDeaths": 105244
+  },
+  {
+    "_id": "12/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 12,
+    "totalCases": 75356,
+    "totalDeaths": 6064,
+    "cumulativeCases": 1760795,
+    "cumulativeDeaths": 111308
+  },
+  {
+    "_id": "13/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 13,
+    "totalCases": 68521,
+    "totalDeaths": 5334,
+    "cumulativeCases": 1829316,
+    "cumulativeDeaths": 116642
+  },
+  {
+    "_id": "14/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 14,
+    "totalCases": 65259,
+    "totalDeaths": 5390,
+    "cumulativeCases": 1894575,
+    "cumulativeDeaths": 122032
+  },
+  {
+    "_id": "15/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 15,
+    "totalCases": 76975,
+    "totalDeaths": 7619,
+    "cumulativeCases": 1971550,
+    "cumulativeDeaths": 129651
+  },
+  {
+    "_id": "16/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 16,
+    "totalCases": 78819,
+    "totalDeaths": 10491,
+    "cumulativeCases": 2050369,
+    "cumulativeDeaths": 140142
+  },
+  {
+    "_id": "17/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 17,
+    "totalCases": 84428,
+    "totalDeaths": 8527,
+    "cumulativeCases": 2134797,
+    "cumulativeDeaths": 148669
+  },
+  {
+    "_id": "18/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 18,
+    "totalCases": 82272,
+    "totalDeaths": 8463,
+    "cumulativeCases": 2217069,
+    "cumulativeDeaths": 157132
+  },
+  {
+    "_id": "19/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 19,
+    "totalCases": 79693,
+    "totalDeaths": 6373,
+    "cumulativeCases": 2296762,
+    "cumulativeDeaths": 163505
+  },
+  {
+    "_id": "20/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 20,
+    "totalCases": 70507,
+    "totalDeaths": 4988,
+    "cumulativeCases": 2367269,
+    "cumulativeDeaths": 168493
+  },
+  {
+    "_id": "21/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 21,
+    "totalCases": 74666,
+    "totalDeaths": 5450,
+    "cumulativeCases": 2441935,
+    "cumulativeDeaths": 173943
+  },
+  {
+    "_id": "22/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 22,
+    "totalCases": 87310,
+    "totalDeaths": 7243,
+    "cumulativeCases": 2529245,
+    "cumulativeDeaths": 181186
+  },
+  {
+    "_id": "23/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 23,
+    "totalCases": 66604,
+    "totalDeaths": 5935,
+    "cumulativeCases": 2595849,
+    "cumulativeDeaths": 187121
+  },
+  {
+    "_id": "24/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 24,
+    "totalCases": 78789,
+    "totalDeaths": 7335,
+    "cumulativeCases": 2674638,
+    "cumulativeDeaths": 194456
+  },
+  {
+    "_id": "25/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 25,
+    "totalCases": 73149,
+    "totalDeaths": 5359,
+    "cumulativeCases": 2747787,
+    "cumulativeDeaths": 199815
+  },
+  {
+    "_id": "26/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 26,
+    "totalCases": 99848,
+    "totalDeaths": 6161,
+    "cumulativeCases": 2847635,
+    "cumulativeDeaths": 205976
+  },
+  {
+    "_id": "27/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 27,
+    "totalCases": 81832,
+    "totalDeaths": 3912,
+    "cumulativeCases": 2929467,
+    "cumulativeDeaths": 209888
+  },
+  {
+    "_id": "28/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 28,
+    "totalCases": 66781,
+    "totalDeaths": 4899,
+    "cumulativeCases": 2996248,
+    "cumulativeDeaths": 214787
+  },
+  {
+    "_id": "29/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 29,
+    "totalCases": 72825,
+    "totalDeaths": 6566,
+    "cumulativeCases": 3069073,
+    "cumulativeDeaths": 221353
+  },
+  {
+    "_id": "30/04/2020",
+    "year": 2020,
+    "month": 4,
+    "day": 30,
+    "totalCases": 79507,
+    "totalDeaths": 6562,
+    "cumulativeCases": 3148580,
+    "cumulativeDeaths": 227915
+  },
+  {
+    "_id": "01/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 1,
+    "totalCases": 85674,
+    "totalDeaths": 5650,
+    "cumulativeCases": 3234254,
+    "cumulativeDeaths": 233565
+  },
+  {
+    "_id": "02/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 2,
+    "totalCases": 88530,
+    "totalDeaths": 5577,
+    "cumulativeCases": 3322784,
+    "cumulativeDeaths": 239142
+  },
+  {
+    "_id": "03/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 3,
+    "totalCases": 80639,
+    "totalDeaths": 4808,
+    "cumulativeCases": 3403423,
+    "cumulativeDeaths": 243950
+  },
+  {
+    "_id": "04/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 4,
+    "totalCases": 77017,
+    "totalDeaths": 3706,
+    "cumulativeCases": 3480440,
+    "cumulativeDeaths": 247656
+  },
+  {
+    "_id": "05/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 5,
+    "totalCases": 77607,
+    "totalDeaths": 3986,
+    "cumulativeCases": 3558047,
+    "cumulativeDeaths": 251642
+  },
+  {
+    "_id": "06/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 6,
+    "totalCases": 79558,
+    "totalDeaths": 5957,
+    "cumulativeCases": 3637605,
+    "cumulativeDeaths": 257599
+  },
+  {
+    "_id": "07/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 7,
+    "totalCases": 88302,
+    "totalDeaths": 6124,
+    "cumulativeCases": 3725907,
+    "cumulativeDeaths": 263723
+  },
+  {
+    "_id": "08/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 8,
+    "totalCases": 92817,
+    "totalDeaths": 5642,
+    "cumulativeCases": 3818724,
+    "cumulativeDeaths": 269365
+  },
+  {
+    "_id": "09/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 9,
+    "totalCases": 89696,
+    "totalDeaths": 5112,
+    "cumulativeCases": 3908420,
+    "cumulativeDeaths": 274477
+  },
+  {
+    "_id": "10/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 10,
+    "totalCases": 88423,
+    "totalDeaths": 4406,
+    "cumulativeCases": 3996843,
+    "cumulativeDeaths": 278883
+  },
+  {
+    "_id": "11/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 11,
+    "totalCases": 74535,
+    "totalDeaths": 3426,
+    "cumulativeCases": 4071378,
+    "cumulativeDeaths": 282309
+  },
+  {
+    "_id": "12/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 12,
+    "totalCases": 71367,
+    "totalDeaths": 3590,
+    "cumulativeCases": 4142745,
+    "cumulativeDeaths": 285899
+  },
+  {
+    "_id": "13/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 13,
+    "totalCases": 87118,
+    "totalDeaths": 5758,
+    "cumulativeCases": 4229863,
+    "cumulativeDeaths": 291657
+  },
+  {
+    "_id": "14/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 14,
+    "totalCases": 87502,
+    "totalDeaths": 5017,
+    "cumulativeCases": 4317365,
+    "cumulativeDeaths": 296674
+  },
+  {
+    "_id": "15/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 15,
+    "totalCases": 97180,
+    "totalDeaths": 5256,
+    "cumulativeCases": 4414545,
+    "cumulativeDeaths": 301930
+  },
+  {
+    "_id": "16/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 16,
+    "totalCases": 98236,
+    "totalDeaths": 5059,
+    "cumulativeCases": 4512781,
+    "cumulativeDeaths": 306989
+  },
+  {
+    "_id": "17/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 17,
+    "totalCases": 92967,
+    "totalDeaths": 4224,
+    "cumulativeCases": 4605748,
+    "cumulativeDeaths": 311213
+  },
+  {
+    "_id": "18/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 18,
+    "totalCases": 79049,
+    "totalDeaths": 2898,
+    "cumulativeCases": 4684797,
+    "cumulativeDeaths": 314111
+  },
+  {
+    "_id": "19/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 19,
+    "totalCases": 87957,
+    "totalDeaths": 3298,
+    "cumulativeCases": 4772754,
+    "cumulativeDeaths": 317409
+  },
+  {
+    "_id": "20/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 20,
+    "totalCases": 96382,
+    "totalDeaths": 5184,
+    "cumulativeCases": 4869136,
+    "cumulativeDeaths": 322593
+  },
+  {
+    "_id": "21/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 21,
+    "totalCases": 104973,
+    "totalDeaths": 4718,
+    "cumulativeCases": 4974109,
+    "cumulativeDeaths": 327311
+  },
+  {
+    "_id": "22/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 22,
+    "totalCases": 108771,
+    "totalDeaths": 5389,
+    "cumulativeCases": 5082880,
+    "cumulativeDeaths": 332700
+  },
+  {
+    "_id": "23/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 23,
+    "totalCases": 106811,
+    "totalDeaths": 4646,
+    "cumulativeCases": 5189691,
+    "cumulativeDeaths": 337346
+  },
+  {
+    "_id": "24/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 24,
+    "totalCases": 98946,
+    "totalDeaths": 3916,
+    "cumulativeCases": 5288637,
+    "cumulativeDeaths": 341262
+  },
+  {
+    "_id": "25/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 25,
+    "totalCases": 92252,
+    "totalDeaths": 1106,
+    "cumulativeCases": 5380889,
+    "cumulativeDeaths": 342368
+  },
+  {
+    "_id": "26/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 26,
+    "totalCases": 90950,
+    "totalDeaths": 3368,
+    "cumulativeCases": 5471839,
+    "cumulativeDeaths": 345736
+  },
+  {
+    "_id": "27/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 27,
+    "totalCases": 94641,
+    "totalDeaths": 3871,
+    "cumulativeCases": 5566480,
+    "cumulativeDeaths": 349607
+  },
+  {
+    "_id": "28/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 28,
+    "totalCases": 103816,
+    "totalDeaths": 5143,
+    "cumulativeCases": 5670296,
+    "cumulativeDeaths": 354750
+  },
+  {
+    "_id": "29/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 29,
+    "totalCases": 119328,
+    "totalDeaths": 4641,
+    "cumulativeCases": 5789624,
+    "cumulativeDeaths": 359391
+  },
+  {
+    "_id": "30/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 30,
+    "totalCases": 123188,
+    "totalDeaths": 4656,
+    "cumulativeCases": 5912812,
+    "cumulativeDeaths": 364047
+  },
+  {
+    "_id": "31/05/2020",
+    "year": 2020,
+    "month": 5,
+    "day": 31,
+    "totalCases": 127764,
+    "totalDeaths": 4010,
+    "cumulativeCases": 6040576,
+    "cumulativeDeaths": 368057
+  },
+  {
+    "_id": "01/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 1,
+    "totalCases": 105626,
+    "totalDeaths": 2914,
+    "cumulativeCases": 6146202,
+    "cumulativeDeaths": 370971
+  },
+  {
+    "_id": "02/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 2,
+    "totalCases": 102772,
+    "totalDeaths": 3145,
+    "cumulativeCases": 6248974,
+    "cumulativeDeaths": 374116
+  },
+  {
+    "_id": "03/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 3,
+    "totalCases": 113214,
+    "totalDeaths": 4544,
+    "cumulativeCases": 6362188,
+    "cumulativeDeaths": 378660
+  },
+  {
+    "_id": "04/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 4,
+    "totalCases": 126514,
+    "totalDeaths": 5516,
+    "cumulativeCases": 6488702,
+    "cumulativeDeaths": 384176
+  },
+  {
+    "_id": "05/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 5,
+    "totalCases": 127354,
+    "totalDeaths": 5130,
+    "cumulativeCases": 6616056,
+    "cumulativeDeaths": 389306
+  },
+  {
+    "_id": "06/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 6,
+    "totalCases": 133856,
+    "totalDeaths": 4639,
+    "cumulativeCases": 6749912,
+    "cumulativeDeaths": 393945
+  },
+  {
+    "_id": "07/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 7,
+    "totalCases": 125387,
+    "totalDeaths": 3787,
+    "cumulativeCases": 6875299,
+    "cumulativeDeaths": 397732
+  },
+  {
+    "_id": "08/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 8,
+    "totalCases": 113667,
+    "totalDeaths": 3511,
+    "cumulativeCases": 6988966,
+    "cumulativeDeaths": 401243
+  },
+  {
+    "_id": "09/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 9,
+    "totalCases": 108752,
+    "totalDeaths": 3214,
+    "cumulativeCases": 7097718,
+    "cumulativeDeaths": 404457
+  },
+  {
+    "_id": "10/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 10,
+    "totalCases": 126773,
+    "totalDeaths": 4853,
+    "cumulativeCases": 7224491,
+    "cumulativeDeaths": 409310
+  },
+  {
+    "_id": "11/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 11,
+    "totalCases": 135663,
+    "totalDeaths": 5131,
+    "cumulativeCases": 7360154,
+    "cumulativeDeaths": 414441
+  },
+  {
+    "_id": "12/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 12,
+    "totalCases": 136728,
+    "totalDeaths": 4695,
+    "cumulativeCases": 7496882,
+    "cumulativeDeaths": 419136
+  },
+  {
+    "_id": "13/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 13,
+    "totalCases": 144986,
+    "totalDeaths": 4647,
+    "cumulativeCases": 7641868,
+    "cumulativeDeaths": 423783
+  },
+  {
+    "_id": "14/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 14,
+    "totalCases": 132970,
+    "totalDeaths": 4139,
+    "cumulativeCases": 7774838,
+    "cumulativeDeaths": 427922
+  },
+  {
+    "_id": "15/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 15,
+    "totalCases": 119616,
+    "totalDeaths": 3157,
+    "cumulativeCases": 7894454,
+    "cumulativeDeaths": 431079
+  },
+  {
+    "_id": "16/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 16,
+    "totalCases": 121596,
+    "totalDeaths": 3377,
+    "cumulativeCases": 8016050,
+    "cumulativeDeaths": 434456
+  },
+  {
+    "_id": "17/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 17,
+    "totalCases": 143251,
+    "totalDeaths": 6719,
+    "cumulativeCases": 8159301,
+    "cumulativeDeaths": 441175
+  },
+  {
+    "_id": "18/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 18,
+    "totalCases": 178023,
+    "totalDeaths": 5099,
+    "cumulativeCases": 8337324,
+    "cumulativeDeaths": 446274
+  },
+  {
+    "_id": "19/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 19,
+    "totalCases": 138809,
+    "totalDeaths": 6275,
+    "cumulativeCases": 8476133,
+    "cumulativeDeaths": 452549
+  },
+  {
+    "_id": "20/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 20,
+    "totalCases": 181355,
+    "totalDeaths": 5032,
+    "cumulativeCases": 8657488,
+    "cumulativeDeaths": 457581
+  },
+  {
+    "_id": "21/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 21,
+    "totalCases": 159136,
+    "totalDeaths": 4116,
+    "cumulativeCases": 8816624,
+    "cumulativeDeaths": 461697
+  },
+  {
+    "_id": "22/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 22,
+    "totalCases": 126285,
+    "totalDeaths": 3967,
+    "cumulativeCases": 8942909,
+    "cumulativeDeaths": 465664
+  },
+  {
+    "_id": "23/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 23,
+    "totalCases": 136494,
+    "totalDeaths": 3395,
+    "cumulativeCases": 9079403,
+    "cumulativeDeaths": 469059
+  },
+  {
+    "_id": "24/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 24,
+    "totalCases": 164177,
+    "totalDeaths": 5350,
+    "cumulativeCases": 9243580,
+    "cumulativeDeaths": 474409
+  },
+  {
+    "_id": "25/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 25,
+    "totalCases": 175824,
+    "totalDeaths": 5215,
+    "cumulativeCases": 9419404,
+    "cumulativeDeaths": 479624
+  },
+  {
+    "_id": "26/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 26,
+    "totalCases": 178867,
+    "totalDeaths": 6577,
+    "cumulativeCases": 9598271,
+    "cumulativeDeaths": 486201
+  },
+  {
+    "_id": "27/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 27,
+    "totalCases": 189698,
+    "totalDeaths": 4560,
+    "cumulativeCases": 9787969,
+    "cumulativeDeaths": 490761
+  },
+  {
+    "_id": "28/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 28,
+    "totalCases": 181247,
+    "totalDeaths": 4591,
+    "cumulativeCases": 9969216,
+    "cumulativeDeaths": 495352
+  },
+  {
+    "_id": "29/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 29,
+    "totalCases": 159070,
+    "totalDeaths": 3070,
+    "cumulativeCases": 10128286,
+    "cumulativeDeaths": 498422
+  },
+  {
+    "_id": "30/06/2020",
+    "year": 2020,
+    "month": 6,
+    "day": 30,
+    "totalCases": 161815,
+    "totalDeaths": 3704,
+    "cumulativeCases": 10290101,
+    "cumulativeDeaths": 502126
+  },
+  {
+    "_id": "01/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 1,
+    "totalCases": 193798,
+    "totalDeaths": 5623,
+    "cumulativeCases": 10483899,
+    "cumulativeDeaths": 507749
+  },
+  {
+    "_id": "02/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 2,
+    "totalCases": 202237,
+    "totalDeaths": 4839,
+    "cumulativeCases": 10686136,
+    "cumulativeDeaths": 512588
+  },
+  {
+    "_id": "03/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 3,
+    "totalCases": 208885,
+    "totalDeaths": 5077,
+    "cumulativeCases": 10895021,
+    "cumulativeDeaths": 517665
+  },
+  {
+    "_id": "04/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 4,
+    "totalCases": 205799,
+    "totalDeaths": 5012,
+    "cumulativeCases": 11100820,
+    "cumulativeDeaths": 522677
+  },
+  {
+    "_id": "05/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 5,
+    "totalCases": 187773,
+    "totalDeaths": 4339,
+    "cumulativeCases": 11288593,
+    "cumulativeDeaths": 527016
+  },
+  {
+    "_id": "06/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 6,
+    "totalCases": 176549,
+    "totalDeaths": 3378,
+    "cumulativeCases": 11465142,
+    "cumulativeDeaths": 530394
+  },
+  {
+    "_id": "07/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 7,
+    "totalCases": 177163,
+    "totalDeaths": 3841,
+    "cumulativeCases": 11642305,
+    "cumulativeDeaths": 534235
+  },
+  {
+    "_id": "08/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 8,
+    "totalCases": 208510,
+    "totalDeaths": 5996,
+    "cumulativeCases": 11850815,
+    "cumulativeDeaths": 540231
+  },
+  {
+    "_id": "09/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 9,
+    "totalCases": 215913,
+    "totalDeaths": 5277,
+    "cumulativeCases": 12066728,
+    "cumulativeDeaths": 545508
+  },
+  {
+    "_id": "10/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 10,
+    "totalCases": 224960,
+    "totalDeaths": 5383,
+    "cumulativeCases": 12291688,
+    "cumulativeDeaths": 550891
+  },
+  {
+    "_id": "11/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 11,
+    "totalCases": 231720,
+    "totalDeaths": 5277,
+    "cumulativeCases": 12523408,
+    "cumulativeDeaths": 556168
+  },
+  {
+    "_id": "12/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 12,
+    "totalCases": 215719,
+    "totalDeaths": 4793,
+    "cumulativeCases": 12739127,
+    "cumulativeDeaths": 560961
+  },
+  {
+    "_id": "13/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 13,
+    "totalCases": 194193,
+    "totalDeaths": 3889,
+    "cumulativeCases": 12933320,
+    "cumulativeDeaths": 564850
+  },
+  {
+    "_id": "14/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 14,
+    "totalCases": 192553,
+    "totalDeaths": 3839,
+    "cumulativeCases": 13125873,
+    "cumulativeDeaths": 568689
+  },
+  {
+    "_id": "15/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 15,
+    "totalCases": 225054,
+    "totalDeaths": 5578,
+    "cumulativeCases": 13350927,
+    "cumulativeDeaths": 574267
+  },
+  {
+    "_id": "16/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 16,
+    "totalCases": 234288,
+    "totalDeaths": 5501,
+    "cumulativeCases": 13585215,
+    "cumulativeDeaths": 579768
+  },
+  {
+    "_id": "17/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 17,
+    "totalCases": 256151,
+    "totalDeaths": 5744,
+    "cumulativeCases": 13841366,
+    "cumulativeDeaths": 585512
+  },
+  {
+    "_id": "18/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 18,
+    "totalCases": 248828,
+    "totalDeaths": 7233,
+    "cumulativeCases": 14090194,
+    "cumulativeDeaths": 592745
+  },
+  {
+    "_id": "19/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 19,
+    "totalCases": 227019,
+    "totalDeaths": 4978,
+    "cumulativeCases": 14317213,
+    "cumulativeDeaths": 597723
+  },
+  {
+    "_id": "20/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 20,
+    "totalCases": 213629,
+    "totalDeaths": 3935,
+    "cumulativeCases": 14530842,
+    "cumulativeDeaths": 601658
+  },
+  {
+    "_id": "21/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 21,
+    "totalCases": 204635,
+    "totalDeaths": 4092,
+    "cumulativeCases": 14735477,
+    "cumulativeDeaths": 605750
+  },
+  {
+    "_id": "22/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 22,
+    "totalCases": 241538,
+    "totalDeaths": 6123,
+    "cumulativeCases": 14977015,
+    "cumulativeDeaths": 611873
+  },
+  {
+    "_id": "23/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 23,
+    "totalCases": 283889,
+    "totalDeaths": 6877,
+    "cumulativeCases": 15260904,
+    "cumulativeDeaths": 618750
+  },
+  {
+    "_id": "24/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 24,
+    "totalCases": 275842,
+    "totalDeaths": 9779,
+    "cumulativeCases": 15536746,
+    "cumulativeDeaths": 628529
+  },
+  {
+    "_id": "25/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 25,
+    "totalCases": 284289,
+    "totalDeaths": 6256,
+    "cumulativeCases": 15821035,
+    "cumulativeDeaths": 634785
+  },
+  {
+    "_id": "26/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 26,
+    "totalCases": 257000,
+    "totalDeaths": 5733,
+    "cumulativeCases": 16078035,
+    "cumulativeDeaths": 640518
+  },
+  {
+    "_id": "27/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 27,
+    "totalCases": 229330,
+    "totalDeaths": 3963,
+    "cumulativeCases": 16307365,
+    "cumulativeDeaths": 644481
+  },
+  {
+    "_id": "28/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 28,
+    "totalCases": 215352,
+    "totalDeaths": 4656,
+    "cumulativeCases": 16522717,
+    "cumulativeDeaths": 649137
+  },
+  {
+    "_id": "29/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 29,
+    "totalCases": 244711,
+    "totalDeaths": 6160,
+    "cumulativeCases": 16767428,
+    "cumulativeDeaths": 655297
+  },
+  {
+    "_id": "30/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 30,
+    "totalCases": 299972,
+    "totalDeaths": 6641,
+    "cumulativeCases": 17067400,
+    "cumulativeDeaths": 661938
+  },
+  {
+    "_id": "31/07/2020",
+    "year": 2020,
+    "month": 7,
+    "day": 31,
+    "totalCases": 290225,
+    "totalDeaths": 6383,
+    "cumulativeCases": 17357625,
+    "cumulativeDeaths": 668321
+  },
+  {
+    "_id": "01/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 1,
+    "totalCases": 277273,
+    "totalDeaths": 6122,
+    "cumulativeCases": 17634898,
+    "cumulativeDeaths": 674443
+  },
+  {
+    "_id": "02/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 2,
+    "totalCases": 262019,
+    "totalDeaths": 5758,
+    "cumulativeCases": 17896917,
+    "cumulativeDeaths": 680201
+  },
+  {
+    "_id": "03/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 3,
+    "totalCases": 220912,
+    "totalDeaths": 4233,
+    "cumulativeCases": 18117829,
+    "cumulativeDeaths": 684434
+  },
+  {
+    "_id": "04/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 4,
+    "totalCases": 207322,
+    "totalDeaths": 4226,
+    "cumulativeCases": 18325151,
+    "cumulativeDeaths": 688660
+  },
+  {
+    "_id": "05/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 5,
+    "totalCases": 256816,
+    "totalDeaths": 6730,
+    "cumulativeCases": 18581967,
+    "cumulativeDeaths": 695390
+  },
+  {
+    "_id": "06/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 6,
+    "totalCases": 277848,
+    "totalDeaths": 7098,
+    "cumulativeCases": 18859815,
+    "cumulativeDeaths": 702488
+  },
+  {
+    "_id": "07/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 7,
+    "totalCases": 285966,
+    "totalDeaths": 6895,
+    "cumulativeCases": 19145781,
+    "cumulativeDeaths": 709383
+  },
+  {
+    "_id": "08/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 8,
+    "totalCases": 275842,
+    "totalDeaths": 6467,
+    "cumulativeCases": 19421623,
+    "cumulativeDeaths": 715850
+  },
+  {
+    "_id": "09/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 9,
+    "totalCases": 265704,
+    "totalDeaths": 5634,
+    "cumulativeCases": 19687327,
+    "cumulativeDeaths": 721484
+  },
+  {
+    "_id": "10/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 10,
+    "totalCases": 227503,
+    "totalDeaths": 4824,
+    "cumulativeCases": 19914830,
+    "cumulativeDeaths": 726308
+  },
+  {
+    "_id": "11/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 11,
+    "totalCases": 221187,
+    "totalDeaths": 4817,
+    "cumulativeCases": 20136017,
+    "cumulativeDeaths": 731125
+  },
+  {
+    "_id": "12/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 12,
+    "totalCases": 261628,
+    "totalDeaths": 6137,
+    "cumulativeCases": 20397645,
+    "cumulativeDeaths": 737262
+  },
+  {
+    "_id": "13/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 13,
+    "totalCases": 289725,
+    "totalDeaths": 6900,
+    "cumulativeCases": 20687370,
+    "cumulativeDeaths": 744162
+  },
+  {
+    "_id": "14/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 14,
+    "totalCases": 285521,
+    "totalDeaths": 9909,
+    "cumulativeCases": 20972891,
+    "cumulativeDeaths": 754071
+  },
+  {
+    "_id": "15/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 15,
+    "totalCases": 289466,
+    "totalDeaths": 6240,
+    "cumulativeCases": 21262357,
+    "cumulativeDeaths": 760311
+  },
+  {
+    "_id": "16/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 16,
+    "totalCases": 256330,
+    "totalDeaths": 5657,
+    "cumulativeCases": 21518687,
+    "cumulativeDeaths": 765968
+  },
+  {
+    "_id": "17/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 17,
+    "totalCases": 230261,
+    "totalDeaths": 4233,
+    "cumulativeCases": 21748948,
+    "cumulativeDeaths": 770201
+  },
+  {
+    "_id": "18/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 18,
+    "totalCases": 199624,
+    "totalDeaths": 4297,
+    "cumulativeCases": 21948572,
+    "cumulativeDeaths": 774498
+  },
+  {
+    "_id": "19/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 19,
+    "totalCases": 258063,
+    "totalDeaths": 6696,
+    "cumulativeCases": 22206635,
+    "cumulativeDeaths": 781194
+  },
+  {
+    "_id": "20/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 20,
+    "totalCases": 280651,
+    "totalDeaths": 6512,
+    "cumulativeCases": 22487286,
+    "cumulativeDeaths": 787706
+  },
+  {
+    "_id": "21/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 21,
+    "totalCases": 274449,
+    "totalDeaths": 6353,
+    "cumulativeCases": 22761735,
+    "cumulativeDeaths": 794059
+  },
+  {
+    "_id": "22/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 22,
+    "totalCases": 254316,
+    "totalDeaths": 5870,
+    "cumulativeCases": 23016051,
+    "cumulativeDeaths": 799929
+  },
+  {
+    "_id": "23/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 23,
+    "totalCases": 263315,
+    "totalDeaths": 5642,
+    "cumulativeCases": 23279366,
+    "cumulativeDeaths": 805571
+  },
+  {
+    "_id": "24/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 24,
+    "totalCases": 224243,
+    "totalDeaths": 3340,
+    "cumulativeCases": 23503609,
+    "cumulativeDeaths": 808911
+  },
+  {
+    "_id": "25/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 25,
+    "totalCases": 213162,
+    "totalDeaths": 4247,
+    "cumulativeCases": 23716771,
+    "cumulativeDeaths": 813158
+  },
+  {
+    "_id": "26/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 26,
+    "totalCases": 256567,
+    "totalDeaths": 6477,
+    "cumulativeCases": 23973338,
+    "cumulativeDeaths": 819635
+  },
+  {
+    "_id": "27/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 27,
+    "totalCases": 278253,
+    "totalDeaths": 6294,
+    "cumulativeCases": 24251591,
+    "cumulativeDeaths": 825929
+  },
+  {
+    "_id": "28/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 28,
+    "totalCases": 283627,
+    "totalDeaths": 6082,
+    "cumulativeCases": 24535218,
+    "cumulativeDeaths": 832011
+  },
+  {
+    "_id": "29/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 29,
+    "totalCases": 276977,
+    "totalDeaths": 5457,
+    "cumulativeCases": 24812195,
+    "cumulativeDeaths": 837468
+  },
+  {
+    "_id": "30/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 30,
+    "totalCases": 266041,
+    "totalDeaths": 5698,
+    "cumulativeCases": 25078236,
+    "cumulativeDeaths": 843166
+  },
+  {
+    "_id": "31/08/2020",
+    "year": 2020,
+    "month": 8,
+    "day": 31,
+    "totalCases": 243225,
+    "totalDeaths": 3773,
+    "cumulativeCases": 25321461,
+    "cumulativeDeaths": 846939
+  },
+  {
+    "_id": "01/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 1,
+    "totalCases": 245521,
+    "totalDeaths": 4052,
+    "cumulativeCases": 25566982,
+    "cumulativeDeaths": 850991
+  },
+  {
+    "_id": "02/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 2,
+    "totalCases": 269000,
+    "totalDeaths": 6513,
+    "cumulativeCases": 25835982,
+    "cumulativeDeaths": 857504
+  },
+  {
+    "_id": "03/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 3,
+    "totalCases": 284989,
+    "totalDeaths": 6077,
+    "cumulativeCases": 26120971,
+    "cumulativeDeaths": 863581
+  },
+  {
+    "_id": "04/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 4,
+    "totalCases": 280050,
+    "totalDeaths": 5792,
+    "cumulativeCases": 26401021,
+    "cumulativeDeaths": 869373
+  },
+  {
+    "_id": "05/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 5,
+    "totalCases": 294918,
+    "totalDeaths": 5624,
+    "cumulativeCases": 26695939,
+    "cumulativeDeaths": 874997
+  },
+  {
+    "_id": "06/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 6,
+    "totalCases": 273436,
+    "totalDeaths": 5325,
+    "cumulativeCases": 26969375,
+    "cumulativeDeaths": 880322
+  },
+  {
+    "_id": "07/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 7,
+    "totalCases": 246041,
+    "totalDeaths": 9033,
+    "cumulativeCases": 27215416,
+    "cumulativeDeaths": 889355
+  },
+  {
+    "_id": "08/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 8,
+    "totalCases": 209003,
+    "totalDeaths": 3820,
+    "cumulativeCases": 27424419,
+    "cumulativeDeaths": 893175
+  },
+  {
+    "_id": "09/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 9,
+    "totalCases": 245736,
+    "totalDeaths": 4964,
+    "cumulativeCases": 27670155,
+    "cumulativeDeaths": 898139
+  },
+  {
+    "_id": "10/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 10,
+    "totalCases": 289163,
+    "totalDeaths": 6093,
+    "cumulativeCases": 27959318,
+    "cumulativeDeaths": 904232
+  },
+  {
+    "_id": "11/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 11,
+    "totalCases": 305692,
+    "totalDeaths": 5893,
+    "cumulativeCases": 28265010,
+    "cumulativeDeaths": 910125
+  },
+  {
+    "_id": "12/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 12,
+    "totalCases": 304680,
+    "totalDeaths": 5884,
+    "cumulativeCases": 28569690,
+    "cumulativeDeaths": 916009
+  },
+  {
+    "_id": "13/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 13,
+    "totalCases": 284187,
+    "totalDeaths": 4927,
+    "cumulativeCases": 28853877,
+    "cumulativeDeaths": 920936
+  },
+  {
+    "_id": "14/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 14,
+    "totalCases": 269918,
+    "totalDeaths": 3880,
+    "cumulativeCases": 29123795,
+    "cumulativeDeaths": 924816
+  },
+  {
+    "_id": "15/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 15,
+    "totalCases": 245519,
+    "totalDeaths": 4236,
+    "cumulativeCases": 29369314,
+    "cumulativeDeaths": 929052
+  },
+  {
+    "_id": "16/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 16,
+    "totalCases": 303580,
+    "totalDeaths": 6956,
+    "cumulativeCases": 29672894,
+    "cumulativeDeaths": 936008
+  },
+  {
+    "_id": "17/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 17,
+    "totalCases": 289646,
+    "totalDeaths": 5437,
+    "cumulativeCases": 29962540,
+    "cumulativeDeaths": 941445
+  },
+  {
+    "_id": "18/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 18,
+    "totalCases": 318191,
+    "totalDeaths": 5320,
+    "cumulativeCases": 30280731,
+    "cumulativeDeaths": 946765
+  },
+  {
+    "_id": "19/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 19,
+    "totalCases": 311995,
+    "totalDeaths": 5955,
+    "cumulativeCases": 30592726,
+    "cumulativeDeaths": 952720
+  },
+  {
+    "_id": "20/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 20,
+    "totalCases": 293472,
+    "totalDeaths": 5073,
+    "cumulativeCases": 30886198,
+    "cumulativeDeaths": 957793
+  },
+  {
+    "_id": "21/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 21,
+    "totalCases": 284342,
+    "totalDeaths": 3743,
+    "cumulativeCases": 31170540,
+    "cumulativeDeaths": 961536
+  },
+  {
+    "_id": "22/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 22,
+    "totalCases": 268933,
+    "totalDeaths": 4394,
+    "cumulativeCases": 31439473,
+    "cumulativeDeaths": 965930
+  },
+  {
+    "_id": "23/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 23,
+    "totalCases": 282714,
+    "totalDeaths": 6067,
+    "cumulativeCases": 31722187,
+    "cumulativeDeaths": 971997
+  },
+  {
+    "_id": "24/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 24,
+    "totalCases": 311482,
+    "totalDeaths": 6364,
+    "cumulativeCases": 32033669,
+    "cumulativeDeaths": 978361
+  },
+  {
+    "_id": "25/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 25,
+    "totalCases": 320879,
+    "totalDeaths": 5783,
+    "cumulativeCases": 32354548,
+    "cumulativeDeaths": 984144
+  },
+  {
+    "_id": "26/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 26,
+    "totalCases": 311601,
+    "totalDeaths": 5577,
+    "cumulativeCases": 32666149,
+    "cumulativeDeaths": 989721
+  },
+  {
+    "_id": "27/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 27,
+    "totalCases": 299288,
+    "totalDeaths": 5422,
+    "cumulativeCases": 32965437,
+    "cumulativeDeaths": 995143
+  },
+  {
+    "_id": "28/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 28,
+    "totalCases": 279884,
+    "totalDeaths": 3824,
+    "cumulativeCases": 33245321,
+    "cumulativeDeaths": 998967
+  },
+  {
+    "_id": "29/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 29,
+    "totalCases": 238454,
+    "totalDeaths": 3923,
+    "cumulativeCases": 33483775,
+    "cumulativeDeaths": 1002890
+  },
+  {
+    "_id": "30/09/2020",
+    "year": 2020,
+    "month": 9,
+    "day": 30,
+    "totalCases": 293934,
+    "totalDeaths": 6218,
+    "cumulativeCases": 33777709,
+    "cumulativeDeaths": 1009108
+  },
+  {
+    "_id": "01/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 1,
+    "totalCases": 316026,
+    "totalDeaths": 6109,
+    "cumulativeCases": 34093735,
+    "cumulativeDeaths": 1015217
+  },
+  {
+    "_id": "02/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 2,
+    "totalCases": 323180,
+    "totalDeaths": 8773,
+    "cumulativeCases": 34416915,
+    "cumulativeDeaths": 1023990
+  },
+  {
+    "_id": "03/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 3,
+    "totalCases": 318812,
+    "totalDeaths": 5534,
+    "cumulativeCases": 34735727,
+    "cumulativeDeaths": 1029524
+  },
+  {
+    "_id": "04/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 4,
+    "totalCases": 301978,
+    "totalDeaths": 4724,
+    "cumulativeCases": 35037705,
+    "cumulativeDeaths": 1034248
+  },
+  {
+    "_id": "05/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 5,
+    "totalCases": 281076,
+    "totalDeaths": 3966,
+    "cumulativeCases": 35318781,
+    "cumulativeDeaths": 1038214
+  },
+  {
+    "_id": "06/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 6,
+    "totalCases": 270276,
+    "totalDeaths": 4452,
+    "cumulativeCases": 35589057,
+    "cumulativeDeaths": 1042666
+  },
+  {
+    "_id": "07/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 7,
+    "totalCases": 326777,
+    "totalDeaths": 5618,
+    "cumulativeCases": 35915834,
+    "cumulativeDeaths": 1048284
+  },
+  {
+    "_id": "08/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 8,
+    "totalCases": 353626,
+    "totalDeaths": 5851,
+    "cumulativeCases": 36269460,
+    "cumulativeDeaths": 1054135
+  },
+  {
+    "_id": "09/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 9,
+    "totalCases": 363056,
+    "totalDeaths": 9119,
+    "cumulativeCases": 36632516,
+    "cumulativeDeaths": 1063254
+  },
+  {
+    "_id": "10/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 10,
+    "totalCases": 349258,
+    "totalDeaths": 5742,
+    "cumulativeCases": 36981774,
+    "cumulativeDeaths": 1068996
+  },
+  {
+    "_id": "11/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 11,
+    "totalCases": 349426,
+    "totalDeaths": 4867,
+    "cumulativeCases": 37331200,
+    "cumulativeDeaths": 1073863
+  },
+  {
+    "_id": "12/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 12,
+    "totalCases": 304057,
+    "totalDeaths": 3973,
+    "cumulativeCases": 37635257,
+    "cumulativeDeaths": 1077836
+  },
+  {
+    "_id": "13/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 13,
+    "totalCases": 285068,
+    "totalDeaths": 3939,
+    "cumulativeCases": 37920325,
+    "cumulativeDeaths": 1081775
+  },
+  {
+    "_id": "14/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 14,
+    "totalCases": 330727,
+    "totalDeaths": 5531,
+    "cumulativeCases": 38251052,
+    "cumulativeDeaths": 1087306
+  },
+  {
+    "_id": "15/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 15,
+    "totalCases": 388395,
+    "totalDeaths": 6039,
+    "cumulativeCases": 38639447,
+    "cumulativeDeaths": 1093345
+  },
+  {
+    "_id": "16/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 16,
+    "totalCases": 402619,
+    "totalDeaths": 6111,
+    "cumulativeCases": 39042066,
+    "cumulativeDeaths": 1099456
+  },
+  {
+    "_id": "17/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 17,
+    "totalCases": 397435,
+    "totalDeaths": 5947,
+    "cumulativeCases": 39439501,
+    "cumulativeDeaths": 1105403
+  },
+  {
+    "_id": "18/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 18,
+    "totalCases": 370484,
+    "totalDeaths": 5543,
+    "cumulativeCases": 39809985,
+    "cumulativeDeaths": 1110946
+  },
+  {
+    "_id": "19/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 19,
+    "totalCases": 362010,
+    "totalDeaths": 3954,
+    "cumulativeCases": 40171995,
+    "cumulativeDeaths": 1114900
+  },
+  {
+    "_id": "20/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 20,
+    "totalCases": 348700,
+    "totalDeaths": 4672,
+    "cumulativeCases": 40520695,
+    "cumulativeDeaths": 1119572
+  },
+  {
+    "_id": "21/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 21,
+    "totalCases": 394988,
+    "totalDeaths": 6415,
+    "cumulativeCases": 40915683,
+    "cumulativeDeaths": 1125987
+  },
+  {
+    "_id": "22/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 22,
+    "totalCases": 452243,
+    "totalDeaths": 6754,
+    "cumulativeCases": 41367926,
+    "cumulativeDeaths": 1132741
+  },
+  {
+    "_id": "23/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 23,
+    "totalCases": 472504,
+    "totalDeaths": 6367,
+    "cumulativeCases": 41840430,
+    "cumulativeDeaths": 1139108
+  },
+  {
+    "_id": "24/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 24,
+    "totalCases": 488773,
+    "totalDeaths": 6339,
+    "cumulativeCases": 42329203,
+    "cumulativeDeaths": 1145447
+  },
+  {
+    "_id": "25/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 25,
+    "totalCases": 459610,
+    "totalDeaths": 5798,
+    "cumulativeCases": 42788813,
+    "cumulativeDeaths": 1151245
+  },
+  {
+    "_id": "26/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 26,
+    "totalCases": 438930,
+    "totalDeaths": 4449,
+    "cumulativeCases": 43227743,
+    "cumulativeDeaths": 1155694
+  },
+  {
+    "_id": "27/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 27,
+    "totalCases": 415915,
+    "totalDeaths": 5472,
+    "cumulativeCases": 43643658,
+    "cumulativeDeaths": 1161166
+  },
+  {
+    "_id": "28/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 28,
+    "totalCases": 479372,
+    "totalDeaths": 7337,
+    "cumulativeCases": 44123030,
+    "cumulativeDeaths": 1168503
+  },
+  {
+    "_id": "29/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 29,
+    "totalCases": 513461,
+    "totalDeaths": 7153,
+    "cumulativeCases": 44636491,
+    "cumulativeDeaths": 1175656
+  },
+  {
+    "_id": "30/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 30,
+    "totalCases": 548100,
+    "totalDeaths": 7186,
+    "cumulativeCases": 45184591,
+    "cumulativeDeaths": 1182842
+  },
+  {
+    "_id": "31/10/2020",
+    "year": 2020,
+    "month": 10,
+    "day": 31,
+    "totalCases": 542159,
+    "totalDeaths": 7320,
+    "cumulativeCases": 45726750,
+    "cumulativeDeaths": 1190162
+  },
+  {
+    "_id": "01/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 1,
+    "totalCases": 457999,
+    "totalDeaths": 6426,
+    "cumulativeCases": 46184749,
+    "cumulativeDeaths": 1196588
+  },
+  {
+    "_id": "02/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 2,
+    "totalCases": 487232,
+    "totalDeaths": 5338,
+    "cumulativeCases": 46671981,
+    "cumulativeDeaths": 1201926
+  },
+  {
+    "_id": "03/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 3,
+    "totalCases": 470495,
+    "totalDeaths": 6114,
+    "cumulativeCases": 47142476,
+    "cumulativeDeaths": 1208040
+  },
+  {
+    "_id": "04/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 4,
+    "totalCases": 504994,
+    "totalDeaths": 9859,
+    "cumulativeCases": 47647470,
+    "cumulativeDeaths": 1217899
+  },
+  {
+    "_id": "05/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 5,
+    "totalCases": 569890,
+    "totalDeaths": 9082,
+    "cumulativeCases": 48217360,
+    "cumulativeDeaths": 1226981
+  },
+  {
+    "_id": "06/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 6,
+    "totalCases": 612387,
+    "totalDeaths": 8784,
+    "cumulativeCases": 48829747,
+    "cumulativeDeaths": 1235765
+  },
+  {
+    "_id": "07/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 7,
+    "totalCases": 606017,
+    "totalDeaths": 8678,
+    "cumulativeCases": 49435764,
+    "cumulativeDeaths": 1244443
+  },
+  {
+    "_id": "08/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 8,
+    "totalCases": 593273,
+    "totalDeaths": 7459,
+    "cumulativeCases": 50029037,
+    "cumulativeDeaths": 1251902
+  },
+  {
+    "_id": "09/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 9,
+    "totalCases": 528837,
+    "totalDeaths": 6289,
+    "cumulativeCases": 50557874,
+    "cumulativeDeaths": 1258191
+  },
+  {
+    "_id": "10/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 10,
+    "totalCases": 502287,
+    "totalDeaths": 7281,
+    "cumulativeCases": 51060161,
+    "cumulativeDeaths": 1265472
+  },
+  {
+    "_id": "11/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 11,
+    "totalCases": 566934,
+    "totalDeaths": 10128,
+    "cumulativeCases": 51627095,
+    "cumulativeDeaths": 1275600
+  },
+  {
+    "_id": "12/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 12,
+    "totalCases": 623511,
+    "totalDeaths": 10611,
+    "cumulativeCases": 52250606,
+    "cumulativeDeaths": 1286211
+  },
+  {
+    "_id": "13/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 13,
+    "totalCases": 647500,
+    "totalDeaths": 9151,
+    "cumulativeCases": 52898106,
+    "cumulativeDeaths": 1295362
+  },
+  {
+    "_id": "14/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 14,
+    "totalCases": 635825,
+    "totalDeaths": 9996,
+    "cumulativeCases": 53533931,
+    "cumulativeDeaths": 1305358
+  },
+  {
+    "_id": "15/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 15,
+    "totalCases": 594468,
+    "totalDeaths": 8975,
+    "cumulativeCases": 54128399,
+    "cumulativeDeaths": 1314333
+  },
+  {
+    "_id": "16/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 16,
+    "totalCases": 514538,
+    "totalDeaths": 6694,
+    "cumulativeCases": 54642937,
+    "cumulativeDeaths": 1321027
+  },
+  {
+    "_id": "17/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 17,
+    "totalCases": 522070,
+    "totalDeaths": 8141,
+    "cumulativeCases": 55165007,
+    "cumulativeDeaths": 1329168
+  },
+  {
+    "_id": "18/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 18,
+    "totalCases": 584404,
+    "totalDeaths": 10708,
+    "cumulativeCases": 55749411,
+    "cumulativeDeaths": 1339876
+  },
+  {
+    "_id": "19/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 19,
+    "totalCases": 623134,
+    "totalDeaths": 11106,
+    "cumulativeCases": 56372545,
+    "cumulativeDeaths": 1350982
+  },
+  {
+    "_id": "20/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 20,
+    "totalCases": 640252,
+    "totalDeaths": 10732,
+    "cumulativeCases": 57012797,
+    "cumulativeDeaths": 1361714
+  },
+  {
+    "_id": "21/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 21,
+    "totalCases": 679246,
+    "totalDeaths": 12012,
+    "cumulativeCases": 57692043,
+    "cumulativeDeaths": 1373726
+  },
+  {
+    "_id": "22/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 22,
+    "totalCases": 572279,
+    "totalDeaths": 8541,
+    "cumulativeCases": 58264322,
+    "cumulativeDeaths": 1382267
+  },
+  {
+    "_id": "23/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 23,
+    "totalCases": 518260,
+    "totalDeaths": 7161,
+    "cumulativeCases": 58782582,
+    "cumulativeDeaths": 1389428
+  },
+  {
+    "_id": "24/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 24,
+    "totalCases": 534370,
+    "totalDeaths": 8886,
+    "cumulativeCases": 59316952,
+    "cumulativeDeaths": 1398314
+  },
+  {
+    "_id": "25/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 25,
+    "totalCases": 562359,
+    "totalDeaths": 12208,
+    "cumulativeCases": 59879311,
+    "cumulativeDeaths": 1410522
+  },
+  {
+    "_id": "26/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 26,
+    "totalCases": 647881,
+    "totalDeaths": 12631,
+    "cumulativeCases": 60527192,
+    "cumulativeDeaths": 1423153
+  },
+  {
+    "_id": "27/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 27,
+    "totalCases": 571827,
+    "totalDeaths": 10713,
+    "cumulativeCases": 61099019,
+    "cumulativeDeaths": 1433866
+  },
+  {
+    "_id": "28/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 28,
+    "totalCases": 649373,
+    "totalDeaths": 10426,
+    "cumulativeCases": 61748392,
+    "cumulativeDeaths": 1444292
+  },
+  {
+    "_id": "29/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 29,
+    "totalCases": 595768,
+    "totalDeaths": 9546,
+    "cumulativeCases": 62344160,
+    "cumulativeDeaths": 1453838
+  },
+  {
+    "_id": "30/11/2020",
+    "year": 2020,
+    "month": 11,
+    "day": 30,
+    "totalCases": 516616,
+    "totalDeaths": 7410,
+    "cumulativeCases": 62860776,
+    "cumulativeDeaths": 1461248
+  },
+  {
+    "_id": "01/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 1,
+    "totalCases": 501937,
+    "totalDeaths": 8803,
+    "cumulativeCases": 63362713,
+    "cumulativeDeaths": 1470051
+  },
+  {
+    "_id": "02/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 2,
+    "totalCases": 591801,
+    "totalDeaths": 12786,
+    "cumulativeCases": 63954514,
+    "cumulativeDeaths": 1482837
+  },
+  {
+    "_id": "03/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 3,
+    "totalCases": 657717,
+    "totalDeaths": 12773,
+    "cumulativeCases": 64612231,
+    "cumulativeDeaths": 1495610
+  },
+  {
+    "_id": "04/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 4,
+    "totalCases": 681109,
+    "totalDeaths": 11941,
+    "cumulativeCases": 65293340,
+    "cumulativeDeaths": 1507551
+  },
+  {
+    "_id": "05/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 5,
+    "totalCases": 683363,
+    "totalDeaths": 12459,
+    "cumulativeCases": 65976703,
+    "cumulativeDeaths": 1520010
+  },
+  {
+    "_id": "06/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 6,
+    "totalCases": 634276,
+    "totalDeaths": 9924,
+    "cumulativeCases": 66610979,
+    "cumulativeDeaths": 1529934
+  },
+  {
+    "_id": "07/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 7,
+    "totalCases": 546373,
+    "totalDeaths": 7500,
+    "cumulativeCases": 67157352,
+    "cumulativeDeaths": 1537434
+  },
+  {
+    "_id": "08/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 8,
+    "totalCases": 526221,
+    "totalDeaths": 8360,
+    "cumulativeCases": 67683573,
+    "cumulativeDeaths": 1545794
+  },
+  {
+    "_id": "09/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 9,
+    "totalCases": 626355,
+    "totalDeaths": 12642,
+    "cumulativeCases": 68309928,
+    "cumulativeDeaths": 1558436
+  },
+  {
+    "_id": "10/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 10,
+    "totalCases": 676114,
+    "totalDeaths": 12376,
+    "cumulativeCases": 68986042,
+    "cumulativeDeaths": 1570812
+  },
+  {
+    "_id": "11/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 11,
+    "totalCases": 693352,
+    "totalDeaths": 12327,
+    "cumulativeCases": 69679394,
+    "cumulativeDeaths": 1583139
+  },
+  {
+    "_id": "12/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 12,
+    "totalCases": 657140,
+    "totalDeaths": 12355,
+    "cumulativeCases": 70336534,
+    "cumulativeDeaths": 1595494
+  },
+  {
+    "_id": "13/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 13,
+    "totalCases": 626421,
+    "totalDeaths": 10254,
+    "cumulativeCases": 70962955,
+    "cumulativeDeaths": 1605748
+  },
+  {
+    "_id": "14/12/2020",
+    "year": 2020,
+    "month": 12,
+    "day": 14,
+    "totalCases": 540659,
+    "totalDeaths": 7085,
+    "cumulativeCases": 71503614,
+    "cumulativeDeaths": 1612833
+  }
+]

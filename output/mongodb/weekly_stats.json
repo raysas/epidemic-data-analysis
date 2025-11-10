@@ -1,0 +1,410 @@
+[
+  {
+    "weeklyCases": 59,
+    "weeklyDeaths": 0,
+    "weekly14DayIncidence": null,
+    "year": 2020,
+    "week": 1,
+    "correlationEstimate": null
+  },
+  {
+    "weeklyCases": 0,
+    "weeklyDeaths": 1,
+    "weekly14DayIncidence": null,
+    "year": 2020,
+    "week": 2,
+    "correlationEstimate": null
+  },
+  {
+    "weeklyCases": 161,
+    "weeklyDeaths": 2,
+    "weekly14DayIncidence": 0.00241037329004329,
+    "year": 2020,
+    "week": 3,
+    "correlationEstimate": 0.0009005549007403091
+  },
+  {
+    "weeklyCases": 1804,
+    "weeklyDeaths": 53,
+    "weekly14DayIncidence": 0.0016091480519480521,
+    "year": 2020,
+    "week": 4,
+    "correlationEstimate": 0.00046639282237636535
+  },
+  {
+    "weeklyCases": 12531,
+    "weeklyDeaths": 249,
+    "weekly14DayIncidence": 0.014313964913419913,
+    "year": 2020,
+    "week": 5,
+    "correlationEstimate": 0.0003183015601446449
+  },
+  {
+    "weeklyCases": 22999,
+    "weeklyDeaths": 508,
+    "weekly14DayIncidence": 0.04084100283549783,
+    "year": 2020,
+    "week": 6,
+    "correlationEstimate": 0.0003013447573579619
+  },
+  {
+    "weeklyCases": 31715,
+    "weeklyDeaths": 856,
+    "weekly14DayIncidence": 0.06657207298701298,
+    "year": 2020,
+    "week": 7,
+    "correlationEstimate": 0.0004164081548871506
+  },
+  {
+    "weeklyCases": 9549,
+    "weeklyDeaths": 794,
+    "weekly14DayIncidence": 0.07303703242424243,
+    "year": 2020,
+    "week": 8,
+    "correlationEstimate": 0.00026659616147276617
+  },
+  {
+    "weeklyCases": 8273,
+    "weeklyDeaths": 516,
+    "weekly14DayIncidence": 0.18833028467532467,
+    "year": 2020,
+    "week": 9,
+    "correlationEstimate": 0.0000860097288331421
+  },
+  {
+    "weeklyCases": 19758,
+    "weeklyDeaths": 606,
+    "weekly14DayIncidence": 1.85204224095679,
+    "year": 2020,
+    "week": 10,
+    "correlationEstimate": 0.00006058724970358655
+  },
+  {
+    "weeklyCases": 54166,
+    "weeklyDeaths": 2214,
+    "weekly14DayIncidence": 6.493548504444445,
+    "year": 2020,
+    "week": 11,
+    "correlationEstimate": 0.00004788192896518378
+  },
+  {
+    "weeklyCases": 161533,
+    "weeklyDeaths": 7310,
+    "weekly14DayIncidence": 13.750127045234375,
+    "year": 2020,
+    "week": 12,
+    "correlationEstimate": 0.000020414892890834744
+  },
+  {
+    "weeklyCases": 364347,
+    "weeklyDeaths": 18402,
+    "weekly14DayIncidence": 25.35790484517647,
+    "year": 2020,
+    "week": 13,
+    "correlationEstimate": 0.000012090628491813076
+  },
+  {
+    "weeklyCases": 519498,
+    "weeklyDeaths": 35028,
+    "weekly14DayIncidence": 32.167553658245765,
+    "year": 2020,
+    "week": 14,
+    "correlationEstimate": 0.000011967414658877522
+  },
+  {
+    "weeklyCases": 554402,
+    "weeklyDeaths": 44769,
+    "weekly14DayIncidence": 32.90583832918778,
+    "year": 2020,
+    "week": 15,
+    "correlationEstimate": 0.000013900884595981329
+  },
+  {
+    "weeklyCases": 535967,
+    "weeklyDeaths": 52197,
+    "weekly14DayIncidence": 29.4298993162794,
+    "year": 2020,
+    "week": 16,
+    "correlationEstimate": 0.000015748047632667436
+  },
+  {
+    "weeklyCases": 550873,
+    "weeklyDeaths": 42471,
+    "weekly14DayIncidence": 25.315976164937066,
+    "year": 2020,
+    "week": 17,
+    "correlationEstimate": 0.00001495196373863138
+  },
+  {
+    "weeklyCases": 555788,
+    "weeklyDeaths": 37974,
+    "weekly14DayIncidence": 22.626159924376307,
+    "year": 2020,
+    "week": 18,
+    "correlationEstimate": 0.000014025014250527432
+  },
+  {
+    "weeklyCases": 593420,
+    "weeklyDeaths": 34933,
+    "weekly14DayIncidence": 21.091837446339596,
+    "year": 2020,
+    "week": 19,
+    "correlationEstimate": 0.000012797641907508555
+  },
+  {
+    "weeklyCases": 608905,
+    "weeklyDeaths": 32330,
+    "weekly14DayIncidence": 20.352031520745342,
+    "year": 2020,
+    "week": 20,
+    "correlationEstimate": 0.000011195175649983879
+  },
+  {
+    "weeklyCases": 682889,
+    "weeklyDeaths": 30049,
+    "weekly14DayIncidence": 21.244187170418957,
+    "year": 2020,
+    "week": 21,
+    "correlationEstimate": 0.000011070827425968137
+  },
+  {
+    "weeklyCases": 751939,
+    "weeklyDeaths": 26795,
+    "weekly14DayIncidence": 23.3535922234863,
+    "year": 2020,
+    "week": 22,
+    "correlationEstimate": 0.000011564550897305733
+  },
+  {
+    "weeklyCases": 834723,
+    "weeklyDeaths": 29675,
+    "weekly14DayIncidence": 26.567852944340398,
+    "year": 2020,
+    "week": 23,
+    "correlationEstimate": 0.000010560943678318726
+  },
+  {
+    "weeklyCases": 899539,
+    "weeklyDeaths": 30190,
+    "weekly14DayIncidence": 28.081876944771018,
+    "year": 2020,
+    "week": 24,
+    "correlationEstimate": 0.000009759505474926727
+  },
+  {
+    "weeklyCases": 1041786,
+    "weeklyDeaths": 33775,
+    "weekly14DayIncidence": 28.728236104787964,
+    "year": 2020,
+    "week": 25,
+    "correlationEstimate": 0.000009118164836745153
+  },
+  {
+    "weeklyCases": 1152592,
+    "weeklyDeaths": 33655,
+    "weekly14DayIncidence": 30.19664642468216,
+    "year": 2020,
+    "week": 26,
+    "correlationEstimate": 0.000010596308364939506
+  },
+  {
+    "weeklyCases": 1319377,
+    "weeklyDeaths": 31664,
+    "weekly14DayIncidence": 32.60124749411484,
+    "year": 2020,
+    "week": 27,
+    "correlationEstimate": 0.0000099515936074806
+  },
+  {
+    "weeklyCases": 1450534,
+    "weeklyDeaths": 33945,
+    "weekly14DayIncidence": 35.63601708484621,
+    "year": 2020,
+    "week": 28,
+    "correlationEstimate": 0.000010479438088666317
+  },
+  {
+    "weeklyCases": 1578086,
+    "weeklyDeaths": 36762,
+    "weekly14DayIncidence": 38.263449469924815,
+    "year": 2020,
+    "week": 29,
+    "correlationEstimate": 0.00000997663021196947
+  },
+  {
+    "weeklyCases": 1760822,
+    "weeklyDeaths": 42795,
+    "weekly14DayIncidence": 41.233387254941896,
+    "year": 2020,
+    "week": 30,
+    "correlationEstimate": 0.000010509446122622706
+  },
+  {
+    "weeklyCases": 1818882,
+    "weeklyDeaths": 39683,
+    "weekly14DayIncidence": 43.824162857860564,
+    "year": 2020,
+    "week": 31,
+    "correlationEstimate": 0.000011717744380564454
+  },
+  {
+    "weeklyCases": 1790410,
+    "weeklyDeaths": 41283,
+    "weekly14DayIncidence": 46.2764219681408,
+    "year": 2020,
+    "week": 32,
+    "correlationEstimate": 0.000011281916854145942
+  },
+  {
+    "weeklyCases": 1831360,
+    "weeklyDeaths": 44484,
+    "weekly14DayIncidence": 51.919928995140125,
+    "year": 2020,
+    "week": 33,
+    "correlationEstimate": 0.000010391530820902744
+  },
+  {
+    "weeklyCases": 1760679,
+    "weeklyDeaths": 39603,
+    "weekly14DayIncidence": 56.76666278209159,
+    "year": 2020,
+    "week": 34,
+    "correlationEstimate": 0.00001095981653872897
+  },
+  {
+    "weeklyCases": 1798870,
+    "weeklyDeaths": 37595,
+    "weekly14DayIncidence": 58.26666506948735,
+    "year": 2020,
+    "week": 35,
+    "correlationEstimate": 0.000011085553242952967
+  },
+  {
+    "weeklyCases": 1891139,
+    "weeklyDeaths": 37156,
+    "weekly14DayIncidence": 58.177680512993845,
+    "year": 2020,
+    "week": 36,
+    "correlationEstimate": 0.00001118897845653288
+  },
+  {
+    "weeklyCases": 1884502,
+    "weeklyDeaths": 40614,
+    "weekly14DayIncidence": 58.42203716861244,
+    "year": 2020,
+    "week": 37,
+    "correlationEstimate": 0.000010063530225971099
+  },
+  {
+    "weeklyCases": 2032321,
+    "weeklyDeaths": 36857,
+    "weekly14DayIncidence": 62.82488336606972,
+    "year": 2020,
+    "week": 38,
+    "correlationEstimate": 0.00001136415807087857
+  },
+  {
+    "weeklyCases": 2079239,
+    "weeklyDeaths": 37350,
+    "weekly14DayIncidence": 69.5800081594395,
+    "year": 2020,
+    "week": 39,
+    "correlationEstimate": 0.000010043634103717647
+  },
+  {
+    "weeklyCases": 2072268,
+    "weeklyDeaths": 39105,
+    "weekly14DayIncidence": 73.8697019983527,
+    "year": 2020,
+    "week": 40,
+    "correlationEstimate": 0.000009161043072351417
+  },
+  {
+    "weeklyCases": 2293495,
+    "weeklyDeaths": 39615,
+    "weekly14DayIncidence": 79.56713049050582,
+    "year": 2020,
+    "week": 41,
+    "correlationEstimate": 0.0000074038605883478046
+  },
+  {
+    "weeklyCases": 2478785,
+    "weeklyDeaths": 37083,
+    "weekly14DayIncidence": 98.99269334380041,
+    "year": 2020,
+    "week": 42,
+    "correlationEstimate": 0.0000065610325420400046
+  },
+  {
+    "weeklyCases": 2978828,
+    "weeklyDeaths": 40299,
+    "weekly14DayIncidence": 124.68114090873547,
+    "year": 2020,
+    "week": 43,
+    "correlationEstimate": 0.000005428072080276193
+  },
+  {
+    "weeklyCases": 3395936,
+    "weeklyDeaths": 45343,
+    "weekly14DayIncidence": 150.20190356038174,
+    "year": 2020,
+    "week": 44,
+    "correlationEstimate": 0.000004834800519277405
+  },
+  {
+    "weeklyCases": 3844288,
+    "weeklyDeaths": 55314,
+    "weekly14DayIncidence": 173.73214117855102,
+    "year": 2020,
+    "week": 45,
+    "correlationEstimate": 0.000005106437347877976
+  },
+  {
+    "weeklyCases": 4099362,
+    "weeklyDeaths": 62431,
+    "weekly14DayIncidence": 187.90884379675933,
+    "year": 2020,
+    "week": 46,
+    "correlationEstimate": 0.000005905893049317413
+  },
+  {
+    "weeklyCases": 4135923,
+    "weeklyDeaths": 67934,
+    "weekly14DayIncidence": 189.79620115146244,
+    "year": 2020,
+    "week": 47,
+    "correlationEstimate": 0.000006641467857794442
+  },
+  {
+    "weeklyCases": 4079838,
+    "weeklyDeaths": 71571,
+    "weekly14DayIncidence": 184.3962112415172,
+    "year": 2020,
+    "week": 48,
+    "correlationEstimate": 0.000006169369058190872
+  },
+  {
+    "weeklyCases": 4266819,
+    "weeklyDeaths": 76096,
+    "weekly14DayIncidence": 183.5158917612062,
+    "year": 2020,
+    "week": 49,
+    "correlationEstimate": 0.000008159208908018718
+  },
+  {
+    "weeklyCases": 4351976,
+    "weeklyDeaths": 75814,
+    "weekly14DayIncidence": 186.2751941265229,
+    "year": 2020,
+    "week": 50,
+    "correlationEstimate": 0.000009175714320090523
+  },
+  {
+    "weeklyCases": 540659,
+    "weeklyDeaths": 7085,
+    "weekly14DayIncidence": 188.45936709037917,
+    "year": 2020,
+    "week": 51,
+    "correlationEstimate": 0.0003995216134247218
+  }
+]

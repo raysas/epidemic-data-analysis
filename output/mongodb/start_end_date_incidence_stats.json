@@ -1,0 +1,1676 @@
+[
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Afghanistan",
+    "geoId": "AF",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 9.01377925
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Albania",
+    "geoId": "AL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 380.97041427
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Afghanistan",
+    "geoId": "AF",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Algeria",
+    "geoId": "DZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 22.95075281
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Andorra",
+    "geoId": "AD",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 821.77035063
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Algeria",
+    "geoId": "DZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Angola",
+    "geoId": "AO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 3.40923741
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Anguilla",
+    "geoId": "AI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 40.34427111
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Antigua_and_Barbuda",
+    "geoId": "AG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 7.20794934
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Argentina",
+    "geoId": "AR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 177.23270138
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Armenia",
+    "geoId": "AM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 458.39238767
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Armenia",
+    "geoId": "AM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Aruba",
+    "geoId": "AW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 198.47615464
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Australia",
+    "geoId": "AU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.54754952
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Australia",
+    "geoId": "AU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Austria",
+    "geoId": "AT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 472.45809946
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Austria",
+    "geoId": "AT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Azerbaijan",
+    "geoId": "AZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 574.05068752
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Azerbaijan",
+    "geoId": "AZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bahamas",
+    "geoId": "BS",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 45.70125755
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bahrain",
+    "geoId": "BH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 143.55664638
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Bahrain",
+    "geoId": "BH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bangladesh",
+    "geoId": "BD",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 17.25032822
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Barbados",
+    "geoId": "BB",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 5.92291156
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Belarus",
+    "geoId": "BY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 267.51910545
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Belgium",
+    "geoId": "BE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 268.2375194
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Belarus",
+    "geoId": "BY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Belize",
+    "geoId": "BZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 909.95027552
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Belgium",
+    "geoId": "BE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Benin",
+    "geoId": "BJ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.98295497
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bermuda",
+    "geoId": "BM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 287.96314072
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bhutan",
+    "geoId": "BT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 5.50390909
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bolivia",
+    "geoId": "BO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 21.95759232
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bonaire, Saint Eustatius and Saba",
+    "geoId": "BQ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 46.18404341
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bosnia_and_Herzegovina",
+    "geoId": "BA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 416.32863758
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Botswana",
+    "geoId": "BW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 108.91160883
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Brazil",
+    "geoId": "BR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 278.23422805
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Brazil",
+    "geoId": "BR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "British_Virgin_Islands",
+    "geoId": "VG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 9.98901209
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Brunei_Darussalam",
+    "geoId": "BN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.46157823
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Bulgaria",
+    "geoId": "BG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 528.03991521
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Burkina_Faso",
+    "geoId": "BF",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 5.77716586
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Burundi",
+    "geoId": "BI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.41628446
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Cambodia",
+    "geoId": "KH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.21835992
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Cambodia",
+    "geoId": "KH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Cameroon",
+    "geoId": "CM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 3.96500485
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Canada",
+    "geoId": "CA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 241.81365938
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Cape_Verde",
+    "geoId": "CV",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 151.10849262
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Canada",
+    "geoId": "CA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Cases_on_an_international_conveyance_Japan",
+    "geoId": "JPG11668",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Cayman_Islands",
+    "geoId": "KY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 36.95263903
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Central_African_Republic",
+    "geoId": "CF",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.48470247
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Chad",
+    "geoId": "TD",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.55183201
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Chile",
+    "geoId": "CL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 113.38624058
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "China",
+    "geoId": "CN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.01443732
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Colombia",
+    "geoId": "CO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 233.21275128
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "China",
+    "geoId": "CN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Comoros",
+    "geoId": "KM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.99790572
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Congo",
+    "geoId": "CG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 5.11104536
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Costa_Rica",
+    "geoId": "CR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 274.46919413
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Cote_dIvoire",
+    "geoId": "CI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.43876197
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Croatia",
+    "geoId": "HR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1208.80830058
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Croatia",
+    "geoId": "HR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Cuba",
+    "geoId": "CU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 10.49986041
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Curaçao",
+    "geoId": "CW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 771.00530525
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Cyprus",
+    "geoId": "CY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 538.64657911
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Czechia",
+    "geoId": "CZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 576.12349528
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Democratic_Republic_of_the_Congo",
+    "geoId": "CD",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 2.08663227
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Czechia",
+    "geoId": "CZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Denmark",
+    "geoId": "DK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 523.69231501
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Denmark",
+    "geoId": "DK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Djibouti",
+    "geoId": "DJ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 5.23852224
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Dominica",
+    "geoId": "DM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 2.78520499
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Dominican_Republic",
+    "geoId": "DO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 104.47010822
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Ecuador",
+    "geoId": "EC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 57.51811493
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Dominican_Republic",
+    "geoId": "DO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Ecuador",
+    "geoId": "EC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Egypt",
+    "geoId": "EG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 6.01067402
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Egypt",
+    "geoId": "EG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "El_Salvador",
+    "geoId": "SV",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 53.84633264
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Equatorial_Guinea",
+    "geoId": "GQ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 2.35991333
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Eritrea",
+    "geoId": "ER",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 3.83172768
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Estonia",
+    "geoId": "EE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 453.11815945
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Eswatini",
+    "geoId": "SZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 31.18105655
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Estonia",
+    "geoId": "EE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Ethiopia",
+    "geoId": "ET",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 6.45528388
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Falkland_Islands_(Malvinas)",
+    "geoId": "FK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 59.31198102
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Faroe_Islands",
+    "geoId": "FO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 53.41331635
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Fiji",
+    "geoId": "FJ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.44946093
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Finland",
+    "geoId": "FI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 112.01686723
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "France",
+    "geoId": "FR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 236.32620014
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Finland",
+    "geoId": "FI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "France",
+    "geoId": "FR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "French_Polynesia",
+    "geoId": "PF",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 544.9630306
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Gabon",
+    "geoId": "GA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 6.3979291
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Gambia",
+    "geoId": "GM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 2.04455773
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Georgia",
+    "geoId": "GE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1388.09866587
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Germany",
+    "geoId": "DE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 341.13669567
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Georgia",
+    "geoId": "GE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Germany",
+    "geoId": "DE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Ghana",
+    "geoId": "GH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 4.75049887
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Gibraltar",
+    "geoId": "GI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 180.97668071
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Greece",
+    "geoId": "EL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 189.34973699
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Greece",
+    "geoId": "EL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Greenland",
+    "geoId": "GL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.76491352
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Grenada",
+    "geoId": "GD",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 24.99955358
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Guam",
+    "geoId": "GU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 172.15099076
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Guatemala",
+    "geoId": "GT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 41.5835394
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Guernsey",
+    "geoId": "GG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 4.65347149
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Guinea",
+    "geoId": "GN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 2.98326412
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Guinea_Bissau",
+    "geoId": "GW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.14528634
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Guyana",
+    "geoId": "GY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 69.49634314
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Haiti",
+    "geoId": "HT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 2.67244863
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Holy_See",
+    "geoId": "VA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Honduras",
+    "geoId": "HN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 66.3956869
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Hungary",
+    "geoId": "HU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 683.00078299
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Iceland",
+    "geoId": "IS",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 49.30096277
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Iceland",
+    "geoId": "IS",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "India",
+    "geoId": "IN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 33.10912772
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "India",
+    "geoId": "IN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Indonesia",
+    "geoId": "ID",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 30.87439259
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Indonesia",
+    "geoId": "ID",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Iran",
+    "geoId": "IR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 192.39236541
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Iran",
+    "geoId": "IR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Iraq",
+    "geoId": "IQ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 61.55973007
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Iraq",
+    "geoId": "IQ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Ireland",
+    "geoId": "IE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 80.42020782
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Ireland",
+    "geoId": "IE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Isle_of_Man",
+    "geoId": "IM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.18218681
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Israel",
+    "geoId": "IL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 256.81467404
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Israel",
+    "geoId": "IL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Italy",
+    "geoId": "IT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 428.32330117
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Italy",
+    "geoId": "IT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Jamaica",
+    "geoId": "JM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 33.95203368
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Japan",
+    "geoId": "JP",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 25.92852158
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Japan",
+    "geoId": "JP",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Jersey",
+    "geoId": "JE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 789.45415414
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Jordan",
+    "geoId": "JO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 448.50880006
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Kazakhstan",
+    "geoId": "KZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 67.22393554
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Kenya",
+    "geoId": "KE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 16.31225584
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Kosovo",
+    "geoId": "XK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 418.29162649
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Kuwait",
+    "geoId": "KW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 90.13383877
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Kyrgyzstan",
+    "geoId": "KG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 75.85899361
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Kuwait",
+    "geoId": "KW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Laos",
+    "geoId": "LA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.02789612
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Latvia",
+    "geoId": "LV",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 453.13255221
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Lebanon",
+    "geoId": "LB",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 285.54304157
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Lesotho",
+    "geoId": "LS",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 6.63446052
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Lebanon",
+    "geoId": "LB",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Liberia",
+    "geoId": "LR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.64054819
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Libya",
+    "geoId": "LY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 123.18787013
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Liechtenstein",
+    "geoId": "LI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 627.96393767
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Lithuania",
+    "geoId": "LT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1205.93346752
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Luxembourg",
+    "geoId": "LU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1188.96747647
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Lithuania",
+    "geoId": "LT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Luxembourg",
+    "geoId": "LU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Madagascar",
+    "geoId": "MG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.10125192
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Malawi",
+    "geoId": "MW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.22008993
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Malaysia",
+    "geoId": "MY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 59.43701224
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Maldives",
+    "geoId": "MV",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 70.4388491
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Malaysia",
+    "geoId": "MY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Mali",
+    "geoId": "ML",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 5.87546367
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Malta",
+    "geoId": "MT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 273.32092009
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Marshall_Islands",
+    "geoId": "MH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Mauritania",
+    "geoId": "MR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 49.29626325
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Mauritius",
+    "geoId": "MU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.10264872
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Mexico",
+    "geoId": "MX",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 112.06929818
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Mexico",
+    "geoId": "MX",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Moldova",
+    "geoId": "MD",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 482.30906858
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Monaco",
+    "geoId": "MC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 181.35106544
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Monaco",
+    "geoId": "MC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Mongolia",
+    "geoId": "MN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 3.75174487
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Montenegro",
+    "geoId": "ME",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1051.9430006
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Montserrat",
+    "geoId": "MS",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Morocco",
+    "geoId": "MA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 125.59304093
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Mozambique",
+    "geoId": "MZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 4.41611704
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Myanmar",
+    "geoId": "MM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 34.88917156
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Namibia",
+    "geoId": "NA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 87.83238806
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Nepal",
+    "geoId": "NP",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 57.48248392
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Nepal",
+    "geoId": "NP",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Netherlands",
+    "geoId": "NL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 546.6503238
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Netherlands",
+    "geoId": "NL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "New_Caledonia",
+    "geoId": "NC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.41464225
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "New_Zealand",
+    "geoId": "NZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.83628437
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "New_Zealand",
+    "geoId": "NZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Nicaragua",
+    "geoId": "NI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.57359946
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Niger",
+    "geoId": "NE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 3.183085
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Nigeria",
+    "geoId": "NG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 2.86768346
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Nigeria",
+    "geoId": "NG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "North_Macedonia",
+    "geoId": "MK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 582.29327746
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "North_Macedonia",
+    "geoId": "MK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Northern_Mariana_Islands",
+    "geoId": "MP",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 12.23498156
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Norway",
+    "geoId": "NO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 99.00131601
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Norway",
+    "geoId": "NO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Oman",
+    "geoId": "OM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 55.39707401
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Pakistan",
+    "geoId": "PK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 19.74600577
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Oman",
+    "geoId": "OM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Palestine",
+    "geoId": "PS",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 559.45872484
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Pakistan",
+    "geoId": "PK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Panama",
+    "geoId": "PA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 665.92251392
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Papua_New_Guinea",
+    "geoId": "PG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.79761908
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Paraguay",
+    "geoId": "PY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 165.74305653
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Peru",
+    "geoId": "PE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 69.03316231
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Philippines",
+    "geoId": "PH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 18.06937697
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Philippines",
+    "geoId": "PH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Poland",
+    "geoId": "PL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 396.60217948
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Portugal",
+    "geoId": "PT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 524.9295561
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Puerto_Rico",
+    "geoId": "PR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 564.63412472
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Qatar",
+    "geoId": "QA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 81.67168125
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Romania",
+    "geoId": "RO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 436.78273171
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Qatar",
+    "geoId": "QA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Romania",
+    "geoId": "RO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Russia",
+    "geoId": "RU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 263.66356427
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Russia",
+    "geoId": "RU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Rwanda",
+    "geoId": "RW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 5.86048652
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Saint_Kitts_and_Nevis",
+    "geoId": "KN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 9.46360298
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Saint_Lucia",
+    "geoId": "LC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 9.84709647
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Saint_Vincent_and_the_Grenadines",
+    "geoId": "VC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 11.75481269
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "San_Marino",
+    "geoId": "SM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1047.80425507
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "San_Marino",
+    "geoId": "SM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Sao_Tome_and_Principe",
+    "geoId": "ST",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 9.30024925
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Saudi_Arabia",
+    "geoId": "SA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 8.05403699
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Senegal",
+    "geoId": "SN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 6.1363389
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Serbia",
+    "geoId": "RS",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1396.05535167
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Seychelles",
+    "geoId": "SC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 14.32356943
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Sierra_Leone",
+    "geoId": "SL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.37116641
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Singapore",
+    "geoId": "SG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1.84344723
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Sint_Maarten",
+    "geoId": "SX",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 391.61103116
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Singapore",
+    "geoId": "SG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Slovakia",
+    "geoId": "SK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 499.97972634
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Slovenia",
+    "geoId": "SI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1005.95509268
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Solomon_Islands",
+    "geoId": "SB",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Somalia",
+    "geoId": "SO",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.86771233
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "South_Africa",
+    "geoId": "ZA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 125.10957676
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "South_Korea",
+    "geoId": "KR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 18.12189718
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "South_Korea",
+    "geoId": "KR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "South_Sudan",
+    "geoId": "SS",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.87686675
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Spain",
+    "geoId": "ES",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Sri_Lanka",
+    "geoId": "LK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 43.64151232
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Sri_Lanka",
+    "geoId": "LK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Sudan",
+    "geoId": "SD",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 8.77999484
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Suriname",
+    "geoId": "SR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 7.0523924
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Sweden",
+    "geoId": "SE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 738.75496875
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Sweden",
+    "geoId": "SE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Switzerland",
+    "geoId": "CH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 647.33834886
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Switzerland",
+    "geoId": "CH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Syria",
+    "geoId": "SY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 8.01985597
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Taiwan",
+    "geoId": "TW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.27340929
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Taiwan",
+    "geoId": "TW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Tajikistan",
+    "geoId": "TJ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 5.88991144
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Thailand",
+    "geoId": "TH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.37342597
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Timor_Leste",
+    "geoId": "TL",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.07733234
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Thailand",
+    "geoId": "TH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Togo",
+    "geoId": "TG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 3.57568873
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Trinidad_and_Tobago",
+    "geoId": "TT",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 15.6992736
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Tunisia",
+    "geoId": "TN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 129.20359537
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Turkey",
+    "geoId": "TR",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 499.22026862
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Turks_and_Caicos_islands",
+    "geoId": "TC",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 54.98245798
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Uganda",
+    "geoId": "UG",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 16.68639918
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Ukraine",
+    "geoId": "UA",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 404.57436089
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "United_Arab_Emirates",
+    "geoId": "AE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 175.99871286
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "United_Kingdom",
+    "geoId": "UK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 348.21613876
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "United_Arab_Emirates",
+    "geoId": "AE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "United_Republic_of_Tanzania",
+    "geoId": "TZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "United_Kingdom",
+    "geoId": "UK",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "United_States_of_America",
+    "geoId": "US",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 873.21159186
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "United_States_of_America",
+    "geoId": "US",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "United_States_Virgin_Islands",
+    "geoId": "VI",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 251.48452366
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Uruguay",
+    "geoId": "UY",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 115.3180302
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Uzbekistan",
+    "geoId": "UZ",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 6.74313025
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Vanuatu",
+    "geoId": "VU",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Venezuela",
+    "geoId": "VE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 18.01455606
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Vietnam",
+    "geoId": "VN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.05598053
+  },
+  {
+    "dateRep": "31/12/2019",
+    "countriesAndTerritories": "Vietnam",
+    "geoId": "VN",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Wallis_and_Futuna",
+    "geoId": "WF",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": null
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Western_Sahara",
+    "geoId": "EH",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Yemen",
+    "geoId": "YE",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 0.02057478
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Zambia",
+    "geoId": "ZM",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 3.72878748
+  },
+  {
+    "dateRep": "14/12/2020",
+    "countriesAndTerritories": "Zimbabwe",
+    "geoId": "ZW",
+    "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 8.84915086
+  }
+]
