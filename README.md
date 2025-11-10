@@ -22,6 +22,8 @@ Big Data and Data Integration project - S9 GENIOMHE
       - [3.2 Query 2: Countries stats](#32-query-2-countries-stats)
       - [3.3 Query 3: USA daily stats](#33-query-3-usa-daily-stats)
       - [3.4 Query 4: worldwide daily stats](#34-query-4-worldwide-daily-stats)
+      - [3.5 Query 5: cases/death weekly analysis](#35-query-5-casesdeath-weekly-analysis)
+      - [3.6 Query 6: collect the 14-day incidence rate worldwide per day for these 2 dates, group by country](#36-query-6-collect-the-14-day-incidence-rate-worldwide-per-day-for-these-2-dates-group-by-country)
   - [Hadoop](#hadoop)
     - [1. setup](#1-setup-1)
     - [2. data preperation](#2-data-preperation-1)
@@ -31,6 +33,7 @@ Big Data and Data Integration project - S9 GENIOMHE
       - [3.3 Query 3: USA daily stats](#33-query-3-usa-daily-stats-1)
       - [3.4 Query 4: worldwide daily stats](#34-query-4-worldwide-daily-stats-1)
       - [3.5 Query 5:](#35-query-5)
+      - [3.6 Query 6:](#36-query-6)
   
 
 ## Project Overview
@@ -329,6 +332,9 @@ The result will be a set of documents having these fields:
 - `numberOfCountries`: number of countries in the continent
 - `avg14DayIncidence`: average 14-day incidence rate across countries in the continent
 
+
+![MongoDB: Stacked bar plot showing distribution accross continents](./figures/mongodb/mongodb_continent_dist.png)
+
 #### 3.2 Query 2: Countries stats
 
 **about**: collecting metrics per country such as total cases, total deaths, population and percentages of cases and deaths relative to population  
@@ -370,6 +376,14 @@ Result:
 - `percTotalCases`: percentage of total cases relative to population
 - `percTotalDeaths`: percentage of total deaths relative to population
 - `avg14DayIncidence`: average 14-day incidence rate in the country
+
+![MongoDB: map showing percentage of cases relative to population per country](./figures/mongodb/mongodb_countries_casesc.png)
+
+![MongoDB: map showing percentage of deaths relative to population per country](./figures/mongodb/mongodb_countries_deathc.png)
+
+![MongoDB: map showing average 14-day incidence rate per country](./figures/mongodb/mongodb_countries_incidence.png)
+
+_Here used the pycountry library in python to convert country names to map geoId to their corresponding 3-letter country codes (for plotly map visualization)_
   
 
 #### 3.3 Query 3: USA daily stats
@@ -418,13 +432,38 @@ country_daily_stats=db.worldwide_cases.aggregate([
 ])
 ```
 
+<!-- 
+ docker start -i a5c4e6e4ce25
+hdfs dfs -cat covid.csv | ../mappers/country_stats.py | sort | ../reducers/country_stats.py 
+
+:/exercises# head -n 1 ../covid.csv 
+dateRep,day,month,year,cases,deaths,countriesAndTerritories,geoId,countryterritoryCode,popData2019,continentExp,Cumulative_number_for_14_days_of_COVID-19_cases_per_100000
+root@a5c4e6e4ce25:/exercises# hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar -files  ../mappers/country_stats.py,../reducers/country_stats.py -mapper country_stats.py -reducer country_stats.py   -input covid.csv   -output t14
+
+s# hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar   -files ex4/mapper.py,ex4/reducer.py   -mapper mapper.py   -reducer reducer.py   -input covid.csv   -output t11
+ -->
+
 result: 
 
 - `_id`: date (day)
+- `year`: year
+- `month`: month
+- `day`: day
+- `totalCases`: total number of cases in the USA on that day
+- `totalDeaths`: total number of deaths in the USA on that day
+- `cumulativeCases`: cumulative number of cases in the USA up to that day
+- `cumulativeDeaths`: cumulative number of deaths in the USA up to that day
+
+
+![MongoDB: time series and barplot+line combinesd plots showing in the first row the daily cases and deaths in the USA, and in the second row the cumulative cases and deaths in the USA](./figures/mongodb/mongodb_usa_daily_stats.png)
+
+_p.s., could not put both cases and deaths in the same plot as they have very different scales, so had to split them into 2 plots each_
 
 #### 3.4 Query 4: worldwide daily stats
 
-**aim:**
+**about**: collecting daily total cases and deaths worldwide, along with cumulative cases and deaths over time  
+**how?**: using mongodb aggregation, will group by date to get total cases/deaths per day, then use `$setWindowFields` stage to calculate cumulative cases/deaths over time   
+**aim**: get a time series of the pandemic situation worldwide, to see the overall trend of the pandemic over time, good for first glance analysis
 
 
 ```js
@@ -460,6 +499,28 @@ worldwide_daily_stats=db.worldwide_cases.aggregate([
   }
 ])
 ```
+
+result:
+
+- `_id`: date (day)
+- `year`: year
+- `month`: month
+- `day`: day
+- `totalCases`: total number of cases worldwide on that day
+- `totalDeaths`: total number of deaths worldwide on that day
+- `cumulativeCases`: cumulative number of cases worldwide up to that day
+- `cumulativeDeaths`: cumulative number of deaths worldwide up to that day
+
+
+![MongoDB: time series and barplot+line combinesd plots showing in the first row the daily cases and deaths worldwide, and in the second row the cumulative cases and deaths worldwide](./figures/mongodb/mongodb_worldwide_daily_stats.png)
+
+#### 3.5 Query 5: cases/death weekly analysis
+
+**about**: tracking weekly total cases and deaths worldwide, along with average 14-day incidence rate and correlation estimate between cases and deaths  
+**how?**: using mongodb aggregation, will group by ISO week and year to get weekly total cases/deaths, average incidence rate, and correlation estimate using the formula: corr(cases, deaths) = E[cases*deaths] / (E[cases] * E[deaths])  
+**aim**: get a weekly overview of the pandemic situation worldwide, also, what is interesting is something called *case fatality analysis* which aims to find correlation between the number of cases and the number of deaths, this can help in predicting the number of deaths based on the number of cases, useful for health authorities to plan resources accordingly
+
+> whats new: grouping by ISO week and year using `$isoWeek` and `$isoWeekYear` operators, also calculating correlation estimate using aggregation operators and some integration of complex formulae (was a bit hard to manage!)
 
 ```js
 // 4) cases/death correlation analysis
@@ -497,6 +558,21 @@ weekly_stats=db.worldwide_cases.aggregate([
 ])
 ```
 
+result:
+
+- `year`: ISO week year
+- `week`: ISO week number
+- `weeklyCases`: total number of cases worldwide in that week
+- `weeklyDeaths`: total number of deaths worldwide in that week
+- `weekly14DayIncidence`: average 14-day incidence rate worldwide in that week
+- `correlationEstimate`: estimate of correlation between cases and deaths in that week
+
+#### 3.6 Query 6: collect the 14-day incidence rate worldwide per day for these 2 dates, group by country
+
+**about**: collecting the 14-day incidence rate worldwide per day for the earliest and latest dates in the dataset, grouped by country  
+**how?**: using mongodb queries to find the earliest and latest dates, then colelcting the incidence rates for those dates across all entries (one entry per country in a day actually)  
+**aim**: get a snapshot of the incidence rates at the start and end of the dataset, useful for comparing how the situation has evolved over time across countries. It's actually interesting if one wants to test significance of change between 2 dates, while this might not be ideal in this dataset (doesnt span over a long period of time), the idea od performing statistical analysis still holds (boxplots and comparisons)
+
 ```js
 // 5) collect the 14-day incidence rate worldwide per day for these 2 dates, group by country
 earliest_date=db.worldwide_cases.find().sort({ date: 1 }).limit(1).next()
@@ -511,10 +587,21 @@ start_end_date_incidence_stats=db.worldwide_cases.find(
 )
 ```
 
+result:
+
+- `countriesAndTerritories`: country name
+- `geoId`: country geo id
+- `dateRep`: date (day)
+- `Cumulative_number_for_14_days_of_COVID-19_cases_per_100000`: 14-day incidence rate for that country on that date
+
+
+
 
 ## Hadoop
 
 ### 1. setup
+
+En
 
 ```bash
 docker run -it --name bigdata_hadoop prasanthj/docker-hadoop /etc/bootstrap.sh -bash
@@ -543,6 +630,8 @@ _the 1 is for the extra header file: same as the json data taken in mongodb_
 
 ```bash
 hdfs dfs -put data/covid.csv covid.csv
+mkdir output/
+mkdir logs/ # -- to save logs of hadoop jobs
 ```
 
 
@@ -559,15 +648,13 @@ python3 mappers/continent_stat.py < data/covid.csv | sort | python3 reducers/con
 ```bash
 hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
 -D mapreduce.job.name="continent_stats" \
--files mappers/continent_stats.py,reducers/continent_stats.py \
--mapper continent_stats.py \
--reducer continent_stats.py \
+-files mappers/continent_stats_mapper.py,reducers/continent_stats_reducer.py \
 -input covid.csv \
--output continent_stats/
+-output continent_stats/ > logs/continent_stats.log 2>&1
 ```
 
 ```bash
-hdfs dfs -cat continent_stats/*
+hdfs dfs -cat continent_stats/*  > output/continent_stats.csv
 ```
 
 #### 3.2 Query 2: country stats
@@ -575,23 +662,30 @@ hdfs dfs -cat continent_stats/*
 ```bash
 hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
 -D mapreduce.job.name="country_stats" \
--files mappers/country_stats.py,reducers/country_stats.py \
--mapper country_stats.py \
--reducer country_stats.py \
+-files mappers/country_stats_mapper.py,reducers/country_stats_reducer.py \
 -input covid.csv \
--output country_stats/
+-output country_stats/ > logs/country_stats.log 2>&1
+```
+
+```bash
+hdfs dfs -cat country_stats/*  > output/country_stats.csv
 ```
 
 #### 3.3 Query 3: USA daily stats
 
 ```bash
+# hdfs dfs -rm -r USA_daily_stats/
 hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
 -D mapreduce.job.name="usa_daily_stats" \
--files mappers/USA_daily_stats.py,reducers/USA_daily_stats.py \
--mapper USA_daily_stats.py \
--reducer USA_daily_stats.py \
+-files mappers/USA_daily_stats_mapper.py,reducers/USA_daily_stats_reducer.py  \
+-mapper USA_daily_stats_mapper.py \
+-reducer USA_daily_stats_reducer.py \
 -input covid.csv \
--output USA_daily_stats/
+-output USA_daily_stats/ > logs/USA_daily_stats.log 2>&1
+```
+
+```bash
+hdfs dfs -cat USA_daily_stats3/* | awk -F '\t' '{print $2}' > output/USA_daily_stats.csv
 ```
 
 #### 3.4 Query 4: worldwide daily stats
@@ -599,11 +693,45 @@ hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar
 ```bash
 hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
 -D mapreduce.job.name="worldwide_daily_stats" \
--files mappers/worldwide_daily_stats.py,reducers/worldwide_daily_stats.py \
--mapper worldwide_daily_stats.py \
--reducer worldwide_daily_stats.py \
+-files mappers/worldwide_daily_stats_mapper.py,reducers/worldwide_daily_stats_reducer.py \
+-mapper worldwide_daily_stats_mapper.py \
+-reducer worldwide_daily_stats_reducer.py \
 -input covid.csv \
--output worldwide_daily_stats/
+-output worldwide_daily_stats > logs/worldwide_daily_stats.log 2>&1
 ``` 
 
+```bash
+hdfs dfs -cat worldwide_daily_stats/*  > output/worldwide_daily_stats.csv
+```
+
 #### 3.5 Query 5: 
+
+```bash
+hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
+-D mapreduce.job.name="weekly_stats" \
+-files mappers/weekly_stats_mapper.py,reducers/weekly_stats_reducer.py \
+-mapper weekly_stats_mapper.py \
+-reducer weekly_stats_reducer.py \
+-input covid.csv \
+-output weekly_stats/ > logs/weekly_stats.log 2>&1
+```
+
+```bash
+hdfs dfs -cat weekly_stats/*  > output/weekly_stats.csv
+```
+
+#### 3.6 Query 6:
+
+```bash
+hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar \
+-D mapreduce.job.name="start_end_date_incidence_stats" \
+-files mappers/start_end_date_incidence_stats_mapper.py,reducers/start_end_date_incidence_stats_reducer.py \
+-mapper start_end_date_incidence_stats_mapper.py \
+-reducer start_end_date_incidence_stats_reducer.py \
+-input covid.csv \
+-output start_end_date_incidence_stats/ > logs/start_end_date_incidence_stats.log 2>&1
+```
+
+```bash
+hdfs dfs -cat start_end_date_incidence_stats/*  > output/start_end_date_incidence_stats.csv
+```

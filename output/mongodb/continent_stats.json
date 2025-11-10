@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "_id": "America",
+    "totalCases": 30887593,
+    "totalDeaths": 785420,
+    "numberOfCountries": 49,
+    "avg14DayIncidence": 65.9160132040205,
+    "continent": "America"
+  },
+  {
+    "_id": "Europe",
+    "totalCases": 21400012,
+    "totalDeaths": 479789,
+    "numberOfCountries": 55,
+    "avg14DayIncidence": 128.29094321895593,
+    "continent": "Europe"
+  },
+  {
+    "_id": "Asia",
+    "totalCases": 16782046,
+    "totalDeaths": 290129,
+    "numberOfCountries": 42,
+    "avg14DayIncidence": 45.17743029121101,
+    "continent": "Asia"
+  },
+  {
+    "_id": "Africa",
+    "totalCases": 2379827,
+    "totalDeaths": 56334,
+    "numberOfCountries": 55,
+    "avg14DayIncidence": 13.124166307218228,
+    "continent": "Africa"
+  },
+  {
+    "_id": "Oceania",
+    "totalCases": 53440,
+    "totalDeaths": 1154,
+    "numberOfCountries": 12,
+    "avg14DayIncidence": 48.96993355220464,
+    "continent": "Oceania"
+  },
+  {
+    "_id": "Other",
+    "totalCases": 696,
+    "totalDeaths": 7,
+    "numberOfCountries": 1,
+    "avg14DayIncidence": null,
+    "continent": "Other"
+  }
+]

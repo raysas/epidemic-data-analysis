@@ -2,10 +2,10 @@
 import sys
 import csv
 
-# -- print on terminal for debugging
-# sys.stderr.write("Mapper country_stats.py started\n")
+sys.stderr.write("DEBUG: Mapper started\n")
 
-reader = csv.DictReader(sys.stdin)
+reader = csv.DictReader((line.replace('\r', '') for line in sys.stdin))
+
 for row in reader:
     country = row['countriesAndTerritories']
     geoId = row['geoId']

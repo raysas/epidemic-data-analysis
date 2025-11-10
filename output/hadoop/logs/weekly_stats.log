@@ -1,0 +1,73 @@
+packageJobJar: [/tmp/hadoop-unjar5660167935359527464/] [] /tmp/streamjob8905491705766810087.jar tmpDir=null
+25/11/10 15:07:57 INFO impl.TimelineClientImpl: Timeline service address: http://localhost:8188/ws/v1/timeline/
+25/11/10 15:07:57 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+25/11/10 15:07:57 INFO impl.TimelineClientImpl: Timeline service address: http://localhost:8188/ws/v1/timeline/
+25/11/10 15:07:57 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+25/11/10 15:07:58 INFO mapred.FileInputFormat: Total input paths to process : 1
+25/11/10 15:07:58 INFO mapreduce.JobSubmitter: number of splits:2
+25/11/10 15:07:58 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1762786442380_0007
+25/11/10 15:07:58 INFO impl.YarnClientImpl: Submitted application application_1762786442380_0007
+25/11/10 15:07:58 INFO mapreduce.Job: The url to track the job: http://fd1feae4a808:8088/proxy/application_1762786442380_0007/
+25/11/10 15:07:58 INFO mapreduce.Job: Running job: job_1762786442380_0007
+25/11/10 15:08:06 INFO mapreduce.Job: Job job_1762786442380_0007 running in uber mode : false
+25/11/10 15:08:06 INFO mapreduce.Job:  map 0% reduce 0%
+25/11/10 15:08:11 INFO mapreduce.Job:  map 100% reduce 0%
+25/11/10 15:08:16 INFO mapreduce.Job:  map 100% reduce 100%
+25/11/10 15:08:17 INFO mapreduce.Job: Job job_1762786442380_0007 completed successfully
+25/11/10 15:08:17 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=1093874
+		FILE: Number of bytes written=2551905
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=4311590
+		HDFS: Number of bytes written=2106
+		HDFS: Number of read operations=9
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=2
+		Launched reduce tasks=1
+		Data-local map tasks=2
+		Total time spent by all maps in occupied slots (ms)=6590
+		Total time spent by all reduces in occupied slots (ms)=3959
+		Total time spent by all map tasks (ms)=6590
+		Total time spent by all reduce tasks (ms)=3959
+		Total vcore-milliseconds taken by all map tasks=6590
+		Total vcore-milliseconds taken by all reduce tasks=3959
+		Total megabyte-milliseconds taken by all map tasks=6748160
+		Total megabyte-milliseconds taken by all reduce tasks=4054016
+	Map-Reduce Framework
+		Map input records=61901
+		Map output records=31109
+		Map output bytes=1031650
+		Map output materialized bytes=1093880
+		Input split bytes=192
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=51
+		Reduce shuffle bytes=1093880
+		Reduce input records=31109
+		Reduce output records=52
+		Spilled Records=62218
+		Shuffled Maps =2
+		Failed Shuffles=0
+		Merged Map outputs=2
+		GC time elapsed (ms)=227
+		CPU time spent (ms)=4060
+		Physical memory (bytes) snapshot=726925312
+		Virtual memory (bytes) snapshot=6018158592
+		Total committed heap usage (bytes)=545259520
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=4311398
+	File Output Format Counters 
+		Bytes Written=2106
+25/11/10 15:08:17 INFO streaming.StreamJob: Output directory: weekly_stats/

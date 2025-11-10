@@ -173,18 +173,21 @@ weekly_stats=db.worldwide_cases.aggregate([
 save_json_file(weekly_stats, "weekly_stats.json")
 
 // 5) collect the 14-day incidence rate worldwide per day for these 2 dates, group by country
-earliest_date=db.worldwide_cases.find().sort({ date: 1 }).limit(1).next()
-latest_date=db.worldwide_cases.find().sort({ date: -1 }).limit(1).next()
+// earliest_date=db.worldwide_cases.find().sort({ date: 1 }).limit(1).next()
+// latest_date=db.worldwide_cases.find().sort({ date: -1 }).limit(1).next()
+
+start="01/11/2020"
+end="14/12/2020"
 
 start_end_date_incidence_stats=db.worldwide_cases.find(
-  { dateRep: { $in: [ earliest_date.dateRep, latest_date.dateRep ] } },
+  { dateRep: { $in: [ start, end ] } },
   { countriesAndTerritories: 1, geoId: 1, dateRep: 1,
     "Cumulative_number_for_14_days_of_COVID-19_cases_per_100000": 1,
      _id: 0 
   }
 )
 save_json_file(start_end_date_incidence_stats, "start_end_date_incidence_stats.json")
-print("-- script finished.")
+print("-- script finished")
 
 // var cursorStage = db.worldwide_cases.find(
 //     { dateRep: { $in: [earliest_date.dateRep, latest_date.dateRep] } },
