@@ -1,5 +1,5 @@
 - [ ] fix dockers on dockerhub
 - [ ] fix dashboard gui
-- [ ] figure a way to document time and space scaling
-- [ ] add more visualizations, each as a notebook
+- [x] figure a way to document time and space scaling
+- [x] add more visualizations, each as a notebook
 - [ ] add a diagram to show what have been done in this project
