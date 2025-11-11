@@ -1,7 +1,5 @@
 # epidemic-data-analysis
-Big Data and Data Integration project - S9 GENIOMHE   
-
-**Report on**: [`https://raysas.github.io/epidemic-data-analysis/`](https://raysas.github.io/epidemic-data-analysis/) pages from github: [`https://github.com/raysas/epidemic-data-analysis`](https://github.com/raysas/epidemic-data-analysis). Provided a web dashboard to visualize the results of the analysis (could be found on the github link)
+Big Data and Data Integration project3 - S9 GENIOMHE   
 
 
 **Tools used**:
@@ -21,6 +19,13 @@ Big Data and Data Integration project - S9 GENIOMHE
 ## Environment Setup
 
 For mongodb, used the `mongo:latest` docker image, for hadoop, used the `prasanthj/docker-hadoop` docker image, you can pull the images corresponding to this project's container from my Docker Hub repository: [raysas/bigdata-geniomhe](https://hub.docker.com/u/raysas).
+
+To pull the images:
+
+```bash
+docker pull raysas/bigdata-geniomhe:mongodb
+docker pull raysas/bigdata-geniomhe:hadoop
+```
   
 
 ## Project Overview
@@ -29,9 +34,9 @@ For mongodb, used the `mongo:latest` docker image, for hadoop, used the `prasant
 
 []() -->
 
-<!-- **Diagram**:
+**Diagram**:
 
-![]() -->
+![workflow](./assets/workflow.png)
 
 The project aims to use big data tools to retrieve relevant information and perform analysis on a large dataset, the data in question is coming from the [European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide) and contains daily records of covid-19 cases and deaths worldwide.
 
@@ -44,6 +49,10 @@ The main steps of the project are:
 *Choice of queries*: my aim here was to retrieve the most diverse set of statistics possible from the, in a qay that no 2 documents can be extracted in the same manner, covering as many aggregations as possible. Secondly, focused on getting a useful type of information that is relevant to pandamic analysis, such as total cases/deaths per country, daily cases worldwide, incidence rates, etc. And finally, tried to diversify the set of visualization used to represent the data, to highlight the possibilities of dealing with big data, even if the dataset is not that large (in terms of features`)
 
 This project structure was designed to make it fully accessible and reprodicible, for that providing a webdashboard, the github repository and the container used here pushed to docker hub.
+
+- [MongoDB](./docs/mongodb.md)
+- [Hadoop](./docs/hadoop.md)
+- [Performance Analysis](./docs/performance.md)
 
 ## Directory Structure
 

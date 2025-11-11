@@ -79,7 +79,8 @@ db.worldwide_cases.countDocuments()
 // -- find one document to see the structure
 db.worldwide_cases.findOne({})
 ```
-```json
+
+```js
 {
   _id: ObjectId('690f33b777a56eeaf189a2dd'),
   dateRep: '03/12/2020',
