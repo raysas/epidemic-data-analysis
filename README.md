@@ -6,7 +6,9 @@ Big Data and Data Integration project - S9 GENIOMHE
 
 **Tools used**:
 
-[![MongoDB](https://img.shields.io/badge/MongoDB-%2334A853?logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![Hadoop](https://img.shields.io/badge/Hadoop-%23EA4335?logo=apachehadoop&logoColor=white)](https://hadoop.apache.org/) [![PySpark](https://img.shields.io/badge/PySpark-%23f58220?logo=apache-spark&logoColor=white)](https://spark.apache.org/) [![Plotly/Dash](https://img.shields.io/badge/Dash-%23086FA6?logo=plotly&logoColor=white)](https://plotly.com/dash/) [![Python](https://img.shields.io/badge/Python-%233776AB?logo=python&logoColor=white)](https://www.python.org/) [![Javascript](https://img.shields.io/badge/JavaScript-%23F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Docker](https://img.shields.io/badge/Docker-%23007ACC?logo=docker&logoColor=white)](https://www.docker.com/) [![Git](https://img.shields.io/badge/Git-%23F05032?logo=git&logoColor=white)](https://git-scm.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-%2334A853?logo=mongodb&logoColor=white)](https://www.mongodb.com/) [![Hadoop](https://img.shields.io/badge/Hadoop-%23EA4335?logo=apachehadoop&logoColor=white)](https://hadoop.apache.org/) [![Plotly/Dash](https://img.shields.io/badge/Dash-%23086FA6?logo=plotly&logoColor=white)](https://plotly.com/dash/) [![Python](https://img.shields.io/badge/Python-%233776AB?logo=python&logoColor=white)](https://www.python.org/) [![Docker](https://img.shields.io/badge/Docker-%23007ACC?logo=docker&logoColor=white)](https://www.docker.com/) [![Git](https://img.shields.io/badge/Git-%23F05032?logo=git&logoColor=white)](https://git-scm.com/)
+
+<!-- [![PySpark](https://img.shields.io/badge/PySpark-%23f58220?logo=apache-spark&logoColor=white)](https://spark.apache.org/) [![Javascript](https://img.shields.io/badge/JavaScript-%23F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  -->
 
 ## Table of Contents
 
@@ -34,6 +36,7 @@ Big Data and Data Integration project - S9 GENIOMHE
       - [3.4 Query 4: worldwide daily stats](#34-query-4-worldwide-daily-stats-1)
       - [3.5 Query 5:](#35-query-5)
       - [3.6 Query 6:](#36-query-6)
+  - [Performance Analysis](#performance-analysis)
   
 
 ## Project Overview
@@ -68,6 +71,7 @@ https://github.com/raysas/epidemic-data-analysis/
 ├── assets              # -- images and screenshots
 ├── code                # -- data processing and viz code
 ├── data                # -- input data files
+├── figures             # -- generated figures and plots
 ├── output              # -- output files and documents
 ├── requirements.txt    # -- python dependencies for viz and dashboard
 └── run.py              # -- script to run the web dashboard
@@ -81,29 +85,32 @@ Kindly find attached the following directories and subdirectories:
 ```
 code/
 code/
-├── notebooks                   # -- jupyter notebooks for data visualization 
+├── notebooks                 # -- jupyter notebooks for data viz and performance analysis
 │   ├── continent_stats.ipynb
 │   ├── countries_stats.ipynb
 │   ├── daily_stats.ipynb
-│   ├── time_series.ipynb
-│   └── total_per_country.ipynb
+│   ├── performance_analysis.ipynb
+│   ├── start_end_date_incidence_stats.ipynb
+│   ├── total_per_country.ipynb
+│   └── weekly_stats.ipynb
 └── scripts                   # -- scripts for mongodb and hadoop 
     ├── extract_data.sh       # -- commands used to retrieve online data
     ├── mongodb.js            # -- mongodb queries script
     ├── mappers               # -- hadoop mappers
-    │   ├── USA_daily_stats.py
-    │   ├── continent_stats.py
-    │   ├── country_stats.py
-    │   ├── start_end_date_incidence_stats.py
-    │   ├── weekly_stats.py
-    │   └── worldwide_daily_stats.py
+    │   ├── USA_daily_stats_mapper.py
+    │   ├── continent_stats_mapper.py
+    │   ├── country_stats_mapper.py
+    │   ├── start_end_date_incidence_stats_mapper.py
+    │   ├── weekly_stats_mapper.py
+    │   └── worldwide_daily_stats_mapper.py
     ├── reducers              # -- hadoop reducers 
-    │   ├── USA_daily_stats.py
-    │   ├── continent_stats.py
-    │   ├── country_stats.py
-    │   ├── start_end_date_incidence_stats.py
-    │   ├── weekly_stats.py
-    │   └── worldwide_daily_stats.py
+    │   ├── USA_daily_stats_reducer.py
+    │   ├── continent_stats_reducer.py
+    │   ├── country_stats_reducer.py
+    │   ├── start_end_date_incidence_stats_reducer.py
+    │   ├── weekly_stats_reducer.py
+    │   └── worldwide_daily_stats_reducer.py
+    ├── process_log.py    # -- helper script to process hadoop job logs into metrics
     ├── move_files.sh     # -- helper script to move files into docker containers
     └── split_json.sh     # -- helper script to split large json files
 ```
@@ -112,14 +119,21 @@ Also attached is the output directory containing main documents:
 
 ```
 output/
-├── hadoop
-│   ├── USA_daily_stats.csv
+utput/
+├── hadoop                        // -- csv for each query
+│   ├── MR_performance_stats.csv
 │   ├── continent_stats.csv
 │   ├── country_stats.csv
+│   ├── logs                      // -- hadoop job logs for each query
+│   │   ├── continent_stats.log
+│   │   ├── country_stats.log
+│   │   ├── start_end_date_incidence_stats.log
+│   │   ├── weekly_stats.log
+│   │   └── worldwide_daily_stats.log
 │   ├── start_end_date_incidence_stats.csv
 │   ├── weekly_stats.csv
 │   └── worldwide_daily_stats.csv
-└── mongodb
+└── mongodb                      // -- json for each query              
     ├── USA_daily_stats.json
     ├── continent_stats.json
     ├── country_stats.json
@@ -131,7 +145,7 @@ output/
 
 ## Environment Setup
 
-For mongodb, used the `mongo:latest` docker image, for hadoop, used the `prasanthj/docker-hadoop` docker image, you can pull the images corresponding to this project's container from my Docker Hub repository: [raysas/bigdata-geniomhe](https://hub.docker.com/u/raysas).
+For mongodb, used the `mongo:latest` docker image, for hadoop, used the `prasanthj/docker-hadoop` docker image, you can pull the images corresponding to this project's container from my Docker Hub repository: [raysas/bigdata-geniomhe](https://hub.docker.com/u/raysa/s).
 
 
 ## MongoDB
@@ -324,6 +338,54 @@ continent_stats=db.worldwide_cases.aggregate([
 ])
 ```
 
+> [!NOTE] after each step we run:
+```js
+// -- performance analysis
+var continent_stats_performance=db.worldwide_cases.aggregate([
+  {
+    $group: {
+      _id: "$countriesAndTerritories",
+      continent: { $first: "$continentExp" },
+      avg14DayIncidence: { $avg: "$Cumulative_number_for_14_days_of_COVID-19_cases_per_100000" },
+      totalCases: { $sum: "$cases" },
+      totalDeaths: { $sum: "$deaths" }
+    }
+  },
+  { $group: {
+      _id: "$continent",
+      totalCases: { $sum: "$totalCases" },
+      totalDeaths: { $sum: "$totalDeaths" },
+      numberOfCountries: { $sum: 1 },
+      avg14DayIncidence: { $avg: "$avg14DayIncidence" }
+    }
+  },
+  { $project: {
+      continent: "$_id",
+      totalCases: 1,
+      totalDeaths: 1,
+      numberOfCountries: 1,
+      avg14DayIncidence: 1
+    }
+  },
+
+  { $sort: { totalCases: -1 } }
+]).explain("executionStats")
+var cursorStage = continent_stats_performance.stages[0]['$cursor'].executionStats;
+
+var queryStatsDoc = {
+    query_name: "continent_stats",  
+    executionTimeMillis: cursorStage.executionTimeMillis,
+    totalDocsExamined: cursorStage.totalDocsExamined,
+    nReturned: cursorStage.nReturned,
+    timestamp: new Date() 
+};
+
+db.query_performance.insertOne(queryStatsDoc);
+db.query_performance.find();
+```
+
+This allows us to log the performance of each query into a separate collection for later analysis and comparison with hadoop. At the end of all queries, we will have a `query_performance_stats` collection containing the execution time and number of documents examined for each query (you can find it in `output/mongodb/query_performance_stats.json`)
+
 The result will be a set of documents having these fields:  
 
 - `_id`: continent name
@@ -334,6 +396,8 @@ The result will be a set of documents having these fields:
 
 
 ![MongoDB: Stacked bar plot showing distribution accross continents](./figures/mongodb/mongodb_continent_dist.png)
+
+The **stacked bar plot** above shows the distribution of total cases and total deaths accross continents, we can see that Europe and North America are the most affected continents in terms of total cases and deaths, followed by Asia and South America. Africa is the least affected continent, even though it has a large number of countries. This might be an indicator of underreporting or lack of testing in Africa compared to other continents, or it could be due to other factors such as demographics, healthcare infrastructure, or even the fact that the pandemic reached Africa later than other continents.
 
 #### 3.2 Query 2: Countries stats
 
@@ -514,6 +578,8 @@ result:
 
 ![MongoDB: time series and barplot+line combinesd plots showing in the first row the daily cases and deaths worldwide, and in the second row the cumulative cases and deaths worldwide](./figures/mongodb/mongodb_worldwide_daily_stats.png)
 
+The time series plots above show the daily and cumulative cases and deaths worldwide over time. We can see that there are several waves of cases and deaths, with peaks occurring at different times, as it was at the start of the pandamic, the trend shows an increase glovally in cases and deaths, this is pronouced in the cumulative plost, where the derivative (slope) of the curve is itself increasing  with time.
+
 #### 3.5 Query 5: cases/death weekly analysis
 
 **about**: tracking weekly total cases and deaths worldwide, along with average 14-day incidence rate and correlation estimate between cases and deaths  
@@ -567,6 +633,10 @@ result:
 - `weekly14DayIncidence`: average 14-day incidence rate worldwide in that week
 - `correlationEstimate`: estimate of correlation between cases and deaths in that week
 
+![MongoDB: weekly scatterplot of sum of deaths vs sum of cases](./figures/mongodb/mongodb_cases_vs_deaths.png)
+
+This is a common analysis done in epidemiology to understand the relationship between the number of cases and the number of deaths. A high correlation estimate indicates that there is a strong relationship between the two variables, meaning that as the number of cases increases, the number of deaths also tends to increase (can be useful for predicting the number of deaths based on the number of cases, which can help health authorities plan resources accordingly)
+
 #### 3.6 Query 6: collect the 14-day incidence rate worldwide per day for these 2 dates, group by country
 
 **about**: collecting the 14-day incidence rate worldwide per day for the earliest and latest dates in the dataset, grouped by country  
@@ -594,22 +664,24 @@ result:
 - `dateRep`: date (day)
 - `Cumulative_number_for_14_days_of_COVID-19_cases_per_100000`: 14-day incidence rate for that country on that date
 
+![MongoDB: boxplot showing distribution of 14-day incidence rates worldwide per country for the earliest and latest dates in the dataset](./figures/mongodb/mongodb_box.png)
 
-
+This can be useful to compare between 2 timepoints, boxplots will relveal distribution, based on which would be a statistical test to compare the 2 distributions (t-test, mann-whitney, etc.)
 
 ## Hadoop
 
 ### 1. setup
 
-En
+Creating a hadoop container using the pulled image, then moving the mapper and reducer scripts into the container
 
 ```bash
 docker run -it --name bigdata_hadoop prasanthj/docker-hadoop /etc/bootstrap.sh -bash
 # docker start -i bigdata_hadoop
 ```
-<!-- docker cp code/scripts/reducers/ bigdata_hadoop:/
+```bash
+docker cp code/scripts/reducers/ bigdata_hadoop:/
  docker cp code/scripts/mappers bigdata_hadoop:/
- -->
+```
 
 _now inside the container_
 ```bash
@@ -626,7 +698,9 @@ curl https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/data.csv -o da
 wc -l data/covid.csv 
 # 61901 covid.csv
 ```
-_the 1 is for the extra header file: same as the json data taken in mongodb_
+_the 1 is for the extra header file: same as the json data taken in mongodb_  
+
+> we will check if the datasets are different later on after processing
 
 ```bash
 hdfs dfs -put data/covid.csv covid.csv
@@ -634,6 +708,10 @@ mkdir output/
 mkdir logs/ # -- to save logs of hadoop jobs
 ```
 
+So in here will:
+
+* create output csv files resulting from mapreduce jobs
+* create logs directory to save logs of hadoop jobs for later analysis (performance comparison with mongodb)
 
 ### 3. Queries
 
@@ -657,6 +735,10 @@ hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar
 hdfs dfs -cat continent_stats/*  > output/continent_stats.csv
 ```
 
+![Hadoop: Stacked bar plot showing distribution accross continents](./figures/hadoop/hadoop_bar_stacked_by_continent.png)
+
+Similar trend as before with mongodb, Europe and North America most affected, Africa least affected, countries representation also similar
+
 #### 3.2 Query 2: country stats
 
 ```bash
@@ -670,6 +752,24 @@ hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar
 ```bash
 hdfs dfs -cat country_stats/*  > output/country_stats.csv
 ```
+
+![Hadoop: map showing percentage of cases relative to population per country](./figures/hadoop/hadoop_map_cases.png)
+
+The cases map show some similarity with the one obtained with mongodb, with some differences in color intensity for some countries but generally we see:  
+
+- US and latin america highly affected
+- Western Europe also with lighter colors  
+- Africa less overall
+
+These discrepancies can be due to rounding errors or differences in how the data is processed in the mapreduce jobs compared to mongodb aggregations, as these percentages are quite small.
+
+![Hadoop: map showing percentage of deaths relative to population per country](./figures/hadoop/hadoop_map_deathsc.png)
+
+Also same for deaths map, similar trends but some differences in color intensity for some countries, overall the same observations hold.
+
+![Hadoop: map showing average 14-day incidence rate per country](./figures/hadoop/hadoop_map_incidencec.png)
+
+Same for incidence rate map.
 
 #### 3.3 Query 3: USA daily stats
 
@@ -704,6 +804,15 @@ hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar
 hdfs dfs -cat worldwide_daily_stats/*  > output/worldwide_daily_stats.csv
 ```
 
+![Hadoop: time series and barplot+line combinesd plots showing in the first row the daily cases and deaths worldwide, and in the second row the cumulative cases and deaths worldwide](./figures/hadoop/hadoop_worldwide_trendc.png)
+
+VERY IMPORTANT observation:
+
+As we can see the worldwide trend here shows very high fluctuations between maximal and minimal values, resembling a sinusoidal pattern - while not particuallry epidemiologically sound, this is actually due to reporting delays and weekly cycles in data collection and reporting.  
+It's different from results in mongodb as the datasets taken are practically coming from different files, even if it's the same source ansd limited to a particular number of entries (also see cumulative plot to be **steadily** inccreasing with constant slope, which is extremly different from the former one)
+
+This type of plot allow to check for such anomilies in data collection as we would be checking for daily changes in general and thus missing entries like days or countries can be directly spotted
+
 #### 3.5 Query 5: 
 
 ```bash
@@ -720,6 +829,10 @@ hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar
 hdfs dfs -cat weekly_stats/*  > output/weekly_stats.csv
 ```
 
+![Hadoop: weekly scatterplot of sum of deaths vs sum of cases](./figures/hadoop/hadoopcases_vs_deathsc.png)
+
+The cases vs deaths plot also shows a positive correlation, similar to mongodb, depicting important data trends.
+
 #### 3.6 Query 6:
 
 ```bash
@@ -735,3 +848,45 @@ hadoop jar $HADOOP_COMMON_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar
 ```bash
 hdfs dfs -cat start_end_date_incidence_stats/*  > output/start_end_date_incidence_stats.csv
 ```
+
+![Hadoop: boxplot showing distribution of 14-day incidence rates worldwide per country for the earliest and latest dates in the dataset](./figures/hadoop/hadoop_boxplotsfi.png)
+
+As previously seen, some days showed little to no entries in the dataset here, leading to some discrepancies in the boxplots compared to mongodb. In fact, one boxplot is complelty null, while not really depicting reality, it solidifies the idea that there is missing data here, and thus its not very plausible to perform a stat analysis using such data
+
+## Performance Analysis
+
+For mongodb, we logged the performance of each query into a separate collection called `query_performance`, which contains the execution time and number of documents examined for each query (you can find it in `output/mongodb/query_performance_stats.json`).
+
+For hadoop, we saved the logs of each job into the `logs/` directory, from which we can extract the execution time and number of input records processed for each job using this script:
+
+```bash
+python code/scripts/process_log.py output/hadoop/logs/ --output output/hadoop/MR_performance_stats.csv
+```
+
+Will analyze the 5 main queries in terms of time, documents/records processed and compare between the 2 tools (this analysis was performed in `code/notebooks/performance_analysis.ipynb`)
+
+**Time**:
+
+![line plot showing execution time comparison between mongodb and hadoop for the main 4 queries](./figures/time_performance.png)
+
+_note, only 4 queries bcs some queries could not collected performance stats - for example, by the way start_end_date_incidence_stats query was implemented in  mongodb, it was a cursor not an aggregation, thus could not collect same stats as others_
+
+Note the big difference between the 2 tools in terms of execution time, with mongodb being significantly faster than hadoop for all queries. This is expected as mongodb is optimized for such aggregations and can leverage indexes and in-memory processing, while hadoop relies on disk-based processing and shuffling data across nodes
+
+**Records/Documents processed**:
+
+![bar plot showing number of documents/records processed comparison between mongodb and hadoop for the main 4 queries](./figures/processing_performance.png)
+
+Here, we can see that both tools processed a similar number of records/documents for each query, with some minor differences due to the way data is grouped and aggregated in each tool. This indicates that both tools are capable of handling large datasets effectively, but mongodb has an edge in terms of speed for these types of aggregations, particularly one query was performed on significantly less in hadoop (aggregation on query). Not the case with continents for example as it was based on 2 aggregation stages in mongodb, thus more documents processed.
+
+**Some hadoop analysis**:
+
+![Physical vs virtual memory per job](./figures/phy_vs_virt.png)
+
+In hadoop, we can see that the physical memory used per job is significantly lower than the virtual memory => hadoop is effectively managing memory usage and avoiding excessive swapping to disk (important for performance, as excessive swapping can lead to slowdowns and increased execution times)
+
+**Closing notes:**
+
+_pyspark was not done by the time of submission (will still push on github if finished it), had a couple of bugs in mapreduce that really affected time spent on this project (the mapper file should have the word "mapper" in it for instance, took me more than a day to debug this alone), working with mongodb was much more smoother and faster to implement and test._
+
+Thank you for reading!

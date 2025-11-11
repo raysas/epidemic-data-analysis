@@ -1,0 +1,6 @@
+query_name,mapInputRecords,reduceOutputRecords,jobDurationMillis,physicalMemoryBytes,virtualMemoryBytes,cpuTimeMillis,launchedMapTasks,launchedReduceTasks,bytesReadHDFS,bytesWrittenHDFS
+continent_stats,61901,5,11000,730284032,6017945600,1600,2,1,4311590,157
+country_stats,31110,,,280694784,2001969152,630,5,1,2157843,0
+start_end_date_incidence_stats,61901,141,20000,729939968,6011760640,4370,2,1,4311590,4878
+weekly_stats,61901,52,19000,726925312,6018158592,4060,2,1,4311590,2106
+worldwide_daily_stats,61901,351,20000,717021184,6009401344,3430,2,1,4311590,16862

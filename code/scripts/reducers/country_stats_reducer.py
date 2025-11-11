@@ -1,49 +1,77 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 import sys
 
 current_country = None
 geoId = None
-total_cases = 0
-total_deaths = 0
-pop = 0
-header_printed = False
+totalCases = 0
+totalDeaths = 0
+popData2019 = 0
+incidenceSum = 0
+incidenceCount = 0
+
+# Print CSV header
+print "countriesAndTerritories,geoId,totalCases,totalDeaths,popData2019,avg14DayIncidence,percTotalCases,percTotalDeaths"
 
 for line in sys.stdin:
     line = line.strip()
-    parts = line.split('\t')
-    if len(parts) != 2:
+    if not line:
         continue
-    country, values = parts
-    parts_values = values.split(',')
-    if len(parts_values) != 4:
+
+    try:
+        country, values = line.split("\t", 1)
+        geo, cases, deaths, pop, incidence, count = values.split(",")
+        cases = float(cases)
+        deaths = float(deaths)
+        pop = int(float(pop))
+        incidence = float(incidence)
+        count = int(count)
+    except Exception:
         continue
-    cont_id, cases, deaths, pop_data = parts_values
-    cases = int(cases)
-    deaths = int(deaths)
-    pop_data = int(pop_data)
 
     if current_country != country:
         if current_country:
-            perc_cases = (float(total_cases) / pop) * 100
-            perc_deaths = (float(total_deaths) / pop) * 100
-            if not header_printed:
-                print 'country,geoId,totalCases,totalDeaths,popData2019,percTotalCases,percTotalDeaths'
-                header_printed = True
-            print '%s,%s,%d,%d,%d,%f,%f' % (current_country, geoId, total_cases, total_deaths, pop, perc_cases, perc_deaths)
+            avg14DayIncidence = (incidenceSum / incidenceCount) if incidenceCount > 0 else 0
+            percCases = (totalCases / popData2019 * 100) if popData2019 > 0 else 0
+            percDeaths = (totalDeaths / popData2019 * 100) if popData2019 > 0 else 0
+
+            print "%s,%s,%d,%d,%d,%.6f,%.6f,%.6f" % (
+                current_country,
+                geoId,
+                totalCases,
+                totalDeaths,
+                popData2019,
+                avg14DayIncidence,
+                percCases,
+                percDeaths
+            )
+
+        # reset accumulators
         current_country = country
-        geoId = cont_id
-        total_cases = 0
-        total_deaths = 0
-        pop = pop_data
+        geoId = geo
+        totalCases = 0
+        totalDeaths = 0
+        popData2019 = pop
+        incidenceSum = 0
+        incidenceCount = 0
 
-    total_cases += cases
-    total_deaths += deaths
-    pop = pop_data  # population should be the same per country
+    totalCases += cases
+    totalDeaths += deaths
+    incidenceSum += incidence
+    incidenceCount += count
 
-# Print last country
+# Emit last record
 if current_country:
-    perc_cases = (float(total_cases) / pop) * 100
-    perc_deaths = (float(total_deaths) / pop) * 100
-    if not header_printed:
-        print 'country,geoId,totalCases,totalDeaths,popData2019,percTotalCases,percTotalDeaths'
-    print '%s,%s,%d,%d,%d,%f,%f' % (current_country, geoId, total_cases, total_deaths, pop, perc_cases, perc_deaths)
+    avg14DayIncidence = (incidenceSum / incidenceCount) if incidenceCount > 0 else 0
+    percCases = (totalCases / popData2019 * 100) if popData2019 > 0 else 0
+    percDeaths = (totalDeaths / popData2019 * 100) if popData2019 > 0 else 0
+
+    print "%s,%s,%d,%d,%d,%.6f,%.6f,%.6f" % (
+        current_country,
+        geoId,
+        totalCases,
+        totalDeaths,
+        popData2019,
+        avg14DayIncidence,
+        percCases,
+        percDeaths
+    )

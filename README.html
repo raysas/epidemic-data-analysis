@@ -26,9 +26,9 @@
       
 <h1 id="epidemic-data-analysis">epidemic-data-analysis </h1>
 <p>Big Data and Data Integration project - S9 GENIOMHE</p>
-<p><strong>Report on</strong>: <a href="https://raysas.github.io/epidemic-data-analysis/"><code>https://raysas.github.io/epidemic-data-analysis/</code></a> pages from github: <a href="https://github.com/raysas/epidemic-data-analysis"><code>https://github.com/raysas/epidemic-data-analysis</code></a></p>
+<p><strong>Report on</strong>: <a href="https://raysas.github.io/epidemic-data-analysis/"><code>https://raysas.github.io/epidemic-data-analysis/</code></a> pages from github: <a href="https://github.com/raysas/epidemic-data-analysis"><code>https://github.com/raysas/epidemic-data-analysis</code></a>. Provided a web dashboard to visualize the results of the analysis (could be found on the github link)</p>
 <p><strong>Tools used</strong>:</p>
-<p><a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-%2334A853?logo=mongodb&amp;logoColor=white" alt="MongoDB"></a> <a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/Hadoop-%23EA4335?logo=apachehadoop&amp;logoColor=white" alt="Hadoop"></a> <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/PySpark-%23f58220?logo=apache-spark&amp;logoColor=white" alt="PySpark"></a> <a href="https://plotly.com/dash/"><img src="https://img.shields.io/badge/Dash-%23086FA6?logo=plotly&amp;logoColor=white" alt="Plotly/Dash"></a> <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-%233776AB?logo=python&amp;logoColor=white" alt="Python"></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-%23F7DF1E?logo=javascript&amp;logoColor=black" alt="Javascript"></a> <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-%23007ACC?logo=docker&amp;logoColor=white" alt="Docker"></a> <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-%23F05032?logo=git&amp;logoColor=white" alt="Git"></a></p>
+<p><a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-%2334A853?logo=mongodb&amp;logoColor=white" alt="MongoDB"></a> <a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/Hadoop-%23EA4335?logo=apachehadoop&amp;logoColor=white" alt="Hadoop"></a> <a href="https://plotly.com/dash/"><img src="https://img.shields.io/badge/Dash-%23086FA6?logo=plotly&amp;logoColor=white" alt="Plotly/Dash"></a> <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-%233776AB?logo=python&amp;logoColor=white" alt="Python"></a> <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-%23007ACC?logo=docker&amp;logoColor=white" alt="Docker"></a> <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-%23F05032?logo=git&amp;logoColor=white" alt="Git"></a></p>
 <h2 id="table-of-contents">Table of Contents </h2>
 <ul>
 <li><a href="#epidemic-data-analysis">epidemic-data-analysis</a>
@@ -36,39 +36,662 @@
 <li><a href="#table-of-contents">Table of Contents</a></li>
 <li><a href="#project-overview">Project Overview</a></li>
 <li><a href="#environment-setup">Environment Setup</a></li>
-<li><a href="#workflow">Workflow</a>
+<li><a href="#mongodb">MongoDB</a>
 <ul>
-<li><a href="#mongodb">MongoDB</a></li>
+<li><a href="#1-setup">1. setup</a></li>
+<li><a href="#2-data-preperation">2. data preperation</a></li>
+<li><a href="#3-querying">3. Querying!</a>
+<ul>
+<li><a href="#31-query-1-continent-stats">3.1 Query 1: Continent stats</a></li>
+<li><a href="#32-query-2-countries-stats">3.2 Query 2: Countries stats</a></li>
+<li><a href="#33-query-3-usa-daily-stats">3.3 Query 3: USA daily stats</a></li>
+<li><a href="#34-query-4-worldwide-daily-stats">3.4 Query 4: worldwide daily stats</a></li>
+<li><a href="#35-query-5-casesdeath-weekly-analysis">3.5 Query 5: cases/death weekly analysis</a></li>
+<li><a href="#36-query-6-collect-the-14-day-incidence-rate-worldwide-per-day-for-these-2-dates-group-by-country">3.6 Query 6: collect the 14-day incidence rate worldwide per day for these 2 dates, group by country</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li><a href="#hadoop">Hadoop</a>
+<ul>
+<li><a href="#1-setup-1">1. setup</a></li>
+<li><a href="#2-data-preperation-1">2. data preperation</a></li>
+<li><a href="#3-queries">3. Queries</a>
+<ul>
+<li><a href="#31-query-1-continent-stat">3.1 Query 1: continent stat</a></li>
+<li><a href="#32-query-2-country-stats">3.2 Query 2: country stats</a></li>
+<li><a href="#33-query-3-usa-daily-stats-1">3.3 Query 3: USA daily stats</a></li>
+<li><a href="#34-query-4-worldwide-daily-stats-1">3.4 Query 4: worldwide daily stats</a></li>
+<li><a href="#35-query-5">3.5 Query 5:</a></li>
+<li><a href="#36-query-6">3.6 Query 6:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#performance-analysis">Performance Analysis</a></li>
 </ul>
 </li>
 </ul>
 <h2 id="project-overview">Project Overview </h2>
-<p><strong>Web dashboard link:</strong></p>
-<p><a href=""></a></p>
-<p><strong>Diagram</strong>:</p>
-<p><img src="" alt=""></p>
+<p>The project aims to use big data tools to retrieve relevant information and perform analysis on a large dataset, the data in question is coming from the <a href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide">European Centre for Disease Prevention and Control</a> and contains daily records of covid-19 cases and deaths worldwide.</p>
+<p>The main steps of the project are:</p>
+<ul>
+<li>Query and processing the data using <strong>MongoDB</strong> and <strong>Hadoop MapReduce</strong> to retrieve relevant statistics</li>
+<li>Analyze results and visualize them using python</li>
+<li>Compare performance of the two tools</li>
+</ul>
+<p><em>Choice of queries</em>: my aim here was to retrieve the most diverse set of statistics possible from the, in a qay that no 2 documents can be extracted in the same manner, covering as many aggregations as possible. Secondly, focused on getting a useful type of information that is relevant to pandamic analysis, such as total cases/deaths per country, daily cases worldwide, incidence rates, etc. And finally, tried to diversify the set of visualization used to represent the data, to highlight the possibilities of dealing with big data, even if the dataset is not that large (in terms of features`)</p>
+<p>This project structure was designed to make it fully accessible and reprodicible, for that providing a webdashboard, the github repository and the container used here pushed to docker hub.</p>
 <p><strong>Directory Structure:</strong></p>
-<pre data-role="codeBlock" data-info="text" class="language-text text"><code>.
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>https://github.com/raysas/epidemic-data-analysis/
 ├── README.md           # -- report file
 ├── TODO.md             # -- todo list
 ├── app                 # -- dash web dashboard code
 ├── assets              # -- images and screenshots
 ├── code                # -- data processing and viz code
 ├── data                # -- input data files
+├── figures             # -- generated figures and plots
 ├── output              # -- output files and documents
 ├── requirements.txt    # -- python dependencies for viz and dashboard
 └── run.py              # -- script to run the web dashboard
+</code></pre><p><strong>For the code:</strong></p>
+<p>Kindly find attached the following directories and subdirectories:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>code/
+code/
+├── notebooks                 # -- jupyter notebooks for data viz and performance analysis
+│   ├── continent_stats.ipynb
+│   ├── countries_stats.ipynb
+│   ├── daily_stats.ipynb
+│   ├── performance_analysis.ipynb
+│   ├── start_end_date_incidence_stats.ipynb
+│   ├── total_per_country.ipynb
+│   └── weekly_stats.ipynb
+└── scripts                   # -- scripts for mongodb and hadoop 
+    ├── extract_data.sh       # -- commands used to retrieve online data
+    ├── mongodb.js            # -- mongodb queries script
+    ├── mappers               # -- hadoop mappers
+    │   ├── USA_daily_stats_mapper.py
+    │   ├── continent_stats_mapper.py
+    │   ├── country_stats_mapper.py
+    │   ├── start_end_date_incidence_stats_mapper.py
+    │   ├── weekly_stats_mapper.py
+    │   └── worldwide_daily_stats_mapper.py
+    ├── reducers              # -- hadoop reducers 
+    │   ├── USA_daily_stats_reducer.py
+    │   ├── continent_stats_reducer.py
+    │   ├── country_stats_reducer.py
+    │   ├── start_end_date_incidence_stats_reducer.py
+    │   ├── weekly_stats_reducer.py
+    │   └── worldwide_daily_stats_reducer.py
+    ├── process_log.py    # -- helper script to process hadoop job logs into metrics
+    ├── move_files.sh     # -- helper script to move files into docker containers
+    └── split_json.sh     # -- helper script to split large json files
+</code></pre><p>Also attached is the output directory containing main documents:</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>output/
+utput/
+├── hadoop                        // -- csv for each query
+│   ├── MR_performance_stats.csv
+│   ├── continent_stats.csv
+│   ├── country_stats.csv
+│   ├── logs                      // -- hadoop job logs for each query
+│   │   ├── continent_stats.log
+│   │   ├── country_stats.log
+│   │   ├── start_end_date_incidence_stats.log
+│   │   ├── weekly_stats.log
+│   │   └── worldwide_daily_stats.log
+│   ├── start_end_date_incidence_stats.csv
+│   ├── weekly_stats.csv
+│   └── worldwide_daily_stats.csv
+└── mongodb                      // -- json for each query              
+    ├── USA_daily_stats.json
+    ├── continent_stats.json
+    ├── country_stats.json
+    ├── query_performance_stats.json
+    ├── start_end_date_incidence_stats.json
+    ├── weekly_stats.json
+    └── worldwide_daily_stats.json
 </code></pre><h2 id="environment-setup">Environment Setup </h2>
-<p>For mongodb, used the <code>mongo:latest</code> docker image, you can pull the image corresponding to this project's container from my Docker Hub repository:</p>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>docker pull raysas/bigdata-geniomhe:mongo
-</code></pre><p>For hadoop, used the <code>prasanthj/docker-hadoop</code> docker image, you can pull the image corresponding to this project's container from my Docker Hub repository:</p>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>docker pull raysas/bigdata-geniomhe:hadoop
-</code></pre><p>For pyspark, used a python image with pyspark installed, you can pull the image corresponding to this project's container from my Docker Hub repository:</p>
-<pre data-role="codeBlock" data-info="" class="language-text"><code>docker pull raysas/bigdata-geniomhe:pyspark
-</code></pre><h2 id="workflow">Workflow </h2>
-<h3 id="mongodb">MongoDB </h3>
+<p>For mongodb, used the <code>mongo:latest</code> docker image, for hadoop, used the <code>prasanthj/docker-hadoop</code> docker image, you can pull the images corresponding to this project's container from my Docker Hub repository: <a href="https://hub.docker.com/r/raysas/bigdata_geniomhe">raysas/bigdata-geniomhe</a>.</p>
+<h2 id="mongodb">MongoDB </h2>
+<blockquote>
+<p>[!NOTE]<br>
+All mongodb commands here can be found in a javascript script in code/scripts/mongodb.js</p>
+</blockquote>
+<h3 id="1-setup">1. setup </h3>
+<p><strong>Starting by setting up a mongodb container using the pulled image and downloading the dataset</strong></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token comment">#docker pull mongo #-- pull the image if not there</span>
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">--name</span> bigdata_mongodb <span class="token parameter variable">-p</span> <span class="token number">27017</span>-27019:27017-27019 mongo:latest
+</code></pre><h3 id="2-data-preperation">2. data preperation </h3>
+<p><strong>Importing the datasets into the mongodb container, then using <code>mongoimport</code> command</strong></p>
+<p>On my local machine:</p>
+<ol>
+<li>
+<p>will download the publically available covid-19 dataset:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token comment"># -- installing curl if not there</span>
+<span class="token function">apt-get</span> update <span class="token operator">&amp;&amp;</span> <span class="token function">apt-get</span> <span class="token function">install</span> <span class="token parameter variable">-y</span> <span class="token function">curl</span>
+
+<span class="token comment"># -- downloading the dataset first </span>
+<span class="token function">curl</span> https://opendata.ecdc.europa.eu/covid19/casedistribution/json/data.json <span class="token parameter variable">-o</span> data/covid.json
+</code></pre></li>
+<li>
+<p>will split the data into 2 files<br>
+<em>p.s.  wrote a script to split the json into 2 files as the file is 26Mb surpassing the 16Mb limit of mongodb import (you can find it in <code>code/scripts/split_json.sh</code>)</em></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>./code/scripts/split_json.sh data/covid.json <span class="token number">2</span> 
+<span class="token function">ls</span> data/
+</code></pre><p>Now will have <code>data/covid_part_1.json</code> and <code>data/covid_part_2.json</code> files each less than 16Mb</p>
+</li>
+<li>
+<p>copy the files to docker container</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">docker</span> <span class="token function">cp</span> data/covid_part_1.json bigdata_mongodb:/data/covid_part_1.json
+<span class="token function">docker</span> <span class="token function">cp</span> data/covid_part_2.json bigdata_mongodb:/data/covid_part_2.json
+</code></pre></li>
+</ol>
+<p><em>entering the container now</em></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> bigdata_mongodb <span class="token function">bash</span>
+
+<span class="token comment"># -- importing the data into mongodb</span>
+mongoimport <span class="token parameter variable">--db</span> covid_db <span class="token parameter variable">--collection</span> worldwide_cases <span class="token parameter variable">--file</span> data/covid_part_1.json <span class="token parameter variable">--jsonArray</span>
+mongoimport <span class="token parameter variable">--db</span> covid_db <span class="token parameter variable">--collection</span> worldwide_cases <span class="token parameter variable">--file</span> data/covid_part_2.json <span class="token parameter variable">--jsonArray</span>
+</code></pre><h3 id="3-querying">3. Querying! </h3>
+<p><em>entering mongo shell now</em></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>mongosh
+use covid_db
+show collections
+</code></pre><p><strong>General Data Queries</strong></p>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// -- count the number of documents in the collection</span>
+db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">countDocuments</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment">// 61900</span>
+
+<span class="token comment">// -- find one document to see the structure</span>
+db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">findOne</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><pre data-role="codeBlock" data-info="json" class="language-json json"><code><span class="token punctuation">{</span>
+  _id<span class="token operator">:</span> ObjectId('690f33b777a56eeaf189a2dd')<span class="token punctuation">,</span>
+  dateRep<span class="token operator">:</span> '<span class="token number">03</span>/<span class="token number">12</span>/<span class="token number">2020</span>'<span class="token punctuation">,</span>
+  day<span class="token operator">:</span> '<span class="token number">03</span>'<span class="token punctuation">,</span>
+  month<span class="token operator">:</span> '<span class="token number">12</span>'<span class="token punctuation">,</span>
+  year<span class="token operator">:</span> '<span class="token number">2020</span>'<span class="token punctuation">,</span>
+  cases<span class="token operator">:</span> <span class="token number">202</span><span class="token punctuation">,</span>
+  deaths<span class="token operator">:</span> <span class="token number">19</span><span class="token punctuation">,</span>
+  countriesAndTerritories<span class="token operator">:</span> 'Afghanistan'<span class="token punctuation">,</span>
+  geoId<span class="token operator">:</span> 'AF'<span class="token punctuation">,</span>
+  countryterritoryCode<span class="token operator">:</span> 'AFG'<span class="token punctuation">,</span>
+  popData2019<span class="token operator">:</span> <span class="token number">38041757</span><span class="token punctuation">,</span>
+  continentExp<span class="token operator">:</span> 'Asia'<span class="token punctuation">,</span>
+  'Cumulative_number_for_14_days_of_COVID-19_cases_per_100000'<span class="token operator">:</span> '<span class="token number">7.53645527</span>'
+<span class="token punctuation">}</span>
+</code></pre><pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// -- number of countries enlisted</span>
+db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">distinct</span><span class="token punctuation">(</span><span class="token string">"countriesAndTerritories"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">length</span>
+<span class="token comment">// 214</span>
+</code></pre><p>We notice that we can perform soem preprocessing on the data:</p>
+<ul>
+<li>the <code>Cumulative_number_for_14_days_of_COVID-19_cases_per_100000</code> field is a string, better to convert it into a double</li>
+<li>date is in <code>dd/mm/yyyy</code> format, might be better to convert it into a date object for easier querying and processing later on (step2)</li>
+</ul>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">updateMany</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> 
+  <span class="token punctuation">[</span><span class="token punctuation">{</span> <span class="token literal-property property">$set</span><span class="token operator">:</span> 
+    <span class="token punctuation">{</span> 
+      <span class="token string-property property">"Cumulative_number_for_14_days_of_COVID-19_cases_per_100000"</span><span class="token operator">:</span> 
+          <span class="token punctuation">{</span> <span class="token literal-property property">$convert</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token literal-property property">input</span><span class="token operator">:</span> <span class="token string">"$Cumulative_number_for_14_days_of_COVID-19_cases_per_100000"</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">to</span><span class="token operator">:</span> <span class="token string">"double"</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">onError</span><span class="token operator">:</span> <span class="token keyword null nil keyword-null">null</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">onNull</span><span class="token operator">:</span> <span class="token keyword null nil keyword-null">null</span>
+          <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span> 
+<span class="token punctuation">}</span> <span class="token punctuation">}</span> <span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">updateMany</span><span class="token punctuation">(</span>
+  <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">[</span>
+    <span class="token punctuation">{</span> 
+      <span class="token literal-property property">$set</span><span class="token operator">:</span> <span class="token punctuation">{</span> 
+        <span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token literal-property property">$dateFromString</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">dateString</span><span class="token operator">:</span> <span class="token string">"$dateRep"</span><span class="token punctuation">,</span> <span class="token literal-property property">format</span><span class="token operator">:</span> <span class="token string">"%d/%m/%Y"</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>This helper function is used at each step to save the results of the queries into json files:</p>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// -- helper function to save a json file from a cursor</span>
+<span class="token keyword keyword-function">function</span> <span class="token function">save_json_file</span><span class="token punctuation">(</span><span class="token parameter">cursor<span class="token punctuation">,</span> filename</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-var">var</span> array_data <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword control-flow keyword-while">while</span> <span class="token punctuation">(</span>cursor<span class="token punctuation">.</span><span class="token method function property-access">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        array_data<span class="token punctuation">.</span><span class="token method function property-access">push</span><span class="token punctuation">(</span>cursor<span class="token punctuation">.</span><span class="token method function property-access">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword keyword-var">var</span> file_data <span class="token operator">=</span> <span class="token known-class-name class-name">JSON</span><span class="token punctuation">.</span><span class="token method function property-access">stringify</span><span class="token punctuation">(</span>array_data<span class="token punctuation">,</span> <span class="token keyword null nil keyword-null">null</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
+    <span class="token keyword keyword-const">const</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    fs<span class="token punctuation">.</span><span class="token method function property-access">writeFileSync</span><span class="token punctuation">(</span>filename<span class="token punctuation">,</span> file_data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">-- json file saved in: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>filename<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre><h4 id="31-query-1-continent-stats">3.1 Query 1: Continent stats </h4>
+<p><strong>about</strong>: collecting metrics across continents such as total cases, total deaths, number of countries and average 14-day incidence rate<br>
+<strong>how?</strong>: using mongodb aggregation framework, will first group by country to get total cases/deaths and average incidence rate per country, then group by continent to get the final stats. Aggregation for cases, deaths and number of countries is done using <code>$sum</code> operator, while average incidence rate is done using <code>$avg</code> operator<br>
+<strong>aim</strong>: get a high level overview of the pandemic situation across continents, first larger scale look at the data distribution</p>
+<blockquote>
+<p>whats new: performing 2 consecutive group stages to get the desired result</p>
+</blockquote>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// 0) data distribution over continents</span>
+continent_stats<span class="token operator">=</span>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$group</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token string">"$countriesAndTerritories"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">continent</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token string">"$continentExp"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">avg14DayIncidence</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$avg</span><span class="token operator">:</span> <span class="token string">"$Cumulative_number_for_14_days_of_COVID-19_cases_per_100000"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$cases"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$deaths"</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> <span class="token literal-property property">$group</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token string">"$continent"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$totalCases"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$totalDeaths"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">numberOfCountries</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">avg14DayIncidence</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$avg</span><span class="token operator">:</span> <span class="token string">"$avg14DayIncidence"</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> <span class="token literal-property property">$project</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">continent</span><span class="token operator">:</span> <span class="token string">"$_id"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">numberOfCountries</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">avg14DayIncidence</span><span class="token operator">:</span> <span class="token number">1</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> <span class="token literal-property property">$sort</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre><blockquote>
+<p>[!NOTE] after each step we run:</p>
+</blockquote>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// -- performance analysis</span>
+<span class="token keyword keyword-var">var</span> continent_stats_performance<span class="token operator">=</span>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$group</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token string">"$countriesAndTerritories"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">continent</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token string">"$continentExp"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">avg14DayIncidence</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$avg</span><span class="token operator">:</span> <span class="token string">"$Cumulative_number_for_14_days_of_COVID-19_cases_per_100000"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$cases"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$deaths"</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> <span class="token literal-property property">$group</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token string">"$continent"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$totalCases"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$totalDeaths"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">numberOfCountries</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">avg14DayIncidence</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$avg</span><span class="token operator">:</span> <span class="token string">"$avg14DayIncidence"</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> <span class="token literal-property property">$project</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">continent</span><span class="token operator">:</span> <span class="token string">"$_id"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">numberOfCountries</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">avg14DayIncidence</span><span class="token operator">:</span> <span class="token number">1</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token punctuation">{</span> <span class="token literal-property property">$sort</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">explain</span><span class="token punctuation">(</span><span class="token string">"executionStats"</span><span class="token punctuation">)</span>
+<span class="token keyword keyword-var">var</span> cursorStage <span class="token operator">=</span> continent_stats_performance<span class="token punctuation">.</span><span class="token property-access">stages</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">'$cursor'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token property-access">executionStats</span><span class="token punctuation">;</span>
+
+<span class="token keyword keyword-var">var</span> queryStatsDoc <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">query_name</span><span class="token operator">:</span> <span class="token string">"continent_stats"</span><span class="token punctuation">,</span>  
+    <span class="token literal-property property">executionTimeMillis</span><span class="token operator">:</span> cursorStage<span class="token punctuation">.</span><span class="token property-access">executionTimeMillis</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">totalDocsExamined</span><span class="token operator">:</span> cursorStage<span class="token punctuation">.</span><span class="token property-access">totalDocsExamined</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">nReturned</span><span class="token operator">:</span> cursorStage<span class="token punctuation">.</span><span class="token property-access">nReturned</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">timestamp</span><span class="token operator">:</span> <span class="token keyword keyword-new">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span> 
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+db<span class="token punctuation">.</span><span class="token property-access">query_performance</span><span class="token punctuation">.</span><span class="token method function property-access">insertOne</span><span class="token punctuation">(</span>queryStatsDoc<span class="token punctuation">)</span><span class="token punctuation">;</span>
+db<span class="token punctuation">.</span><span class="token property-access">query_performance</span><span class="token punctuation">.</span><span class="token method function property-access">find</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>This allows us to log the performance of each query into a separate collection for later analysis and comparison with hadoop. At the end of all queries, we will have a <code>query_performance_stats</code> collection containing the execution time and number of documents examined for each query (you can find it in <code>output/mongodb/query_performance_stats.json</code>)</p>
+<p>The result will be a set of documents having these fields:</p>
+<ul>
+<li><code>_id</code>: continent name</li>
+<li><code>totalCases</code>: total number of cases in the continent</li>
+<li><code>totalDeaths</code>: total number of deaths in the continent</li>
+<li><code>numberOfCountries</code>: number of countries in the continent</li>
+<li><code>avg14DayIncidence</code>: average 14-day incidence rate across countries in the continent</li>
+</ul>
+<p><img src="./figures/mongodb/mongodb_continent_dist.png" alt="MongoDB: Stacked bar plot showing distribution accross continents"></p>
+<p>The <strong>stacked bar plot</strong> above shows the distribution of total cases and total deaths accross continents, we can see that Europe and North America are the most affected continents in terms of total cases and deaths, followed by Asia and South America. Africa is the least affected continent, even though it has a large number of countries. This might be an indicator of underreporting or lack of testing in Africa compared to other continents, or it could be due to other factors such as demographics, healthcare infrastructure, or even the fact that the pandemic reached Africa later than other continents.</p>
+<h4 id="32-query-2-countries-stats">3.2 Query 2: Countries stats </h4>
+<p><strong>about</strong>: collecting metrics per country such as total cases, total deaths, population and percentages of cases and deaths relative to population<br>
+<strong>how?</strong>: using mongodb aggregation, will group by country to get total cases/deaths and population, then calculate percentages using <code>$addFields</code> stage<br>
+<strong>aim</strong>: get a detailed overview of the pandemic situation per country</p>
+<blockquote>
+<p>whats new: performing normalization of cases and deaths by population size getting use of 2 fields to create a 3rd one, good to make them comparable accross countries (especially for heatmap viz)</p>
+</blockquote>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// 1) map per country</span>
+country_stats <span class="token operator">=</span> db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$group</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token string">"$countriesAndTerritories"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">geoId</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token string">"$geoId"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$cases"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$deaths"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">popData2019</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$toInt</span><span class="token operator">:</span> <span class="token string">"$popData2019"</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">avg14DayIncidence</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$avg</span><span class="token operator">:</span> <span class="token string">"$Cumulative_number_for_14_days_of_COVID-19_cases_per_100000"</span>
+    <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$addFields</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">percTotalCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$multiply</span><span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token punctuation">{</span> <span class="token literal-property property">$divide</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"$totalCases"</span><span class="token punctuation">,</span> <span class="token string">"$popData2019"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">100</span> <span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">percTotalDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$multiply</span><span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token punctuation">{</span> <span class="token literal-property property">$divide</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"$totalDeaths"</span><span class="token punctuation">,</span> <span class="token string">"$popData2019"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">100</span> <span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre><p>Result:</p>
+<ul>
+<li><code>_id</code>: country name</li>
+<li><code>geoId</code>: country geo id</li>
+<li><code>totalCases</code>: total number of cases in the country</li>
+<li><code>totalDeaths</code>: total number of deaths in the country</li>
+<li><code>popData2019</code>: country population in 2019</li>
+<li><code>percTotalCases</code>: percentage of total cases relative to population</li>
+<li><code>percTotalDeaths</code>: percentage of total deaths relative to population</li>
+<li><code>avg14DayIncidence</code>: average 14-day incidence rate in the country</li>
+</ul>
+<p><img src="./figures/mongodb/mongodb_countries_casesc.png" alt="MongoDB: map showing percentage of cases relative to population per country"></p>
+<p><img src="./figures/mongodb/mongodb_countries_deathc.png" alt="MongoDB: map showing percentage of deaths relative to population per country"></p>
+<p><img src="./figures/mongodb/mongodb_countries_incidence.png" alt="MongoDB: map showing average 14-day incidence rate per country"></p>
+<p><em>Here used the pycountry library in python to convert country names to map geoId to their corresponding 3-letter country codes (for plotly map visualization)</em></p>
+<h4 id="33-query-3-usa-daily-stats">3.3 Query 3: USA daily stats </h4>
+<p><strong>about</strong>: collecting daily total cases and deaths for the USA, along with cumulative cases and deaths over time<br>
+<strong>how?</strong>: using mongodb aggregation, will first filter for USA records, then group by date to get total cases/deaths per day, finally use <code>$setWindowFields</code> stage to calculate cumulative cases/deaths over time<br>
+<strong>aim</strong>: get a time series of the pandemic situation in the USA, one of the most affected countries</p>
+<blockquote>
+<p>whats new: using <code>$setWindowFields</code> stage to calculate cumulative sums over time, useful for time series analysis. Also needing to match first before grouping (only usa)</p>
+</blockquote>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">find</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">geoId</span><span class="token operator">:</span> <span class="token string">"US"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">limit</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>
+country_daily_stats<span class="token operator">=</span>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$match</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">geoId</span><span class="token operator">:</span> <span class="token string">"US"</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$group</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token string">"$dateRep"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$toInt</span><span class="token operator">:</span> <span class="token string">"$year"</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">month</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$toInt</span><span class="token operator">:</span> <span class="token string">"$month"</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">day</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$toInt</span><span class="token operator">:</span> <span class="token string">"$day"</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$cases"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$deaths"</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$sort</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">month</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">day</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$setWindowFields</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">sortBy</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">month</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">day</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">cumulativeCases</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$totalCases"</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">window</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">documents</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"unbounded"</span><span class="token punctuation">,</span> <span class="token string">"current"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">cumulativeDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$totalDeaths"</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">window</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">documents</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"unbounded"</span><span class="token punctuation">,</span> <span class="token string">"current"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>  
+<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre><p>result:</p>
+<ul>
+<li><code>_id</code>: date (day)</li>
+<li><code>year</code>: year</li>
+<li><code>month</code>: month</li>
+<li><code>day</code>: day</li>
+<li><code>totalCases</code>: total number of cases in the USA on that day</li>
+<li><code>totalDeaths</code>: total number of deaths in the USA on that day</li>
+<li><code>cumulativeCases</code>: cumulative number of cases in the USA up to that day</li>
+<li><code>cumulativeDeaths</code>: cumulative number of deaths in the USA up to that day</li>
+</ul>
+<p><img src="./figures/mongodb/mongodb_usa_daily_stats.png" alt="MongoDB: time series and barplot+line combinesd plots showing in the first row the daily cases and deaths in the USA, and in the second row the cumulative cases and deaths in the USA"></p>
+<p><em>p.s., could not put both cases and deaths in the same plot as they have very different scales, so had to split them into 2 plots each</em></p>
+<h4 id="34-query-4-worldwide-daily-stats">3.4 Query 4: worldwide daily stats </h4>
+<p><strong>about</strong>: collecting daily total cases and deaths worldwide, along with cumulative cases and deaths over time<br>
+<strong>how?</strong>: using mongodb aggregation, will group by date to get total cases/deaths per day, then use <code>$setWindowFields</code> stage to calculate cumulative cases/deaths over time<br>
+<strong>aim</strong>: get a time series of the pandemic situation worldwide, to see the overall trend of the pandemic over time, good for first glance analysis</p>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// 3) total cases/deaths per day worldwide (can group by date)</span>
+worldwide_daily_stats<span class="token operator">=</span>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$group</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token string">"$dateRep"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$toInt</span><span class="token operator">:</span> <span class="token string">"$year"</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">month</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$toInt</span><span class="token operator">:</span> <span class="token string">"$month"</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">day</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$first</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$toInt</span><span class="token operator">:</span> <span class="token string">"$day"</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$cases"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">totalDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$deaths"</span> <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$sort</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">month</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">day</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$setWindowFields</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">sortBy</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">month</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">day</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">output</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">cumulativeCases</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$totalCases"</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">window</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">documents</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"unbounded"</span><span class="token punctuation">,</span> <span class="token string">"current"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">cumulativeDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$totalDeaths"</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">window</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">documents</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"unbounded"</span><span class="token punctuation">,</span> <span class="token string">"current"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre><p>result:</p>
+<ul>
+<li><code>_id</code>: date (day)</li>
+<li><code>year</code>: year</li>
+<li><code>month</code>: month</li>
+<li><code>day</code>: day</li>
+<li><code>totalCases</code>: total number of cases worldwide on that day</li>
+<li><code>totalDeaths</code>: total number of deaths worldwide on that day</li>
+<li><code>cumulativeCases</code>: cumulative number of cases worldwide up to that day</li>
+<li><code>cumulativeDeaths</code>: cumulative number of deaths worldwide up to that day</li>
+</ul>
+<p><img src="./figures/mongodb/mongodb_worldwide_daily_stats.png" alt="MongoDB: time series and barplot+line combinesd plots showing in the first row the daily cases and deaths worldwide, and in the second row the cumulative cases and deaths worldwide"></p>
+<p>The time series plots above show the daily and cumulative cases and deaths worldwide over time. We can see that there are several waves of cases and deaths, with peaks occurring at different times, as it was at the start of the pandamic, the trend shows an increase glovally in cases and deaths, this is pronouced in the cumulative plost, where the derivative (slope) of the curve is itself increasing  with time.</p>
+<h4 id="35-query-5-casesdeath-weekly-analysis">3.5 Query 5: cases/death weekly analysis </h4>
+<p><strong>about</strong>: tracking weekly total cases and deaths worldwide, along with average 14-day incidence rate and correlation estimate between cases and deaths<br>
+<strong>how?</strong>: using mongodb aggregation, will group by ISO week and year to get weekly total cases/deaths, average incidence rate, and correlation estimate using the formula: corr(cases, deaths) = E[cases*deaths] / (E[cases] * E[deaths])<br>
+<strong>aim</strong>: get a weekly overview of the pandemic situation worldwide, also, what is interesting is something called <em>case fatality analysis</em> which aims to find correlation between the number of cases and the number of deaths, this can help in predicting the number of deaths based on the number of cases, useful for health authorities to plan resources accordingly</p>
+<blockquote>
+<p>whats new: grouping by ISO week and year using <code>$isoWeek</code> and <code>$isoWeekYear</code> operators, also calculating correlation estimate using aggregation operators and some integration of complex formulae (was a bit hard to manage!)</p>
+</blockquote>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// 4) cases/death correlation analysis</span>
+weekly_stats<span class="token operator">=</span>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">aggregate</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$group</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$isoWeekYear</span><span class="token operator">:</span> <span class="token string">"$date"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">week</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$isoWeek</span><span class="token operator">:</span> <span class="token string">"$date"</span> <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">weeklyCases</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$cases"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">weeklyDeaths</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$sum</span><span class="token operator">:</span> <span class="token string">"$deaths"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">weekly14DayIncidence</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$avg</span><span class="token operator">:</span> <span class="token string">"$Cumulative_number_for_14_days_of_COVID-19_cases_per_100000"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">corr</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$avg</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">$multiply</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"$cases"</span><span class="token punctuation">,</span> <span class="token string">"$deaths"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>  <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    <span class="token literal-property property">$project</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token string">"$_id.year"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">week</span><span class="token operator">:</span> <span class="token string">"$_id.week"</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">weeklyCases</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">weeklyDeaths</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">weekly14DayIncidence</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">correlationEstimate</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">$cond</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> <span class="token literal-property property">$eq</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> <span class="token literal-property property">$multiply</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"$weeklyCases"</span><span class="token punctuation">,</span> <span class="token string">"$weeklyDeaths"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token keyword null nil keyword-null">null</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span> <span class="token literal-property property">$divide</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"$corr"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">$multiply</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"$weeklyCases"</span><span class="token punctuation">,</span> <span class="token string">"$weeklyDeaths"</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> <span class="token literal-property property">$sort</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token literal-property property">year</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">week</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre><p>result:</p>
+<ul>
+<li><code>year</code>: ISO week year</li>
+<li><code>week</code>: ISO week number</li>
+<li><code>weeklyCases</code>: total number of cases worldwide in that week</li>
+<li><code>weeklyDeaths</code>: total number of deaths worldwide in that week</li>
+<li><code>weekly14DayIncidence</code>: average 14-day incidence rate worldwide in that week</li>
+<li><code>correlationEstimate</code>: estimate of correlation between cases and deaths in that week</li>
+</ul>
+<p><img src="./figures/mongodb/mongodb_cases_vs_deaths.png" alt="MongoDB: weekly scatterplot of sum of deaths vs sum of cases"></p>
+<p>This is a common analysis done in epidemiology to understand the relationship between the number of cases and the number of deaths. A high correlation estimate indicates that there is a strong relationship between the two variables, meaning that as the number of cases increases, the number of deaths also tends to increase (can be useful for predicting the number of deaths based on the number of cases, which can help health authorities plan resources accordingly)</p>
+<h4 id="36-query-6-collect-the-14-day-incidence-rate-worldwide-per-day-for-these-2-dates-group-by-country">3.6 Query 6: collect the 14-day incidence rate worldwide per day for these 2 dates, group by country </h4>
+<p><strong>about</strong>: collecting the 14-day incidence rate worldwide per day for the earliest and latest dates in the dataset, grouped by country<br>
+<strong>how?</strong>: using mongodb queries to find the earliest and latest dates, then colelcting the incidence rates for those dates across all entries (one entry per country in a day actually)<br>
+<strong>aim</strong>: get a snapshot of the incidence rates at the start and end of the dataset, useful for comparing how the situation has evolved over time across countries. It's actually interesting if one wants to test significance of change between 2 dates, while this might not be ideal in this dataset (doesnt span over a long period of time), the idea od performing statistical analysis still holds (boxplots and comparisons)</p>
+<pre data-role="codeBlock" data-info="js" class="language-javascript js"><code><span class="token comment">// 5) collect the 14-day incidence rate worldwide per day for these 2 dates, group by country</span>
+earliest_date<span class="token operator">=</span>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">find</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">sort</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">limit</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+latest_date<span class="token operator">=</span>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">find</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">sort</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">date</span><span class="token operator">:</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">limit</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+start_end_date_incidence_stats<span class="token operator">=</span>db<span class="token punctuation">.</span><span class="token property-access">worldwide_cases</span><span class="token punctuation">.</span><span class="token method function property-access">find</span><span class="token punctuation">(</span>
+  <span class="token punctuation">{</span> <span class="token literal-property property">dateRep</span><span class="token operator">:</span> <span class="token punctuation">{</span> $<span class="token keyword keyword-in">in</span><span class="token operator">:</span> <span class="token punctuation">[</span> earliest_date<span class="token punctuation">.</span><span class="token property-access">dateRep</span><span class="token punctuation">,</span> latest_date<span class="token punctuation">.</span><span class="token property-access">dateRep</span> <span class="token punctuation">]</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> <span class="token literal-property property">countriesAndTerritories</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">geoId</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">dateRep</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token string-property property">"Cumulative_number_for_14_days_of_COVID-19_cases_per_100000"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+     <span class="token literal-property property">_id</span><span class="token operator">:</span> <span class="token number">0</span> 
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span>
+</code></pre><p>result:</p>
+<ul>
+<li><code>countriesAndTerritories</code>: country name</li>
+<li><code>geoId</code>: country geo id</li>
+<li><code>dateRep</code>: date (day)</li>
+<li><code>Cumulative_number_for_14_days_of_COVID-19_cases_per_100000</code>: 14-day incidence rate for that country on that date</li>
+</ul>
+<p><img src="./figures/mongodb/mongodb_box.png" alt="MongoDB: boxplot showing distribution of 14-day incidence rates worldwide per country for the earliest and latest dates in the dataset"></p>
+<p>This can be useful to compare between 2 timepoints, boxplots will relveal distribution, based on which would be a statistical test to compare the 2 distributions (t-test, mann-whitney, etc.)</p>
+<h2 id="hadoop">Hadoop </h2>
+<h3 id="1-setup-1">1. setup </h3>
+<p>Creating a hadoop container using the pulled image, then moving the mapper and reducer scripts into the container</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">docker</span> run <span class="token parameter variable">-it</span> <span class="token parameter variable">--name</span> bigdata_hadoop prasanthj/docker-hadoop /etc/bootstrap.sh <span class="token parameter variable">-bash</span>
+<span class="token comment"># docker start -i bigdata_hadoop</span>
+</code></pre><pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">docker</span> <span class="token function">cp</span> code/scripts/reducers/ bigdata_hadoop:/
+ <span class="token function">docker</span> <span class="token function">cp</span> code/scripts/mappers bigdata_hadoop:/
+</code></pre><p><em>now inside the container</em></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>jps
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span><span class="token builtin class-name">:</span><span class="token variable">$HADOOP_PREFIX</span>/bin <span class="token operator">&gt;&gt;</span> ~/.bashrc
+<span class="token builtin class-name">source</span> ~/.bashrc
+hadoop version
+</code></pre><h3 id="2-data-preperation-1">2. data preperation </h3>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">curl</span> https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/data.csv <span class="token parameter variable">-o</span> data/covid.csv
+<span class="token function">wc</span> <span class="token parameter variable">-l</span> data/covid.csv 
+<span class="token comment"># 61901 covid.csv</span>
+</code></pre><p><em>the 1 is for the extra header file: same as the json data taken in mongodb</em></p>
+<blockquote>
+<p>we will check if the datasets are different later on after processing</p>
+</blockquote>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hdfs dfs <span class="token parameter variable">-put</span> data/covid.csv covid.csv
+<span class="token function">mkdir</span> output/
+<span class="token function">mkdir</span> logs/ <span class="token comment"># -- to save logs of hadoop jobs</span>
+</code></pre><p>So in here will:</p>
+<ul>
+<li>create output csv files resulting from mapreduce jobs</li>
+<li>create logs directory to save logs of hadoop jobs for later analysis (performance comparison with mongodb)</li>
+</ul>
+<h3 id="3-queries">3. Queries </h3>
+<h4 id="31-query-1-continent-stat">3.1 Query 1: continent stat </h4>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hadoop jar <span class="token variable">$HADOOP_COMMON_HOME</span>/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar <span class="token punctuation">\</span>
+<span class="token parameter variable">-D</span> <span class="token assign-left variable">mapreduce.job.name</span><span class="token operator">=</span><span class="token string">"continent_stats"</span> <span class="token punctuation">\</span>
+<span class="token parameter variable">-files</span> mappers/continent_stats_mapper.py,reducers/continent_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-input</span> covid.csv <span class="token punctuation">\</span>
+<span class="token parameter variable">-output</span> continent_stats/ <span class="token operator">&gt;</span> logs/continent_stats.log <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+</code></pre><pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hdfs dfs <span class="token parameter variable">-cat</span> continent_stats/*  <span class="token operator">&gt;</span> output/continent_stats.csv
+</code></pre><p><img src="./figures/hadoop/hadoop_bar_stacked_by_continent.png" alt="Hadoop: Stacked bar plot showing distribution accross continents"></p>
+<p>Similar trend as before with mongodb, Europe and North America most affected, Africa least affected, countries representation also similar</p>
+<h4 id="32-query-2-country-stats">3.2 Query 2: country stats </h4>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hadoop jar <span class="token variable">$HADOOP_COMMON_HOME</span>/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar <span class="token punctuation">\</span>
+<span class="token parameter variable">-D</span> <span class="token assign-left variable">mapreduce.job.name</span><span class="token operator">=</span><span class="token string">"country_stats"</span> <span class="token punctuation">\</span>
+<span class="token parameter variable">-files</span> mappers/country_stats_mapper.py,reducers/country_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-input</span> covid.csv <span class="token punctuation">\</span>
+<span class="token parameter variable">-output</span> country_stats/ <span class="token operator">&gt;</span> logs/country_stats.log <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+</code></pre><pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hdfs dfs <span class="token parameter variable">-cat</span> country_stats/*  <span class="token operator">&gt;</span> output/country_stats.csv
+</code></pre><p><img src="./figures/hadoop/hadoop_map_cases.png" alt="Hadoop: map showing percentage of cases relative to population per country"></p>
+<p>The cases map show some similarity with the one obtained with mongodb, with some differences in color intensity for some countries but generally we see:</p>
+<ul>
+<li>US and latin america highly affected</li>
+<li>Western Europe also with lighter colors</li>
+<li>Africa less overall</li>
+</ul>
+<p>These discrepancies can be due to rounding errors or differences in how the data is processed in the mapreduce jobs compared to mongodb aggregations, as these percentages are quite small.</p>
+<p><img src="./figures/hadoop/hadoop_map_deathsc.png" alt="Hadoop: map showing percentage of deaths relative to population per country"></p>
+<p>Also same for deaths map, similar trends but some differences in color intensity for some countries, overall the same observations hold.</p>
+<p><img src="./figures/hadoop/hadoop_map_incidencec.png" alt="Hadoop: map showing average 14-day incidence rate per country"></p>
+<p>Same for incidence rate map.</p>
+<h4 id="33-query-3-usa-daily-stats-1">3.3 Query 3: USA daily stats </h4>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token comment"># hdfs dfs -rm -r USA_daily_stats/</span>
+hadoop jar <span class="token variable">$HADOOP_COMMON_HOME</span>/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar <span class="token punctuation">\</span>
+<span class="token parameter variable">-D</span> <span class="token assign-left variable">mapreduce.job.name</span><span class="token operator">=</span><span class="token string">"usa_daily_stats"</span> <span class="token punctuation">\</span>
+<span class="token parameter variable">-files</span> mappers/USA_daily_stats_mapper.py,reducers/USA_daily_stats_reducer.py  <span class="token punctuation">\</span>
+<span class="token parameter variable">-mapper</span> USA_daily_stats_mapper.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-reducer</span> USA_daily_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-input</span> covid.csv <span class="token punctuation">\</span>
+<span class="token parameter variable">-output</span> USA_daily_stats/ <span class="token operator">&gt;</span> logs/USA_daily_stats.log <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+</code></pre><pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hdfs dfs <span class="token parameter variable">-cat</span> USA_daily_stats3/* <span class="token operator">|</span> <span class="token function">awk</span> <span class="token parameter variable">-F</span> <span class="token string">'\t'</span> <span class="token string">'{print $2}'</span> <span class="token operator">&gt;</span> output/USA_daily_stats.csv
+</code></pre><h4 id="34-query-4-worldwide-daily-stats-1">3.4 Query 4: worldwide daily stats </h4>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hadoop jar <span class="token variable">$HADOOP_COMMON_HOME</span>/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar <span class="token punctuation">\</span>
+<span class="token parameter variable">-D</span> <span class="token assign-left variable">mapreduce.job.name</span><span class="token operator">=</span><span class="token string">"worldwide_daily_stats"</span> <span class="token punctuation">\</span>
+<span class="token parameter variable">-files</span> mappers/worldwide_daily_stats_mapper.py,reducers/worldwide_daily_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-mapper</span> worldwide_daily_stats_mapper.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-reducer</span> worldwide_daily_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-input</span> covid.csv <span class="token punctuation">\</span>
+<span class="token parameter variable">-output</span> worldwide_daily_stats <span class="token operator">&gt;</span> logs/worldwide_daily_stats.log <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+</code></pre><pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hdfs dfs <span class="token parameter variable">-cat</span> worldwide_daily_stats/*  <span class="token operator">&gt;</span> output/worldwide_daily_stats.csv
+</code></pre><p><img src="./figures/hadoop/hadoop_worldwide_trendc.png" alt="Hadoop: time series and barplot+line combinesd plots showing in the first row the daily cases and deaths worldwide, and in the second row the cumulative cases and deaths worldwide"></p>
+<p>VERY IMPORTANT observation:</p>
+<p>As we can see the worldwide trend here shows very high fluctuations between maximal and minimal values, resembling a sinusoidal pattern - while not particuallry epidemiologically sound, this is actually due to reporting delays and weekly cycles in data collection and reporting.<br>
+It's different from results in mongodb as the datasets taken are practically coming from different files, even if it's the same source ansd limited to a particular number of entries (also see cumulative plot to be <strong>steadily</strong> inccreasing with constant slope, which is extremly different from the former one)</p>
+<p>This type of plot allow to check for such anomilies in data collection as we would be checking for daily changes in general and thus missing entries like days or countries can be directly spotted</p>
+<h4 id="35-query-5">3.5 Query 5: </h4>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hadoop jar <span class="token variable">$HADOOP_COMMON_HOME</span>/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar <span class="token punctuation">\</span>
+<span class="token parameter variable">-D</span> <span class="token assign-left variable">mapreduce.job.name</span><span class="token operator">=</span><span class="token string">"weekly_stats"</span> <span class="token punctuation">\</span>
+<span class="token parameter variable">-files</span> mappers/weekly_stats_mapper.py,reducers/weekly_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-mapper</span> weekly_stats_mapper.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-reducer</span> weekly_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-input</span> covid.csv <span class="token punctuation">\</span>
+<span class="token parameter variable">-output</span> weekly_stats/ <span class="token operator">&gt;</span> logs/weekly_stats.log <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+</code></pre><pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hdfs dfs <span class="token parameter variable">-cat</span> weekly_stats/*  <span class="token operator">&gt;</span> output/weekly_stats.csv
+</code></pre><p><img src="./figures/hadoop/hadoopcases_vs_deathsc.png" alt="Hadoop: weekly scatterplot of sum of deaths vs sum of cases"></p>
+<p>The cases vs deaths plot also shows a positive correlation, similar to mongodb, depicting important data trends.</p>
+<h4 id="36-query-6">3.6 Query 6: </h4>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hadoop jar <span class="token variable">$HADOOP_COMMON_HOME</span>/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar <span class="token punctuation">\</span>
+<span class="token parameter variable">-D</span> <span class="token assign-left variable">mapreduce.job.name</span><span class="token operator">=</span><span class="token string">"start_end_date_incidence_stats"</span> <span class="token punctuation">\</span>
+<span class="token parameter variable">-files</span> mappers/start_end_date_incidence_stats_mapper.py,reducers/start_end_date_incidence_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-mapper</span> start_end_date_incidence_stats_mapper.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-reducer</span> start_end_date_incidence_stats_reducer.py <span class="token punctuation">\</span>
+<span class="token parameter variable">-input</span> covid.csv <span class="token punctuation">\</span>
+<span class="token parameter variable">-output</span> start_end_date_incidence_stats/ <span class="token operator">&gt;</span> logs/start_end_date_incidence_stats.log <span class="token operator"><span class="token file-descriptor important">2</span>&gt;</span><span class="token file-descriptor important">&amp;1</span>
+</code></pre><pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>hdfs dfs <span class="token parameter variable">-cat</span> start_end_date_incidence_stats/*  <span class="token operator">&gt;</span> output/start_end_date_incidence_stats.csv
+</code></pre><p><img src="./figures/hadoop/hadoop_boxplotsfi.png" alt="Hadoop: boxplot showing distribution of 14-day incidence rates worldwide per country for the earliest and latest dates in the dataset"></p>
+<p>As previously seen, some days showed little to no entries in the dataset here, leading to some discrepancies in the boxplots compared to mongodb. In fact, one boxplot is complelty null, while not really depicting reality, it solidifies the idea that there is missing data here, and thus its not very plausible to perform a stat analysis using such data</p>
+<h2 id="performance-analysis">Performance Analysis </h2>
+<p>For mongodb, we logged the performance of each query into a separate collection called <code>query_performance</code>, which contains the execution time and number of documents examined for each query (you can find it in <code>output/mongodb/query_performance_stats.json</code>).</p>
+<p>For hadoop, we saved the logs of each job into the <code>logs/</code> directory, from which we can extract the execution time and number of input records processed for each job using this script:</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>python code/scripts/process_log.py output/hadoop/logs/ <span class="token parameter variable">--output</span> output/hadoop/MR_performance_stats.csv
+</code></pre><p>Will analyze the 5 main queries in terms of time, documents/records processed and compare between the 2 tools (this analysis was performed in <code>code/notebooks/performance_analysis.ipynb</code>)</p>
+<p><strong>Time</strong>:</p>
+<p><img src="./figures/time_performance.png" alt="line plot showing execution time comparison between mongodb and hadoop for the main 4 queries"></p>
+<p><em>note, only 4 queries bcs some queries could not collected performance stats - for example, by the way start_end_date_incidence_stats query was implemented in  mongodb, it was a cursor not an aggregation, thus could not collect same stats as others</em></p>
+<p>Note the big difference between the 2 tools in terms of execution time, with mongodb being significantly faster than hadoop for all queries. This is expected as mongodb is optimized for such aggregations and can leverage indexes and in-memory processing, while hadoop relies on disk-based processing and shuffling data across nodes</p>
+<p><strong>Records/Documents processed</strong>:</p>
+<p><img src="./figures/processing_performance.png" alt="bar plot showing number of documents/records processed comparison between mongodb and hadoop for the main 4 queries"></p>
+<p>Here, we can see that both tools processed a similar number of records/documents for each query, with some minor differences due to the way data is grouped and aggregated in each tool. This indicates that both tools are capable of handling large datasets effectively, but mongodb has an edge in terms of speed for these types of aggregations, particularly one query was performed on significantly less in hadoop (aggregation on query). Not the case with continents for example as it was based on 2 aggregation stages in mongodb, thus more documents processed.</p>
+<p><strong>Some hadoop analysis</strong>:</p>
+<p><img src="./figures/phy_vs_virt.png" alt="Physical vs virtual memory per job"></p>
+<p>In hadoop, we can see that the physical memory used per job is significantly lower than the virtual memory =&gt; hadoop is effectively managing memory usage and avoiding excessive swapping to disk (important for performance, as excessive swapping can lead to slowdowns and increased execution times)</p>
+<p><strong>Closing notes:</strong></p>
+<p><em>pyspark was not done by the time of submission (will still push on github if finished it), had a couple of bugs in mapreduce that really affected time spent on this project (the mapper file should have the word "mapper" in it for instance, took me more than a day to debug this alone), working with mongodb was much more smoother and faster to implement and test.</em></p>
+<p>Thank you for reading!</p>
 
       </div>
       
